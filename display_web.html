@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tournament Display</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 16px;
+      background: #f4f4f4;
+      color: #111;
+    }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    h1, h2 {
+      margin: 0 0 10px 0;
+    }
+
+    .meta {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    .line {
+      margin: 4px 0;
+      line-height: 1.45;
+      white-space: pre-wrap;
+    }
+
+    .black { color: black; }
+    .blue  { color: #2c6fb2; }
+    .red   { color: #c0392b; }
+    .green { color: #2e8b57; }
+    .grey  { color: #666666; }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .small {
+      font-size: 13px;
+      color: #555;
+    }
+
+    .mono {
+      white-space: pre-wrap;
+      font-family: Consolas, Menlo, monospace;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1 id="title">Tournament Display</h1>
+      <div class="meta" id="round"></div>
+      <div class="meta" id="points"></div>
+      <div class="small" id="generated"></div>
+    </div>
+
+    <div class="card">
+      <h2>Current Round</h2>
+      <div id="current-round"></div>
+    </div>
+
+    <div class="card">
+      <h2>Next-Round Preview</h2>
+      <div id="preview" class="mono"></div>
+    </div>
+
+    <div class="card">
+      <h2>Standings</h2>
+      <div id="standings"></div>
+    </div>
+
+    <div class="card">
+      <h2>Side Pools</h2>
+      <div id="side-pools" class="mono"></div>
+    </div>
+  </div>
+
+  <script>
+    function clearNode(node) {
+      while (node.firstChild) node.removeChild(node.firstChild);
+    }
+
+    function renderSegmentLine(parent, lineObj) {
+      const row = document.createElement("div");
+      row.className = "line";
+
+      if (lineObj.segments) {
+        for (const seg of lineObj.segments) {
+          const span = document.createElement("span");
+          span.textContent = seg.text || "";
+          span.classList.add(seg.colour || "black");
+          if (seg.bold) span.classList.add("bold");
+          row.appendChild(span);
+        }
+      } else {
+        const span = document.createElement("span");
+        span.textContent = lineObj.text || "";
+        span.classList.add(lineObj.colour || "black");
+        if (lineObj.bold) span.classList.add("bold");
+        row.appendChild(span);
+      }
+
+      parent.appendChild(row);
+    }
+
+
+
+
+    function getDisplayFileFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("file") || "current_display.json";
+    }
+
+    async function loadDisplay() {
+      try {
+        const file = getDisplayFileFromUrl();
+
+        const res = await fetch("/display_export/" + encodeURIComponent(file) + "?ts=" + Date.now(), {
+          cache: "no-store"
+        });
+
+        if (!res.ok) {
+          throw new Error("HTTP " + res.status);
+        }
+
+        const data = await res.json();
+
+        document.getElementById("title").textContent =
+          data.tournament_name || "Tournament Display";
+
+        document.getElementById("round").textContent =
+          "Round: " + (data.round_no ?? "?");
+
+        document.getElementById("points").textContent =
+          "Points this round: " + (data.points_this_round ?? "");
+
+        document.getElementById("generated").textContent =
+          data.generated_at
+            ? ("Updated: " + data.generated_at + "   |   File: " + file)
+            : ("File: " + file);
+
+        const current = document.getElementById("current-round");
+        clearNode(current);
+        for (const line of (data.current_round_lines || [])) {
+          renderSegmentLine(current, line);
+        }
+
+        document.getElementById("preview").textContent =
+          data.preview_text || "";
+
+        const standings = document.getElementById("standings");
+        clearNode(standings);
+        for (const line of (data.standings_lines || [])) {
+          renderSegmentLine(standings, line);
+        }
+
+        document.getElementById("side-pools").textContent =
+          data.side_pools_text || "";
+      } catch (err) {
+        const file = getDisplayFileFromUrl();
+        document.getElementById("preview").textContent =
+          "Could not load display data yet.\n\nRequested file: " + file +
+          "\n\nStart or resume that tournament in the GUI first.";
+      }
+    }
+
+
+
+    loadDisplay();
+    setInterval(loadDisplay, 5000);
+  </script>
+</body>
+</html>
+
