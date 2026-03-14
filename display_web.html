@@ -61,6 +61,46 @@
       font-family: Consolas, Menlo, monospace;
       line-height: 1.5;
     }
+
+    .status-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .status-pill {
+      background: #f0f0f0;
+      border-radius: 999px;
+      padding: 6px 10px;
+    }
+
+    .status-ok {
+      color: #1f7a1f;
+      font-weight: bold;
+    }
+
+    .status-bad {
+      color: #b00020;
+      font-weight: bold;
+    }
+
+    .top-links {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .top-links a {
+      color: #2c6fb2;
+      text-decoration: none;
+      margin-right: 14px;
+    }
+
+    .top-links a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -70,6 +110,17 @@
       <div class="meta" id="round"></div>
       <div class="meta" id="points"></div>
       <div class="small" id="generated"></div>
+
+      <div class="status-row">
+        <div class="status-pill">Requested file: <span id="requested-file"></span></div>
+        <div class="status-pill">Refresh every: <span id="refresh-seconds">5</span>s</div>
+        <div class="status-pill">Last fetch: <span id="last-fetch">—</span></div>
+        <div class="status-pill">Status: <span id="fetch-status" class="status-ok">Waiting...</span></div>
+      </div>
+
+      <div class="top-links">
+        <a href="./index.html">Main page</a>
+      </div>
     </div>
 
     <div class="card">
@@ -94,6 +145,9 @@
   </div>
 
   <script>
+    const REFRESH_MS = 5000;
+    let lastRawJson = null;
+
     function clearNode(node) {
       while (node.firstChild) node.removeChild(node.firstChild);
     }
@@ -121,18 +175,61 @@
       parent.appendChild(row);
     }
 
-
-
-
     function getDisplayFileFromUrl() {
       const params = new URLSearchParams(window.location.search);
       return params.get("file") || "current_display.json";
     }
 
-    async function loadDisplay() {
-      try {
-        const file = getDisplayFileFromUrl();
+    function setFetchStatus(text, ok) {
+      const node = document.getElementById("fetch-status");
+      node.textContent = text;
+      node.className = ok ? "status-ok" : "status-bad";
+    }
 
+    function setLastFetchNow() {
+      const now = new Date();
+      document.getElementById("last-fetch").textContent = now.toLocaleTimeString();
+    }
+
+    function renderDisplay(data, file) {
+      document.getElementById("title").textContent =
+        data.tournament_name || "Tournament Display";
+
+      document.getElementById("round").textContent =
+        "Round: " + (data.round_no ?? "?");
+
+      document.getElementById("points").textContent =
+        "Points this round: " + (data.points_this_round ?? "");
+
+      document.getElementById("generated").textContent =
+        data.generated_at
+          ? ("Updated: " + data.generated_at + "   |   File: " + file)
+          : ("File: " + file);
+
+      const current = document.getElementById("current-round");
+      clearNode(current);
+      for (const line of (data.current_round_lines || [])) {
+        renderSegmentLine(current, line);
+      }
+
+      document.getElementById("preview").textContent =
+        data.preview_text || "";
+
+      const standings = document.getElementById("standings");
+      clearNode(standings);
+      for (const line of (data.standings_lines || [])) {
+        renderSegmentLine(standings, line);
+      }
+
+      document.getElementById("side-pools").textContent =
+        data.side_pools_text || "";
+    }
+
+    async function loadDisplay() {
+      const file = getDisplayFileFromUrl();
+      document.getElementById("requested-file").textContent = file;
+
+      try {
         const res = await fetch("display_export/" + encodeURIComponent(file) + "?ts=" + Date.now(), {
           cache: "no-store"
         });
@@ -141,52 +238,32 @@
           throw new Error("HTTP " + res.status);
         }
 
-        const data = await res.json();
+        const rawText = await res.text();
+        const data = JSON.parse(rawText);
 
-        document.getElementById("title").textContent =
-          data.tournament_name || "Tournament Display";
+        setLastFetchNow();
 
-        document.getElementById("round").textContent =
-          "Round: " + (data.round_no ?? "?");
-
-        document.getElementById("points").textContent =
-          "Points this round: " + (data.points_this_round ?? "");
-
-        document.getElementById("generated").textContent =
-          data.generated_at
-            ? ("Updated: " + data.generated_at + "   |   File: " + file)
-            : ("File: " + file);
-
-        const current = document.getElementById("current-round");
-        clearNode(current);
-        for (const line of (data.current_round_lines || [])) {
-          renderSegmentLine(current, line);
+        if (rawText !== lastRawJson) {
+          renderDisplay(data, file);
+          lastRawJson = rawText;
+          setFetchStatus("Live (updated)", true);
+        } else {
+          setFetchStatus("Live (no visible change)", true);
         }
-
-        document.getElementById("preview").textContent =
-          data.preview_text || "";
-
-        const standings = document.getElementById("standings");
-        clearNode(standings);
-        for (const line of (data.standings_lines || [])) {
-          renderSegmentLine(standings, line);
-        }
-
-        document.getElementById("side-pools").textContent =
-          data.side_pools_text || "";
       } catch (err) {
-        const file = getDisplayFileFromUrl();
+        setLastFetchNow();
+        setFetchStatus("Load failed", false);
+
         document.getElementById("preview").textContent =
           "Could not load display data yet.\n\nRequested file: " + file +
-          "\n\nStart or resume that tournament in the GUI first.";
+          "\n\nStart or resume that tournament in the GUI first.\n\nError: " + err.message;
       }
     }
 
-
+    document.getElementById("refresh-seconds").textContent = String(REFRESH_MS / 1000);
 
     loadDisplay();
-    setInterval(loadDisplay, 5000);
+    setInterval(loadDisplay, REFRESH_MS);
   </script>
 </body>
 </html>
-
