@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tournament Displays</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f4f4f4;
+      color: #111;
+    }
+
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 18px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    h1, h2 {
+      margin-top: 0;
+    }
+
+    .sub {
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .link-card {
+      display: block;
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 10px;
+      padding: 16px;
+      text-decoration: none;
+      color: #111;
+      transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.08s ease;
+    }
+
+    .link-card:hover {
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      transform: translateY(-1px);
+    }
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 6px;
+      font-size: 18px;
+    }
+
+    .desc {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .small {
+      font-size: 13px;
+      color: #666;
+      margin-top: 8px;
+    }
+
+    .footer-link {
+      color: #2c6fb2;
+      text-decoration: none;
+    }
+
+    .footer-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Tournament Displays</h1>
+      <div class="sub">
+        Open the live display for the event you want.
+      </div>
+      <div class="small">
+        These pages refresh automatically and are intended for phones, browsers, and venue screens.
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Active Display Links</h2>
+
+      <div class="grid">
+        <a class="link-card" href="./display_web.html?file=backgammon.json">
+          <div class="title">Backgammon</div>
+          <div class="desc">General tournament display.</div>
+        </a>
+
+        <a class="link-card" href="./display_web.html?file=masters.json">
+          <div class="title">Masters</div>
+          <div class="desc">Masters live display.</div>
+        </a>
+
+        <a class="link-card" href="./display_web.html?file=inters.json">
+          <div class="title">Intermediates</div>
+          <div class="desc">Intermediates live display.</div>
+        </a>
+
+        <a class="link-card" href="./display_web.html?file=beginners.json">
+          <div class="title">Beginners</div>
+          <div class="desc">Beginners live display.</div>
+        </a>
+
+        <a class="link-card" href="./display_web.html?file=current_display.json">
+          <div class="title">Current Display</div>
+          <div class="desc">Generic current display target.</div>
+        </a>
+
+        <a class="link-card" href="./display_web.html?file=test_01.json">
+          <div class="title">Test Display</div>
+          <div class="desc">Test page for checking updates.</div>
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Direct display page</h2>
+      <div class="sub">
+        You can also open the display page directly and choose a file in the URL, for example:
+      </div>
+      <div class="small">
+        <a class="footer-link" href="./display_web.html?file=backgammon.json">display_web.html?file=backgammon.json</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
