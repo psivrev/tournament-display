@@ -133,7 +133,7 @@
       try {
         const file = getDisplayFileFromUrl();
 
-        const res = await fetch("/display_export/" + encodeURIComponent(file) + "?ts=" + Date.now(), {
+        const res = await fetch("display_export/" + encodeURIComponent(file) + "?ts=" + Date.now(), {
           cache: "no-store"
         });
 
