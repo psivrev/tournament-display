@@ -1,149 +1,161 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Tournament Displays</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-      background: #f4f4f4;
-      color: #111;
-    }
+<meta charset="utf-8">
+<title>Tournament Displays</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    .wrap {
-      max-width: 900px;
-      margin: 0 auto;
-    }
+<style>
 
-    .card {
-      background: #ffffff;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 18px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-    }
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+    padding:20px;
+}
 
-    h1, h2 {
-      margin-top: 0;
-    }
+.wrap{
+    max-width:900px;
+    margin:auto;
+}
 
-    .sub {
-      color: #555;
-      line-height: 1.5;
-    }
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:18px;
+    box-shadow:0 1px 4px rgba(0,0,0,0.08);
+}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-      margin-top: 16px;
-    }
+h1{
+    margin-top:0;
+}
 
-    .link-card {
-      display: block;
-      background: #fafafa;
-      border: 1px solid #e0e0e0;
-      border-radius: 10px;
-      padding: 16px;
-      text-decoration: none;
-      color: #111;
-      transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.08s ease;
-    }
+.event{
+    padding:12px;
+    border-bottom:1px solid #eee;
+}
 
-    .link-card:hover {
-      background: #ffffff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-      transform: translateY(-1px);
-    }
+.event:last-child{
+    border-bottom:none;
+}
 
-    .title {
-      font-weight: bold;
-      margin-bottom: 6px;
-      font-size: 18px;
-    }
+.event a{
+    text-decoration:none;
+    color:#2c6fb2;
+    font-weight:bold;
+}
 
-    .desc {
-      color: #555;
-      font-size: 14px;
-      line-height: 1.4;
-    }
+.small{
+    color:#666;
+    font-size:13px;
+}
 
-    .small {
-      font-size: 13px;
-      color: #666;
-      margin-top: 8px;
-    }
-
-    .footer-link {
-      color: #2c6fb2;
-      text-decoration: none;
-    }
-
-    .footer-link:hover {
-      text-decoration: underline;
-    }
-  </style>
+</style>
 </head>
+
+
 <body>
-  <div class="wrap">
-    <div class="card">
-      <h1>Tournament Displays</h1>
-      <div class="sub">
-        Open the live display for the event you want.
-      </div>
-      <div class="small">
-        These pages refresh automatically and are intended for phones, browsers, and venue screens.
-      </div>
-    </div>
 
-    <div class="card">
-      <h2>Active Display Links</h2>
+<div class="wrap">
 
-      <div class="grid">
-        <a class="link-card" href="./display_web.html?file=backgammon.json">
-          <div class="title">Backgammon</div>
-          <div class="desc">General tournament display.</div>
-        </a>
+<div class="card">
+<h1>Tournament Displays</h1>
+<div class="small">
+Live and archived tournament displays.
+</div>
+</div>
 
-        <a class="link-card" href="./display_web.html?file=masters.json">
-          <div class="title">Masters</div>
-          <div class="desc">Masters live display.</div>
-        </a>
 
-        <a class="link-card" href="./display_web.html?file=inters.json">
-          <div class="title">Intermediates</div>
-          <div class="desc">Intermediates live display.</div>
-        </a>
+<div class="card">
+<h2>Available Events</h2>
 
-        <a class="link-card" href="./display_web.html?file=beginners.json">
-          <div class="title">Beginners</div>
-          <div class="desc">Beginners live display.</div>
-        </a>
+<div id="events">
+Loading tournaments...
+</div>
 
-        <a class="link-card" href="./display_web.html?file=current_display.json">
-          <div class="title">Current Display</div>
-          <div class="desc">Generic current display target.</div>
-        </a>
+</div>
 
-        <a class="link-card" href="./display_web.html?file=test_01.json">
-          <div class="title">Test Display</div>
-          <div class="desc">Test page for checking updates.</div>
-        </a>
-      </div>
-    </div>
 
-    <div class="card">
-      <h2>Direct display page</h2>
-      <div class="sub">
-        You can also open the display page directly and choose a file in the URL, for example:
-      </div>
-      <div class="small">
-        <a class="footer-link" href="./display_web.html?file=backgammon.json">display_web.html?file=backgammon.json</a>
-      </div>
-    </div>
-  </div>
+<div class="card">
+<div class="small">
+Display system for backgammon tournaments.
+</div>
+</div>
+
+</div>
+
+
+
+<script>
+
+const repoOwner = "psivrev";
+const repoName = "tournament-display";
+const folder = "display_export";
+
+async function loadEvents(){
+
+    const url =
+    `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folder}`;
+
+    const container = document.getElementById("events");
+
+    try{
+
+        const res = await fetch(url);
+
+        if(!res.ok)
+            throw new Error("GitHub API error");
+
+        const files = await res.json();
+
+        const jsonFiles =
+            files.filter(f => f.name.endsWith(".json"));
+
+        if(jsonFiles.length === 0){
+            container.innerHTML = "No tournaments published yet.";
+            return;
+        }
+
+        container.innerHTML = "";
+
+        jsonFiles
+        .sort((a,b)=> b.name.localeCompare(a.name))
+        .forEach(file=>{
+
+            const div = document.createElement("div");
+            div.className = "event";
+
+            const link = document.createElement("a");
+            link.href =
+                `display_web.html?file=${encodeURIComponent(file.name)}`;
+
+            link.textContent = file.name.replace(".json","");
+
+            const meta = document.createElement("div");
+            meta.className = "small";
+            meta.textContent = "File: " + file.name;
+
+            div.appendChild(link);
+            div.appendChild(meta);
+
+            container.appendChild(div);
+
+        });
+
+    }
+    catch(err){
+
+        container.innerHTML =
+        "Could not load tournament list.";
+
+    }
+
+}
+
+loadEvents();
+
+</script>
+
 </body>
 </html>
