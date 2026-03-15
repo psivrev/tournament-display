@@ -1,0 +1,250 @@
+{
+  "tournament_name": "Backgammon",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jonathan Edward Lewis [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Christopher Alan Reed [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Thomas William Baker -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "James O’Connor -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Nicholas Turner -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mark Stevenson [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Peter Johnson -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Robert Mitchell -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Daniel Robert Hughes [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Michael Collins -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Paul Harrison -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Matthew David Wilson [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Steven Andrew Clarke",
+          "colour": "blue",
+          "bold": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Steven Andrew Clarke -1   (1-0)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "2. Andrew Michael Collins -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "3. Christopher Alan Reed [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "4. Daniel Robert Hughes [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "5. James O’Connor -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "6. Jonathan Edward Lewis [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "7. Mark Stevenson [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "8. Matthew David Wilson [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "9. Nicholas Turner -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "10. Paul Harrison -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "11. Peter Johnson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "12. Robert Mitchell -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "13. Thomas William Baker -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Daniel Robert Hughes, Mark Stevenson, Christopher Alan Reed, Matthew David Wilson, Jonathan Edward Lewis\nCalculated at end of tournament.",
+  "generated_at": "2026-03-15T20:56:46",
+  "display_file": "backgammon.json"
+}
