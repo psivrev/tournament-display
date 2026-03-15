@@ -180,6 +180,27 @@
       return params.get("file") || "current_display.json";
     }
 
+    function getDataSource() {
+      const host = window.location.hostname.toLowerCase();
+
+      if (host.endsWith("github.io")) {
+        return "firebase";
+      }
+
+      return "local";
+    }
+
+    function getDataUrl(file) {
+      if (getDataSource() === "firebase") {
+        const baseName = file.endsWith(".json") ? file.slice(0, -5) : file;
+        return "https://tournament-display-default-rtdb.europe-west1.firebasedatabase.app/live/"
+          + encodeURIComponent(baseName)
+          + ".json?ts=" + Date.now();
+      }
+
+      return "/display_export/" + encodeURIComponent(file) + "?ts=" + Date.now();
+    }
+
     function setFetchStatus(text, ok) {
       const node = document.getElementById("fetch-status");
       node.textContent = text;
@@ -201,10 +222,12 @@
       document.getElementById("points").textContent =
         "Points this round: " + (data.points_this_round ?? "");
 
+      const source = getDataSource();
+
       document.getElementById("generated").textContent =
         data.generated_at
-          ? ("Updated: " + data.generated_at + "   |   File: " + file)
-          : ("File: " + file);
+          ? ("Updated: " + data.generated_at + "   |   Source: " + source + "   |   File: " + file)
+          : ("Source: " + source + "   |   File: " + file);
 
       const current = document.getElementById("current-round");
       clearNode(current);
@@ -227,13 +250,14 @@
 
     async function loadDisplay() {
       const file = getDisplayFileFromUrl();
-      document.getElementById("requested-file").textContent = file;
+      const source = getDataSource();
+      document.getElementById("requested-file").textContent = file + " (" + source + ")";
 
       try {
-        const res = await fetch(
-          "https://tournament-display-default-rtdb.europe-west1.firebasedatabase.app/live.json?ts=" + Date.now(),
-          { cache: "no-store" }
-        );
+        const res = await fetch(getDataUrl(file), {
+          cache: "no-store"
+        });
+
         if (!res.ok) {
           throw new Error("HTTP " + res.status);
         }
@@ -256,6 +280,7 @@
 
         document.getElementById("preview").textContent =
           "Could not load display data yet.\n\nRequested file: " + file +
+          "\n\nSource: " + source +
           "\n\nStart or resume that tournament in the GUI first.\n\nError: " + err.message;
       }
     }
