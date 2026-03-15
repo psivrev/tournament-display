@@ -1,0 +1,183 @@
+{
+  "tournament_name": "Test100",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "James O’Connor [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Peter Johnson [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Matthew David Wilson -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Christopher Alan Reed [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Nicholas Turner -0 ✓",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Thomas William Baker -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Michael Collins -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Paul Harrison [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Daniel Robert Hughes [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mark Stevenson -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Andrew Michael Collins -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "2. Christopher Alan Reed [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "3. Daniel Robert Hughes [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "4. James O’Connor [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "5. Mark Stevenson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "6. Matthew David Wilson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "7. Nicholas Turner -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "8. Paul Harrison [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "9. Peter Johnson [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "10. Thomas William Baker -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Peter Johnson, Daniel Robert Hughes, James O’Connor, Christopher Alan Reed, Paul Harrison\nCalculated at end of tournament.",
+  "generated_at": "2026-03-15T20:28:43",
+  "display_file": "test100.json"
+}
