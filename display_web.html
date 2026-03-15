@@ -230,10 +230,10 @@
       document.getElementById("requested-file").textContent = file;
 
       try {
-        const res = await fetch("display_export/" + encodeURIComponent(file) + "?ts=" + Date.now(), {
-          cache: "no-store"
-        });
-
+        const res = await fetch(
+          "https://tournament-display-default-rtdb.europe-west1.firebasedatabase.app/live.json?ts=" + Date.now(),
+          { cache: "no-store" }
+        );
         if (!res.ok) {
           throw new Error("HTTP " + res.status);
         }
