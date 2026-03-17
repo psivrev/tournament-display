@@ -1,0 +1,149 @@
+{
+  "tournament_name": "Backgammon",
+  "round_no": 3,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Zdravko Gojh [5] -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Losho [5] -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Galosho -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lara -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Tosho -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mosho [5] -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Misho",
+          "colour": "blue",
+          "bold": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Zdravko Gojh [5] -3   (3-0)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "2. Galosho -2   (2-1)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "3. Losho [5] -2   (2-1)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "4. Tosho -2   (2-1)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "5. Lara -1   (1-2)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "6. Misho -1   (1-2)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "7. Mosho [5] -1   (1-2)",
+      "colour": "blue",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Zdravko Gojh, Losho, Mosho\nCalculated at end of tournament.",
+  "generated_at": "2026-03-17T22:43:29",
+  "display_file": "backgammon.json",
+  "archive_display_file": "backgammon_2026_03_17_224329.json"
+}
