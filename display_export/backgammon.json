@@ -11,7 +11,7 @@
           "bold": false
         },
         {
-          "text": "Misho [5] -0",
+          "text": "Stoycho [5] -0",
           "colour": "black",
           "bold": false
         },
@@ -21,7 +21,7 @@
           "bold": false
         },
         {
-          "text": "Zdravko Gojh -0",
+          "text": "Nikol [5] -0",
           "colour": "black",
           "bold": false
         }
@@ -35,7 +35,7 @@
           "bold": false
         },
         {
-          "text": "Stoycho -0",
+          "text": "Tosho -0",
           "colour": "black",
           "bold": false
         },
@@ -45,7 +45,7 @@
           "bold": false
         },
         {
-          "text": "Nikol -0",
+          "text": "Mosho -0",
           "colour": "black",
           "bold": false
         }
@@ -59,79 +59,7 @@
           "bold": false
         },
         {
-          "text": "Gosho [5] -0",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "  vs  ",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "Pesho Klop [5] -0",
-          "colour": "black",
-          "bold": false
-        }
-      ]
-    },
-    {
-      "segments": [
-        {
-          "text": "M4: ",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "Losho -0",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "  vs  ",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "Tosho -0",
-          "colour": "black",
-          "bold": false
-        }
-      ]
-    },
-    {
-      "segments": [
-        {
-          "text": "M5: ",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "Lara [5] -0",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "  vs  ",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "Boz Ko -0",
-          "colour": "black",
-          "bold": false
-        }
-      ]
-    },
-    {
-      "segments": [
-        {
-          "text": "M6: ",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "Mit Nit Kop -0",
+          "text": "Lara -0",
           "colour": "black",
           "bold": false
         },
@@ -146,12 +74,84 @@
           "bold": false
         }
       ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Misho -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Pesho Klop -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Zdravko Gojh [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Gosho [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Galosho [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Losho [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
     }
   ],
   "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
   "standings_lines": [
     {
-      "text": "1. Boz Ko -0   (0-0)",
+      "text": "1. Galosho [5] -0   (0-0)",
       "colour": "black",
       "bold": false
     },
@@ -166,37 +166,37 @@
       "bold": false
     },
     {
-      "text": "4. Lara [5] -0   (0-0)",
+      "text": "4. Lara -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "5. Losho -0   (0-0)",
+      "text": "5. Losho [5] -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "6. Misho [5] -0   (0-0)",
+      "text": "6. Misho -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "7. Mit Nit Kop -0   (0-0)",
+      "text": "7. Mosho -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "8. Nikol -0   (0-0)",
+      "text": "8. Nikol [5] -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "9. Pesho Klop [5] -0   (0-0)",
+      "text": "9. Pesho Klop -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "10. Stoycho -0   (0-0)",
+      "text": "10. Stoycho [5] -0   (0-0)",
       "colour": "black",
       "bold": false
     },
@@ -206,12 +206,13 @@
       "bold": false
     },
     {
-      "text": "12. Zdravko Gojh -0   (0-0)",
+      "text": "12. Zdravko Gojh [5] -0   (0-0)",
       "colour": "black",
       "bold": false
     }
   ],
-  "side_pools_text": "£5 pool\nPlayers: Gosho, Pesho Klop, Misho, Lara\nCalculated at end of tournament.",
-  "generated_at": "2026-03-15T21:58:12",
-  "display_file": "backgammon.json"
+  "side_pools_text": "£5 pool\nPlayers: Gosho, Stoycho, Nikol, Zdravko Gojh, Losho, Galosho\nCalculated at end of tournament.",
+  "generated_at": "2026-03-17T19:14:15",
+  "display_file": "backgammon.json",
+  "archive_display_file": "backgammon_2026_03_17_191415.json"
 }
