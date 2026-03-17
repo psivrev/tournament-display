@@ -11,7 +11,7 @@
           "bold": false
         },
         {
-          "text": "Misho -0",
+          "text": "Tosho -0",
           "colour": "black",
           "bold": false
         },
@@ -21,7 +21,7 @@
           "bold": false
         },
         {
-          "text": "Losho [5] -0",
+          "text": "Mosho -0",
           "colour": "black",
           "bold": false
         }
@@ -35,7 +35,7 @@
           "bold": false
         },
         {
-          "text": "Lara -0",
+          "text": "Zdravko Gojh -0",
           "colour": "black",
           "bold": false
         },
@@ -45,7 +45,7 @@
           "bold": false
         },
         {
-          "text": "Mosho [5] -0",
+          "text": "Nikol [5] -0",
           "colour": "black",
           "bold": false
         }
@@ -59,7 +59,55 @@
           "bold": false
         },
         {
+          "text": "Stoycho -0 ✓",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
           "text": "Galosho -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Misho -0 ✓",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lara [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Gosho -0",
           "colour": "black",
           "bold": false
         },
@@ -69,7 +117,7 @@
           "bold": false
         },
         {
-          "text": "Tosho -0",
+          "text": "Pesho Klop [5] -0",
           "colour": "black",
           "bold": false
         }
@@ -92,7 +140,7 @@
           "bold": false
         },
         {
-          "text": "Zdravko Gojh",
+          "text": "Losho",
           "colour": "blue",
           "bold": false
         },
@@ -104,10 +152,10 @@
       ]
     }
   ],
-  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "preview_text": "Confirmed next-round pairs:\n  • Stoycho (2) – Misho (4)\n  • Lara (5) – Galosho (10)\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
   "standings_lines": [
     {
-      "text": "1. Zdravko Gojh [5] -1   (1-0)",
+      "text": "1. Losho [5] -1   (1-0)",
       "colour": "blue",
       "bold": false
     },
@@ -117,12 +165,12 @@
       "bold": false
     },
     {
-      "text": "3. Lara -0   (0-0)",
+      "text": "3. Gosho -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "4. Losho [5] -0   (0-0)",
+      "text": "4. Lara [5] -0   (0-0)",
       "colour": "black",
       "bold": false
     },
@@ -132,18 +180,38 @@
       "bold": false
     },
     {
-      "text": "6. Mosho [5] -0   (0-0)",
+      "text": "6. Mosho -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "7. Tosho -0   (0-0)",
+      "text": "7. Nikol [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "8. Pesho Klop [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "9. Stoycho -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "10. Tosho -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "11. Zdravko Gojh -0   (0-0)",
       "colour": "black",
       "bold": false
     }
   ],
-  "side_pools_text": "£5 pool\nPlayers: Zdravko Gojh, Losho, Mosho\nCalculated at end of tournament.",
-  "generated_at": "2026-03-17T22:38:15",
+  "side_pools_text": "£5 pool\nPlayers: Pesho Klop, Nikol, Lara, Losho\nCalculated at end of tournament.",
+  "generated_at": "2026-03-17T22:50:12",
   "display_file": "backgammon.json",
-  "archive_display_file": "backgammon_2026_03_17_223815.json"
+  "archive_display_file": "backgammon_2026_03_17_225012.json"
 }
