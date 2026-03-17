@@ -180,7 +180,22 @@
       return params.get("file") || "current_display.json";
     }
 
+    function getRequestedSource() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("source") || "";
+    }
+
     function getDataSource() {
+      const requested = getRequestedSource().toLowerCase();
+
+      if (requested === "github") {
+        return "github";
+      }
+
+      if (requested === "firebase") {
+        return "firebase";
+      }
+
       const host = window.location.hostname.toLowerCase();
 
       if (host.endsWith("github.io")) {
@@ -191,11 +206,17 @@
     }
 
     function getDataUrl(file) {
-      if (getDataSource() === "firebase") {
+      const source = getDataSource();
+
+      if (source === "firebase") {
         const baseName = file.endsWith(".json") ? file.slice(0, -5) : file;
         return "https://tournament-display-default-rtdb.europe-west1.firebasedatabase.app/live/"
           + encodeURIComponent(baseName)
           + ".json?ts=" + Date.now();
+      }
+
+      if (source === "github") {
+        return "./display_export/" + encodeURIComponent(file) + "?ts=" + Date.now();
       }
 
       return "/display_export/" + encodeURIComponent(file) + "?ts=" + Date.now();
