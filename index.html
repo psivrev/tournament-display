@@ -1,160 +1,254 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Tournament Displays</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backgammon Tournament Display</title>
 
-<style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 30px;
+      background: #f5f5f5;
+      color: #222;
+    }
 
-body{
-    font-family: Arial, sans-serif;
-    background:#f4f4f4;
-    margin:0;
-    padding:20px;
-}
+    .wrap {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
 
-.wrap{
-    max-width:900px;
-    margin:auto;
-}
+    h1 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
 
-.card{
-    background:white;
-    border-radius:12px;
-    padding:20px;
-    margin-bottom:18px;
-    box-shadow:0 1px 4px rgba(0,0,0,0.08);
-}
+    .intro {
+      margin-bottom: 30px;
+      color: #555;
+    }
 
-h1{
-    margin-top:0;
-}
+    .section {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
 
-.event{
-    padding:12px;
-    border-bottom:1px solid #eee;
-}
+    .section h2 {
+      margin-top: 0;
+      margin-bottom: 8px;
+    }
 
-.event:last-child{
-    border-bottom:none;
-}
+    .section p {
+      margin-top: 0;
+      color: #666;
+    }
 
-.event a{
-    text-decoration:none;
-    color:#2c6fb2;
-    font-weight:bold;
-}
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
 
-.small{
-    color:#666;
-    font-size:13px;
-}
+    .item {
+      display: block;
+      padding: 12px 14px;
+      background: #f8f9fb;
+      border: 1px solid #e3e7ee;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #1d3557;
+      font-weight: 600;
+      transition: background 0.15s ease, border-color 0.15s ease;
+    }
 
-</style>
+    .item:hover {
+      background: #eef4ff;
+      border-color: #b8c9ea;
+    }
+
+    .muted {
+      color: #888;
+      font-style: italic;
+    }
+
+    .error {
+      color: #b00020;
+      font-weight: 600;
+    }
+
+    .badge-live {
+      display: inline-block;
+      margin-left: 8px;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+      background: #d62828;
+      border-radius: 999px;
+      vertical-align: middle;
+    }
+
+    .badge-archive {
+      display: inline-block;
+      margin-left: 8px;
+      padding: 2px 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: white;
+      background: #457b9d;
+      border-radius: 999px;
+      vertical-align: middle;
+    }
+  </style>
 </head>
-
-
 <body>
+  <div class="wrap">
+    <h1>Backgammon Tournament Display</h1>
+    <p class="intro">
+      Select a tournament below. Live tournaments open from the live system.
+      Archived tournaments open from the published GitHub files.
+    </p>
 
-<div class="wrap">
+    <div class="section">
+      <h2>Live Tournaments <span class="badge-live">LIVE</span></h2>
+      <p>These open from Firebase and update automatically.</p>
+      <div id="live-list" class="list">
+        <div class="muted">Loading live tournaments...</div>
+      </div>
+    </div>
 
-<div class="card">
-<h1>Tournament Displays</h1>
-<div class="small">
-Live and archived tournament displays.
-</div>
-</div>
+    <div class="section">
+      <h2>Archive Tournaments <span class="badge-archive">ARCHIVE</span></h2>
+      <p>These open from GitHub published JSON snapshots.</p>
+      <div id="archive-list" class="list">
+        <div class="muted">Loading archive tournaments...</div>
+      </div>
+    </div>
+  </div>
 
+  <script>
+    /*
+      IMPORTANT:
+      Set these 3 values to match your GitHub repository.
+      If your old index.html already had these values, copy the same values here.
+    */
+    const GITHUB_OWNER = "YOUR_GITHUB_USERNAME";
+    const GITHUB_REPO = "YOUR_REPOSITORY_NAME";
+    const GITHUB_BRANCH = "main";
 
-<div class="card">
-<h2>Available Events</h2>
+    const liveList = document.getElementById("live-list");
+    const archiveList = document.getElementById("archive-list");
 
-<div id="events">
-Loading tournaments...
-</div>
+    function apiUrl(path) {
+      return `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${GITHUB_BRANCH}`;
+    }
 
-</div>
+    function clearAndSetLoading(target, text) {
+      target.innerHTML = `<div class="muted">${text}</div>`;
+    }
 
+    function clearAndSetError(target, text) {
+      target.innerHTML = `<div class="error">${text}</div>`;
+    }
 
-<div class="card">
-<div class="small">
-Display system for backgammon tournaments.
-</div>
-</div>
+    function clearList(target) {
+      target.innerHTML = "";
+    }
 
-</div>
+    function prettyName(filename) {
+      return filename.replace(/\.json$/i, "");
+    }
 
+    function createLink(filename, sourceType) {
+      const a = document.createElement("a");
+      a.className = "item";
 
+      if (sourceType === "live") {
+        a.href = `display_web.html?file=${encodeURIComponent(filename)}`;
+      } else {
+        a.href = `display_web.html?file=${encodeURIComponent(filename)}&source=github`;
+      }
 
-<script>
+      a.textContent = prettyName(filename);
+      return a;
+    }
 
-const repoOwner = "psivrev";
-const repoName = "tournament-display";
-const folder = "display_export";
+    async function loadFolderJsonFiles(folderPath) {
+      const res = await fetch(apiUrl(folderPath), { cache: "no-store" });
 
-async function loadEvents(){
+      if (!res.ok) {
+        throw new Error(`GitHub API returned ${res.status} for ${folderPath}`);
+      }
 
-    const url =
-    `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${folder}`;
+      const data = await res.json();
 
-    const container = document.getElementById("events");
+      if (!Array.isArray(data)) {
+        throw new Error(`Unexpected response for ${folderPath}`);
+      }
 
-    try{
+      return data
+        .filter(item => item.type === "file" && item.name.toLowerCase().endsWith(".json"))
+        .map(item => item.name);
+    }
 
-        const res = await fetch(url);
+    async function loadLiveFiles() {
+      clearAndSetLoading(liveList, "Loading live tournaments...");
 
-        if(!res.ok)
-            throw new Error("GitHub API error");
+      try {
+        const files = await loadFolderJsonFiles("display_export");
+        clearList(liveList);
 
-        const files = await res.json();
-
-        const jsonFiles =
-            files.filter(f => f.name.endsWith(".json"));
-
-        if(jsonFiles.length === 0){
-            container.innerHTML = "No tournaments published yet.";
-            return;
+        if (files.length === 0) {
+          liveList.innerHTML = `<div class="muted">No live tournaments found.</div>`;
+          return;
         }
 
-        container.innerHTML = "";
+        files.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
 
-        jsonFiles
-        .sort((a,b)=> b.name.localeCompare(a.name))
-        .forEach(file=>{
-
-            const div = document.createElement("div");
-            div.className = "event";
-
-            const link = document.createElement("a");
-            link.href =
-                `display_web.html?file=${encodeURIComponent(file.name)}`;
-            link.textContent = file.name.replace(".json","");
-
-            const meta = document.createElement("div");
-            meta.className = "small";
-            meta.textContent = "File: " + file.name;
-
-            div.appendChild(link);
-            div.appendChild(meta);
-
-            container.appendChild(div);
-
-        });
-
-    }
-    catch(err){
-
-        container.innerHTML =
-        "Could not load tournament list.";
-
+        for (const file of files) {
+          liveList.appendChild(createLink(file, "live"));
+        }
+      } catch (err) {
+        console.error(err);
+        clearAndSetError(liveList, "Could not load live tournaments.");
+      }
     }
 
-}
+    async function loadArchiveFiles() {
+      clearAndSetLoading(archiveList, "Loading archive tournaments...");
 
-loadEvents();
+      try {
+        const files = await loadFolderJsonFiles("display_archive");
+        clearList(archiveList);
 
-</script>
+        if (files.length === 0) {
+          archiveList.innerHTML = `<div class="muted">No archive tournaments found.</div>`;
+          return;
+        }
 
+        files.sort((a, b) => b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" }));
+
+        for (const file of files) {
+          archiveList.appendChild(createLink(file, "archive"));
+        }
+      } catch (err) {
+        console.error(err);
+        clearAndSetError(archiveList, "Could not load archive tournaments.");
+      }
+    }
+
+    async function init() {
+      await Promise.all([
+        loadLiveFiles(),
+        loadArchiveFiles()
+      ]);
+    }
+
+    init();
+  </script>
 </body>
 </html>
