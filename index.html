@@ -182,7 +182,6 @@
       const host = window.location.hostname;
       const parts = window.location.pathname.split("/").filter(Boolean);
 
-      // Project pages: https://username.github.io/repo/
       if (host.endsWith(".github.io")) {
         const owner = host.split(".")[0];
         const repo = parts.length > 0 ? parts[0] : owner + ".github.io";
@@ -193,11 +192,9 @@
         };
       }
 
-      // Custom domain fallback:
-      // SET THESE MANUALLY ONLY IF NEEDED
       return {
-        owner: "YOUR_GITHUB_USERNAME",
-        repo: "YOUR_REPOSITORY_NAME",
+        owner: "psivrev",
+        repo: "tournament-display",
         branch: "main"
       };
     }
@@ -226,81 +223,57 @@
         .map(item => item.name);
     }
 
-    async function loadLiveFiles(owner, repo, branch) {
-      try {
-        const files = await loadFolderJsonFiles(owner, repo, branch, "display_export");
-        clearList(liveList);
+    function isArchiveFile(filename) {
+      const name = filename.toLowerCase();
 
-        if (files.length === 0) {
-          liveList.innerHTML = `<div class="muted">No live tournaments found.</div>`;
-          return files.length;
-        }
-
-        files.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
-
-        for (const file of files) {
-          liveList.appendChild(createLink(file, "live"));
-        }
-
-        return files.length;
-      } catch (err) {
-        console.error(err);
-        clearAndSetError(liveList, "Could not load live tournaments.");
-        throw err;
+      if (!name.endsWith(".json")) {
+        return false;
       }
+
+      const archivePatterns = [
+        /(?:^|_)(19|20)\d{2}(?:_|-)/,    // e.g. masters_2026_xxx.json
+        /(?:^|_)(19|20)\d{2}\.json$/,    // e.g. masters_2026.json
+        /\d{8,}/,                        // long timestamp chunk
+        /archive/,
+        /published/,
+        /snapshot/,
+        /final/
+      ];
+
+      return archivePatterns.some(re => re.test(name));
     }
 
-    async function loadArchiveFiles(owner, repo, branch) {
-      try {
-        const files = await loadFolderJsonFiles(owner, repo, branch, "display_archive");
-        clearList(archiveList);
+    function uniqueSortedNewestFirst(files) {
+      return Array.from(new Set(files)).sort((a, b) =>
+        b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" })
+      );
+    }
 
-        if (files.length === 0) {
-          archiveList.innerHTML = `<div class="muted">No archive tournaments found.</div>`;
-          return files.length;
-        }
+    function uniqueSortedOldestFirst(files) {
+      return Array.from(new Set(files)).sort((a, b) =>
+        a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" })
+      );
+    }
 
-        files.sort((a, b) => b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" }));
+    function renderFileList(target, files, sourceType, emptyText) {
+      clearList(target);
 
-        for (const file of files) {
-          archiveList.appendChild(createLink(file, "archive"));
-        }
+      if (files.length === 0) {
+        target.innerHTML = `<div class="muted">${emptyText}</div>`;
+        return;
+      }
 
-        return files.length;
-      } catch (err) {
-        console.error(err);
-        clearAndSetError(archiveList, "Could not load archive tournaments.");
-        throw err;
+      for (const file of files) {
+        target.appendChild(createLink(file, sourceType));
       }
     }
 
     async function init() {
       const repoInfo = getRepoInfo();
 
-      setDebug(
-        "Detected GitHub settings:\n" +
-        "Owner: " + repoInfo.owner + "\n" +
-        "Repo: " + repoInfo.repo + "\n" +
-        "Branch: " + repoInfo.branch + "\n" +
-        "Path: " + window.location.pathname
-      );
-
-      let liveCountText = "not loaded";
-      let archiveCountText = "not loaded";
-
-      try {
-        const liveCount = await loadLiveFiles(repoInfo.owner, repoInfo.repo, repoInfo.branch);
-        liveCountText = String(liveCount);
-      } catch (err) {
-        liveCountText = "ERROR";
-      }
-
-      try {
-        const archiveCount = await loadArchiveFiles(repoInfo.owner, repoInfo.repo, repoInfo.branch);
-        archiveCountText = String(archiveCount);
-      } catch (err) {
-        archiveCountText = "ERROR";
-      }
+      let exportFiles = [];
+      let archiveFolderFiles = [];
+      let archiveFolderStatus = "not checked";
 
       setDebug(
         "Detected GitHub settings:\n" +
@@ -308,8 +281,80 @@
         "Repo: " + repoInfo.repo + "\n" +
         "Branch: " + repoInfo.branch + "\n" +
         "Path: " + window.location.pathname + "\n\n" +
-        "Live files found: " + liveCountText + "\n" +
-        "Archive files found: " + archiveCountText
+        "Loading..."
+      );
+
+      try {
+        exportFiles = await loadFolderJsonFiles(
+          repoInfo.owner,
+          repoInfo.repo,
+          repoInfo.branch,
+          "display_export"
+        );
+      } catch (err) {
+        console.error(err);
+        clearAndSetError(liveList, "Could not load live tournaments.");
+        clearAndSetError(archiveList, "Could not load archive tournaments.");
+        setDebug(
+          "Detected GitHub settings:\n" +
+          "Owner: " + repoInfo.owner + "\n" +
+          "Repo: " + repoInfo.repo + "\n" +
+          "Branch: " + repoInfo.branch + "\n" +
+          "Path: " + window.location.pathname + "\n\n" +
+          "display_export: ERROR\n" +
+          err.message
+        );
+        return;
+      }
+
+      try {
+        archiveFolderFiles = await loadFolderJsonFiles(
+          repoInfo.owner,
+          repoInfo.repo,
+          repoInfo.branch,
+          "display_archive"
+        );
+        archiveFolderStatus = "ok";
+      } catch (err) {
+        console.error(err);
+        archiveFolderFiles = [];
+        archiveFolderStatus = "ERROR";
+      }
+
+      const exportLiveFiles = exportFiles.filter(name => !isArchiveFile(name));
+      const exportArchiveLikeFiles = exportFiles.filter(name => isArchiveFile(name));
+      const allArchiveFiles = uniqueSortedNewestFirst([
+        ...archiveFolderFiles,
+        ...exportArchiveLikeFiles
+      ]);
+      const liveFiles = uniqueSortedNewestFirst(exportLiveFiles);
+
+      renderFileList(
+        liveList,
+        liveFiles,
+        "live",
+        "No live tournaments found."
+      );
+
+      renderFileList(
+        archiveList,
+        allArchiveFiles,
+        "archive",
+        "No archive tournaments found."
+      );
+
+      setDebug(
+        "Detected GitHub settings:\n" +
+        "Owner: " + repoInfo.owner + "\n" +
+        "Repo: " + repoInfo.repo + "\n" +
+        "Branch: " + repoInfo.branch + "\n" +
+        "Path: " + window.location.pathname + "\n\n" +
+        "display_export files found: " + exportFiles.length + "\n" +
+        "display_archive status: " + archiveFolderStatus + "\n" +
+        "display_archive files found: " + archiveFolderFiles.length + "\n\n" +
+        "Live files shown: " + liveFiles.length + "\n" +
+        "Archive files shown: " + allArchiveFiles.length + "\n\n" +
+        "Archive fallback from display_export: " + exportArchiveLikeFiles.length
       );
     }
 
