@@ -103,6 +103,17 @@
       border-radius: 999px;
       vertical-align: middle;
     }
+
+    .debug {
+      background: #fff8e1;
+      border: 1px solid #f0d98a;
+      border-radius: 10px;
+      padding: 14px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      color: #6b5a00;
+      white-space: pre-wrap;
+    }
   </style>
 </head>
 <body>
@@ -112,6 +123,8 @@
       Select a tournament below. Live tournaments open from the live system.
       Archived tournaments open from the published GitHub files.
     </p>
+
+    <div id="debug-box" class="debug">Initialising...</div>
 
     <div class="section">
       <h2>Live Tournaments <span class="badge-live">LIVE</span></h2>
@@ -131,21 +144,12 @@
   </div>
 
   <script>
-
-    const repoOwner = "psivrev";
-    const repoName = "tournament-display";
-    const folder = "display_export";
-
-
     const liveList = document.getElementById("live-list");
     const archiveList = document.getElementById("archive-list");
+    const debugBox = document.getElementById("debug-box");
 
-    function apiUrl(path) {
-      return `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${path}?ref=${GITHUB_BRANCH}`;
-    }
-
-    function clearAndSetLoading(target, text) {
-      target.innerHTML = `<div class="muted">${text}</div>`;
+    function setDebug(text) {
+      debugBox.textContent = text;
     }
 
     function clearAndSetError(target, text) {
@@ -174,11 +178,41 @@
       return a;
     }
 
-    async function loadFolderJsonFiles(folderPath) {
-      const res = await fetch(apiUrl(folderPath), { cache: "no-store" });
+    function getRepoInfo() {
+      const host = window.location.hostname;
+      const parts = window.location.pathname.split("/").filter(Boolean);
+
+      // Project pages: https://username.github.io/repo/
+      if (host.endsWith(".github.io")) {
+        const owner = host.split(".")[0];
+        const repo = parts.length > 0 ? parts[0] : owner + ".github.io";
+        return {
+          owner,
+          repo,
+          branch: "main"
+        };
+      }
+
+      // Custom domain fallback:
+      // SET THESE MANUALLY ONLY IF NEEDED
+      return {
+        owner: "YOUR_GITHUB_USERNAME",
+        repo: "YOUR_REPOSITORY_NAME",
+        branch: "main"
+      };
+    }
+
+    function apiUrl(owner, repo, branch, path) {
+      return `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
+    }
+
+    async function loadFolderJsonFiles(owner, repo, branch, folderPath) {
+      const url = apiUrl(owner, repo, branch, folderPath);
+      const res = await fetch(url, { cache: "no-store" });
 
       if (!res.ok) {
-        throw new Error(`GitHub API returned ${res.status} for ${folderPath}`);
+        const txt = await res.text();
+        throw new Error(`GitHub API ${res.status} for ${folderPath}\n${txt}`);
       }
 
       const data = await res.json();
@@ -192,16 +226,14 @@
         .map(item => item.name);
     }
 
-    async function loadLiveFiles() {
-      clearAndSetLoading(liveList, "Loading live tournaments...");
-
+    async function loadLiveFiles(owner, repo, branch) {
       try {
-        const files = await loadFolderJsonFiles("display_export");
+        const files = await loadFolderJsonFiles(owner, repo, branch, "display_export");
         clearList(liveList);
 
         if (files.length === 0) {
           liveList.innerHTML = `<div class="muted">No live tournaments found.</div>`;
-          return;
+          return files.length;
         }
 
         files.sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" }));
@@ -209,22 +241,23 @@
         for (const file of files) {
           liveList.appendChild(createLink(file, "live"));
         }
+
+        return files.length;
       } catch (err) {
         console.error(err);
         clearAndSetError(liveList, "Could not load live tournaments.");
+        throw err;
       }
     }
 
-    async function loadArchiveFiles() {
-      clearAndSetLoading(archiveList, "Loading archive tournaments...");
-
+    async function loadArchiveFiles(owner, repo, branch) {
       try {
-        const files = await loadFolderJsonFiles("display_archive");
+        const files = await loadFolderJsonFiles(owner, repo, branch, "display_archive");
         clearList(archiveList);
 
         if (files.length === 0) {
           archiveList.innerHTML = `<div class="muted">No archive tournaments found.</div>`;
-          return;
+          return files.length;
         }
 
         files.sort((a, b) => b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" }));
@@ -232,17 +265,52 @@
         for (const file of files) {
           archiveList.appendChild(createLink(file, "archive"));
         }
+
+        return files.length;
       } catch (err) {
         console.error(err);
         clearAndSetError(archiveList, "Could not load archive tournaments.");
+        throw err;
       }
     }
 
     async function init() {
-      await Promise.all([
-        loadLiveFiles(),
-        loadArchiveFiles()
-      ]);
+      const repoInfo = getRepoInfo();
+
+      setDebug(
+        "Detected GitHub settings:\n" +
+        "Owner: " + repoInfo.owner + "\n" +
+        "Repo: " + repoInfo.repo + "\n" +
+        "Branch: " + repoInfo.branch + "\n" +
+        "Path: " + window.location.pathname
+      );
+
+      let liveCountText = "not loaded";
+      let archiveCountText = "not loaded";
+
+      try {
+        const liveCount = await loadLiveFiles(repoInfo.owner, repoInfo.repo, repoInfo.branch);
+        liveCountText = String(liveCount);
+      } catch (err) {
+        liveCountText = "ERROR";
+      }
+
+      try {
+        const archiveCount = await loadArchiveFiles(repoInfo.owner, repoInfo.repo, repoInfo.branch);
+        archiveCountText = String(archiveCount);
+      } catch (err) {
+        archiveCountText = "ERROR";
+      }
+
+      setDebug(
+        "Detected GitHub settings:\n" +
+        "Owner: " + repoInfo.owner + "\n" +
+        "Repo: " + repoInfo.repo + "\n" +
+        "Branch: " + repoInfo.branch + "\n" +
+        "Path: " + window.location.pathname + "\n\n" +
+        "Live files found: " + liveCountText + "\n" +
+        "Archive files found: " + archiveCountText
+      );
     }
 
     init();
