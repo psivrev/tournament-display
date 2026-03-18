@@ -128,7 +128,7 @@ async function loadEvents(){
 
             const link = document.createElement("a");
             link.href =
-                `display_web.html?file=${encodeURIComponent(file.name)}&source=github`;
+                `display_web.html?file=${encodeURIComponent(file.name)}`;
             link.textContent = file.name.replace(".json","");
 
             const meta = document.createElement("div");
