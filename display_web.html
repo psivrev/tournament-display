@@ -1,305 +1,366 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Backgammon Tournament Display</title>
-
+  <meta charset="utf-8">
+  <title>Tournament Display</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 30px;
-      background: #f5f5f5;
-      color: #222;
+      padding: 16px;
+      background: #f4f4f4;
+      color: #111;
     }
 
     .wrap {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
     }
 
-    h1 {
-      margin-top: 0;
-      margin-bottom: 10px;
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
     }
 
-    .intro {
-      margin-bottom: 30px;
+    h1, h2, h3 {
+      margin: 0 0 10px 0;
+    }
+
+    .meta {
+      font-size: 15px;
+      margin-bottom: 6px;
+    }
+
+    .line {
+      margin: 4px 0;
+      line-height: 1.45;
+      white-space: pre-wrap;
+    }
+
+    .black { color: black; }
+    .blue  { color: #2c6fb2; }
+    .red   { color: #c0392b; }
+    .green { color: #2e8b57; }
+    .grey  { color: #ab4705; }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .small {
+      font-size: 13px;
       color: #555;
     }
 
-    .section {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 24px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    .mono {
+      white-space: pre-wrap;
+      font-family: Consolas, Menlo, monospace;
+      line-height: 1.5;
     }
 
-    .section h2 {
-      margin-top: 0;
-      margin-bottom: 8px;
-    }
-
-    .section p {
-      margin-top: 0;
-      color: #666;
-    }
-
-    .list {
+    .status-row {
       display: flex;
-      flex-direction: column;
-      gap: 10px;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+      font-size: 13px;
+      color: #555;
     }
 
-    .item {
-      display: block;
-      padding: 12px 14px;
-      background: #f8f9fb;
-      border: 1px solid #e3e7ee;
-      border-radius: 8px;
-      text-decoration: none;
-      color: #1d3557;
-      font-weight: 600;
-      transition: background 0.15s ease, border-color 0.15s ease;
+    .status-pill {
+      background: #f0f0f0;
+      border-radius: 999px;
+      padding: 6px 10px;
     }
 
-    .item:hover {
-      background: #eef4ff;
-      border-color: #b8c9ea;
+    .status-ok {
+      color: #1f7a1f;
+      font-weight: bold;
     }
 
-    .muted {
-      color: #888;
-      font-style: italic;
-    }
-
-    .error {
+    .status-bad {
       color: #b00020;
-      font-weight: 600;
+      font-weight: bold;
     }
 
-    .badge-live {
-      display: inline-block;
-      margin-left: 8px;
-      padding: 2px 8px;
-      font-size: 12px;
-      font-weight: 700;
-      color: white;
-      background: #d62828;
-      border-radius: 999px;
-      vertical-align: middle;
+    .top-links {
+      margin-top: 8px;
+      font-size: 14px;
     }
 
-    .badge-archive {
-      display: inline-block;
-      margin-left: 8px;
-      padding: 2px 8px;
-      font-size: 12px;
-      font-weight: 700;
-      color: white;
-      background: #457b9d;
-      border-radius: 999px;
-      vertical-align: middle;
+    .top-links a {
+      color: #2c6fb2;
+      text-decoration: none;
+      margin-right: 14px;
+    }
+
+    .top-links a:hover {
+      text-decoration: underline;
+    }
+
+    .round-block {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid #e6e6e6;
+    }
+
+    .round-block:first-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .round-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 8px;
     }
   </style>
 </head>
 <body>
   <div class="wrap">
-    <h1>Backgammon Tournament Display</h1>
-    <p class="intro">
-      Select a tournament below. Live tournaments open from the live system.
-      Archived tournaments open from the published GitHub files.
-    </p>
+    <div class="card">
+      <h1 id="title">Tournament Display</h1>
+      <div class="meta" id="round"></div>
+      <div class="meta" id="points"></div>
+      <div class="small" id="generated"></div>
 
-    <div class="section">
-      <h2>Live Tournaments <span class="badge-live">LIVE</span></h2>
-      <p>These open from Firebase and update automatically.</p>
-      <div id="live-list" class="list">
-        <div class="muted">Loading live tournaments...</div>
+      <div class="status-row">
+        <div class="status-pill">Requested file: <span id="requested-file"></span></div>
+        <div class="status-pill">Refresh every: <span id="refresh-seconds">5</span>s</div>
+        <div class="status-pill">Last fetch: <span id="last-fetch">—</span></div>
+        <div class="status-pill">Status: <span id="fetch-status" class="status-ok">Waiting...</span></div>
+      </div>
+
+      <div class="top-links">
+        <a href="./index.html">Main page</a>
       </div>
     </div>
 
-    <div class="section">
-      <h2>Archive Tournaments <span class="badge-archive">ARCHIVE</span></h2>
-      <p>These open from GitHub published JSON snapshots.</p>
-      <div id="archive-list" class="list">
-        <div class="muted">Loading archive tournaments...</div>
-      </div>
+    <div class="card">
+      <h2>Current Round</h2>
+      <div id="current-round"></div>
+    </div>
+
+    <div class="card">
+      <h2>Next-Round Preview</h2>
+      <div id="preview" class="mono"></div>
+    </div>
+
+    <div class="card">
+      <h2>Standings</h2>
+      <div id="standings"></div>
+    </div>
+
+    <div class="card">
+      <h2>Side Pools</h2>
+      <div id="side-pools" class="mono"></div>
+    </div>
+
+    <div class="card">
+      <h2>Past Rounds</h2>
+      <div id="past-rounds"></div>
     </div>
   </div>
 
   <script>
-    const liveList = document.getElementById("live-list");
-    const archiveList = document.getElementById("archive-list");
+    const REFRESH_MS = 5000;
+    let lastRawJson = null;
 
-    function clearAndSetError(target, text) {
-      target.innerHTML = `<div class="error">${text}</div>`;
+    function clearNode(node) {
+      while (node.firstChild) node.removeChild(node.firstChild);
     }
 
-    function clearList(target) {
-      target.innerHTML = "";
-    }
+    function renderSegmentLine(parent, lineObj) {
+      const row = document.createElement("div");
+      row.className = "line";
 
-    function prettyName(filename) {
-      return filename.replace(/\.json$/i, "");
-    }
-
-    function createLink(filename, sourceType) {
-      const a = document.createElement("a");
-      a.className = "item";
-
-      if (sourceType === "live") {
-        a.href = `display_web.html?file=${encodeURIComponent(filename)}`;
+      if (lineObj.segments) {
+        for (const seg of lineObj.segments) {
+          const span = document.createElement("span");
+          span.textContent = seg.text || "";
+          span.classList.add(seg.colour || "black");
+          if (seg.bold) span.classList.add("bold");
+          row.appendChild(span);
+        }
       } else {
-        a.href = `display_web.html?file=${encodeURIComponent(filename)}&source=github`;
+        const span = document.createElement("span");
+        span.textContent = lineObj.text || "";
+        span.classList.add(lineObj.colour || "black");
+        if (lineObj.bold) span.classList.add("bold");
+        row.appendChild(span);
       }
 
-      a.textContent = prettyName(filename);
-      return a;
+      parent.appendChild(row);
     }
 
-    function getRepoInfo() {
-      const host = window.location.hostname;
-      const parts = window.location.pathname.split("/").filter(Boolean);
+    function getDisplayFileFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("file") || "current_display.json";
+    }
 
-      if (host.endsWith(".github.io")) {
-        const owner = host.split(".")[0];
-        const repo = parts.length > 0 ? parts[0] : owner + ".github.io";
-        return {
-          owner,
-          repo,
-          branch: "main"
-        };
+    function getRequestedSource() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get("source") || "";
+    }
+
+    function getDataSource() {
+      const requested = getRequestedSource().toLowerCase();
+
+      if (requested === "github") {
+        return "github";
       }
 
-      return {
-        owner: "psivrev",
-        repo: "tournament-display",
-        branch: "main"
-      };
-    }
-
-    function apiUrl(owner, repo, branch, path) {
-      return `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
-    }
-
-    async function loadFolderJsonFiles(owner, repo, branch, folderPath) {
-      const url = apiUrl(owner, repo, branch, folderPath);
-      const res = await fetch(url, { cache: "no-store" });
-
-      if (!res.ok) {
-        const txt = await res.text();
-        throw new Error(`GitHub API ${res.status} for ${folderPath}\n${txt}`);
+      if (requested === "firebase") {
+        return "firebase";
       }
 
-      const data = await res.json();
+      const host = window.location.hostname.toLowerCase();
 
-      if (!Array.isArray(data)) {
-        throw new Error(`Unexpected response for ${folderPath}`);
+      if (host.endsWith("github.io")) {
+        return "firebase";
       }
 
-      return data
-        .filter(item => item.type === "file" && item.name.toLowerCase().endsWith(".json"))
-        .map(item => item.name);
+      return "local";
     }
 
-    function isArchiveFile(filename) {
-      const name = filename.toLowerCase();
+    function getDataUrl(file) {
+      const source = getDataSource();
 
-      if (!name.endsWith(".json")) {
-        return false;
+      if (source === "firebase") {
+        const baseName = file.endsWith(".json") ? file.slice(0, -5) : file;
+        return "https://tournament-display-default-rtdb.europe-west1.firebasedatabase.app/live/"
+          + encodeURIComponent(baseName)
+          + ".json?ts=" + Date.now();
       }
 
-      const archivePatterns = [
-        /(?:^|_)(19|20)\d{2}(?:_|-)/,
-        /(?:^|_)(19|20)\d{2}\.json$/,
-        /\d{8,}/,
-        /archive/,
-        /published/,
-        /snapshot/,
-        /final/
-      ];
+      if (source === "github") {
+        return "./display_export/" + encodeURIComponent(file) + "?ts=" + Date.now();
+      }
 
-      return archivePatterns.some(re => re.test(name));
+      return "/display_export/" + encodeURIComponent(file) + "?ts=" + Date.now();
     }
 
-    function uniqueSortedNewestFirst(files) {
-      return Array.from(new Set(files)).sort((a, b) =>
-        b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" })
-      );
+    function setFetchStatus(text, ok) {
+      const node = document.getElementById("fetch-status");
+      node.textContent = text;
+      node.className = ok ? "status-ok" : "status-bad";
     }
 
-    function renderFileList(target, files, sourceType, emptyText) {
-      clearList(target);
+    function setLastFetchNow() {
+      const now = new Date();
+      document.getElementById("last-fetch").textContent = now.toLocaleTimeString();
+    }
 
-      if (files.length === 0) {
-        target.innerHTML = `<div class="muted">${emptyText}</div>`;
+    function renderPastRounds(rounds) {
+      const holder = document.getElementById("past-rounds");
+      clearNode(holder);
+
+      if (!rounds || rounds.length === 0) {
+        holder.textContent = "No completed rounds yet.";
         return;
       }
 
-      for (const file of files) {
-        target.appendChild(createLink(file, sourceType));
+      for (const roundObj of rounds) {
+        const block = document.createElement("div");
+        block.className = "round-block";
+
+        const title = document.createElement("div");
+        title.className = "round-title";
+        title.textContent = "Round " + String(roundObj.round_no ?? "?");
+        block.appendChild(title);
+
+        for (const line of (roundObj.lines || [])) {
+          renderSegmentLine(block, line);
+        }
+
+        holder.appendChild(block);
       }
     }
 
-    async function init() {
-      const repoInfo = getRepoInfo();
+    function renderDisplay(data, file) {
+      document.getElementById("title").textContent =
+        data.tournament_name || "Tournament Display";
 
-      let exportFiles = [];
-      let archiveFolderFiles = [];
+      document.getElementById("round").textContent =
+        "Round: " + (data.round_no ?? "?");
 
-      try {
-        exportFiles = await loadFolderJsonFiles(
-          repoInfo.owner,
-          repoInfo.repo,
-          repoInfo.branch,
-          "display_export"
-        );
-      } catch (err) {
-        console.error(err);
-        clearAndSetError(liveList, "Could not load live tournaments.");
-        clearAndSetError(archiveList, "Could not load archive tournaments.");
-        return;
+      document.getElementById("points").textContent =
+        "Points this round: " + (data.points_this_round ?? "");
+
+      const source = getDataSource();
+
+      document.getElementById("generated").textContent =
+        data.generated_at
+          ? ("Updated: " + data.generated_at + "   |   Source: " + source + "   |   File: " + file)
+          : ("Source: " + source + "   |   File: " + file);
+
+      const current = document.getElementById("current-round");
+      clearNode(current);
+      for (const line of (data.current_round_lines || [])) {
+        renderSegmentLine(current, line);
       }
 
-      try {
-        archiveFolderFiles = await loadFolderJsonFiles(
-          repoInfo.owner,
-          repoInfo.repo,
-          repoInfo.branch,
-          "display_archive"
-        );
-      } catch (err) {
-        console.error(err);
-        archiveFolderFiles = [];
+      document.getElementById("preview").textContent =
+        data.preview_text || "";
+
+      const standings = document.getElementById("standings");
+      clearNode(standings);
+      for (const line of (data.standings_lines || [])) {
+        renderSegmentLine(standings, line);
       }
 
-      const exportLiveFiles = exportFiles.filter(name => !isArchiveFile(name));
-      const exportArchiveLikeFiles = exportFiles.filter(name => isArchiveFile(name));
-      const allArchiveFiles = uniqueSortedNewestFirst([
-        ...archiveFolderFiles,
-        ...exportArchiveLikeFiles
-      ]);
-      const liveFiles = uniqueSortedNewestFirst(exportLiveFiles);
+      document.getElementById("side-pools").textContent =
+        data.side_pools_text || "";
 
-      renderFileList(
-        liveList,
-        liveFiles,
-        "live",
-        "No live tournaments found."
-      );
-
-      renderFileList(
-        archiveList,
-        allArchiveFiles,
-        "archive",
-        "No archive tournaments found."
-      );
+      renderPastRounds(data.past_rounds || []);
     }
 
-    init();
+    async function loadDisplay() {
+      const file = getDisplayFileFromUrl();
+      const source = getDataSource();
+      document.getElementById("requested-file").textContent = file + " (" + source + ")";
+
+      try {
+        const res = await fetch(getDataUrl(file), {
+          cache: "no-store"
+        });
+
+        if (!res.ok) {
+          throw new Error("HTTP " + res.status);
+        }
+
+        const rawText = await res.text();
+        const data = JSON.parse(rawText);
+
+        setLastFetchNow();
+
+        if (rawText !== lastRawJson) {
+          renderDisplay(data, file);
+          lastRawJson = rawText;
+          setFetchStatus("Live (updated)", true);
+        } else {
+          setFetchStatus("Live (no visible change)", true);
+        }
+      } catch (err) {
+        setLastFetchNow();
+        setFetchStatus("Load failed", false);
+
+        document.getElementById("preview").textContent =
+          "Could not load display data yet.\n\nRequested file: " + file +
+          "\n\nSource: " + source +
+          "\n\nStart or resume that tournament in the GUI first.\n\nError: " + err.message;
+      }
+    }
+
+    document.getElementById("refresh-seconds").textContent = String(REFRESH_MS / 1000);
+
+    loadDisplay();
+    setInterval(loadDisplay, REFRESH_MS);
   </script>
 </body>
 </html>
