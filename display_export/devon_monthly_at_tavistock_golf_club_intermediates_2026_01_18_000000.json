@@ -1,0 +1,1121 @@
+{
+  "tournament_name": "Devon Monthly at Tavistock Golf Club - Intermediates",
+  "round_no": 4,
+  "points_this_round": 7,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Guy Haring ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Waterman",
+          "colour": "green",
+          "bold": false
+        },
+        {
+          "text": "   (7 pt)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jean Findlay ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lee Woods",
+          "colour": "red",
+          "bold": false
+        },
+        {
+          "text": "   (7 pt)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Guy Saward ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "TJ Jefferies",
+          "colour": "red",
+          "bold": false
+        },
+        {
+          "text": "   (7 pt)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Paula Holloway ✓",
+          "colour": "blue",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Wendy McGowan",
+          "colour": "red",
+          "bold": false
+        },
+        {
+          "text": "   (7 pt)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Fenella Haffenden ✓",
+          "colour": "blue",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ron Walls",
+          "colour": "blue",
+          "bold": false
+        },
+        {
+          "text": "   (7 pt)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Martin Wright ✓",
+          "colour": "blue",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Roberts",
+          "colour": "blue",
+          "bold": false
+        },
+        {
+          "text": "   (7 pt)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M7: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Patrick Greenstreet ✓",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Angel Luther",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "   (7 pt)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Tournament complete.",
+  "standings_lines": [
+    {
+      "text": "1. Guy Haring -4   (4-0)",
+      "colour": "grey",
+      "bold": false
+    },
+    {
+      "text": "2. Andrew Waterman -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "3. Guy Saward -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "4. Jean Findlay -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "5. Fenella Haffenden -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "6. Lee Woods -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "7. Martin Wright -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "8. Paula Holloway -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "9. TJ Jefferies -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "10. Wendy McGowan -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "11. Andrew Roberts -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "12. Patrick Greenstreet -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "13. Ron Walls -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "14. Angel Luther -0   (0-4)",
+      "colour": "black",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "No side pools.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Haring ✓",
+              "colour": "green",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman",
+              "colour": "green",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Paula Holloway ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Fenella Haffenden ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ron Walls",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Haring ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Paula Holloway",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Fenella Haffenden ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ron Walls ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Haring ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Fenella Haffenden",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Paula Holloway ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ron Walls",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Fenella Haffenden",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Paula Holloway",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Haring ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ron Walls",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-01-18T00:45:00",
+  "display_file": "devon_monthly_at_tavistock_golf_club_intermediates_2026_01_18_000000.json",
+  "archive_display_file": "devon_monthly_at_tavistock_golf_club_intermediates_2026_01_18_000000.json"
+}
