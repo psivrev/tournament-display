@@ -26,7 +26,7 @@
       box-shadow: 0 1px 4px rgba(0,0,0,0.08);
     }
 
-    h1, h2 {
+    h1, h2, h3 {
       margin: 0 0 10px 0;
     }
 
@@ -101,6 +101,24 @@
     .top-links a:hover {
       text-decoration: underline;
     }
+
+    .round-block {
+      margin-top: 14px;
+      padding-top: 10px;
+      border-top: 1px solid #e6e6e6;
+    }
+
+    .round-block:first-child {
+      margin-top: 0;
+      padding-top: 0;
+      border-top: none;
+    }
+
+    .round-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
   </style>
 </head>
 <body>
@@ -141,6 +159,11 @@
     <div class="card">
       <h2>Side Pools</h2>
       <div id="side-pools" class="mono"></div>
+    </div>
+
+    <div class="card">
+      <h2>Past Rounds</h2>
+      <div id="past-rounds"></div>
     </div>
   </div>
 
@@ -233,6 +256,32 @@
       document.getElementById("last-fetch").textContent = now.toLocaleTimeString();
     }
 
+    function renderPastRounds(rounds) {
+      const holder = document.getElementById("past-rounds");
+      clearNode(holder);
+
+      if (!rounds || rounds.length === 0) {
+        holder.textContent = "No completed rounds yet.";
+        return;
+      }
+
+      for (const roundObj of rounds) {
+        const block = document.createElement("div");
+        block.className = "round-block";
+
+        const title = document.createElement("div");
+        title.className = "round-title";
+        title.textContent = "Round " + String(roundObj.round_no ?? "?");
+        block.appendChild(title);
+
+        for (const line of (roundObj.lines || [])) {
+          renderSegmentLine(block, line);
+        }
+
+        holder.appendChild(block);
+      }
+    }
+
     function renderDisplay(data, file) {
       document.getElementById("title").textContent =
         data.tournament_name || "Tournament Display";
@@ -267,6 +316,8 @@
 
       document.getElementById("side-pools").textContent =
         data.side_pools_text || "";
+
+      renderPastRounds(data.past_rounds || []);
     }
 
     async function loadDisplay() {
