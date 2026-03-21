@@ -103,17 +103,6 @@
       border-radius: 999px;
       vertical-align: middle;
     }
-
-    .debug {
-      background: #fff8e1;
-      border: 1px solid #f0d98a;
-      border-radius: 10px;
-      padding: 14px;
-      margin-bottom: 24px;
-      font-size: 14px;
-      color: #6b5a00;
-      white-space: pre-wrap;
-    }
   </style>
 </head>
 <body>
@@ -123,8 +112,6 @@
       Select a tournament below. Live tournaments open from the live system.
       Archived tournaments open from the published GitHub files.
     </p>
-
-    <div id="debug-box" class="debug">Initialising...</div>
 
     <div class="section">
       <h2>Live Tournaments <span class="badge-live">LIVE</span></h2>
@@ -146,11 +133,6 @@
   <script>
     const liveList = document.getElementById("live-list");
     const archiveList = document.getElementById("archive-list");
-    const debugBox = document.getElementById("debug-box");
-
-    function setDebug(text) {
-      debugBox.textContent = text;
-    }
 
     function clearAndSetError(target, text) {
       target.innerHTML = `<div class="error">${text}</div>`;
@@ -231,9 +213,9 @@
       }
 
       const archivePatterns = [
-        /(?:^|_)(19|20)\d{2}(?:_|-)/,    // e.g. masters_2026_xxx.json
-        /(?:^|_)(19|20)\d{2}\.json$/,    // e.g. masters_2026.json
-        /\d{8,}/,                        // long timestamp chunk
+        /(?:^|_)(19|20)\d{2}(?:_|-)/,
+        /(?:^|_)(19|20)\d{2}\.json$/,
+        /\d{8,}/,
         /archive/,
         /published/,
         /snapshot/,
@@ -246,12 +228,6 @@
     function uniqueSortedNewestFirst(files) {
       return Array.from(new Set(files)).sort((a, b) =>
         b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" })
-      );
-    }
-
-    function uniqueSortedOldestFirst(files) {
-      return Array.from(new Set(files)).sort((a, b) =>
-        a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" })
       );
     }
 
@@ -273,16 +249,6 @@
 
       let exportFiles = [];
       let archiveFolderFiles = [];
-      let archiveFolderStatus = "not checked";
-
-      setDebug(
-        "Detected GitHub settings:\n" +
-        "Owner: " + repoInfo.owner + "\n" +
-        "Repo: " + repoInfo.repo + "\n" +
-        "Branch: " + repoInfo.branch + "\n" +
-        "Path: " + window.location.pathname + "\n\n" +
-        "Loading..."
-      );
 
       try {
         exportFiles = await loadFolderJsonFiles(
@@ -295,15 +261,6 @@
         console.error(err);
         clearAndSetError(liveList, "Could not load live tournaments.");
         clearAndSetError(archiveList, "Could not load archive tournaments.");
-        setDebug(
-          "Detected GitHub settings:\n" +
-          "Owner: " + repoInfo.owner + "\n" +
-          "Repo: " + repoInfo.repo + "\n" +
-          "Branch: " + repoInfo.branch + "\n" +
-          "Path: " + window.location.pathname + "\n\n" +
-          "display_export: ERROR\n" +
-          err.message
-        );
         return;
       }
 
@@ -314,11 +271,9 @@
           repoInfo.branch,
           "display_archive"
         );
-        archiveFolderStatus = "ok";
       } catch (err) {
         console.error(err);
         archiveFolderFiles = [];
-        archiveFolderStatus = "ERROR";
       }
 
       const exportLiveFiles = exportFiles.filter(name => !isArchiveFile(name));
@@ -341,20 +296,6 @@
         allArchiveFiles,
         "archive",
         "No archive tournaments found."
-      );
-
-      setDebug(
-        "Detected GitHub settings:\n" +
-        "Owner: " + repoInfo.owner + "\n" +
-        "Repo: " + repoInfo.repo + "\n" +
-        "Branch: " + repoInfo.branch + "\n" +
-        "Path: " + window.location.pathname + "\n\n" +
-        "display_export files found: " + exportFiles.length + "\n" +
-        "display_archive status: " + archiveFolderStatus + "\n" +
-        "display_archive files found: " + archiveFolderFiles.length + "\n\n" +
-        "Live files shown: " + liveFiles.length + "\n" +
-        "Archive files shown: " + allArchiveFiles.length + "\n\n" +
-        "Archive fallback from display_export: " + exportArchiveLikeFiles.length
       );
     }
 
