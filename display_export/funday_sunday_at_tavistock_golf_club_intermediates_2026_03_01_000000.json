@@ -12,7 +12,7 @@
         },
         {
           "text": "Emily Hibbert ✓",
-          "colour": "red",
+          "colour": "green",
           "bold": true
         },
         {
@@ -23,11 +23,6 @@
         {
           "text": "Linda Molesworth",
           "colour": "red",
-          "bold": false
-        },
-        {
-          "text": "   (7 pt)",
-          "colour": "black",
           "bold": false
         }
       ]
@@ -41,7 +36,7 @@
         },
         {
           "text": "Patrick Greenstreet ✓",
-          "colour": "red",
+          "colour": "green",
           "bold": true
         },
         {
@@ -51,12 +46,7 @@
         },
         {
           "text": "Sue Harrison",
-          "colour": "blue",
-          "bold": false
-        },
-        {
-          "text": "   (7 pt)",
-          "colour": "black",
+          "colour": "red",
           "bold": false
         }
       ]
@@ -70,7 +60,7 @@
         },
         {
           "text": "Wendy McGowan ✓",
-          "colour": "blue",
+          "colour": "red",
           "bold": true
         },
         {
@@ -81,11 +71,6 @@
         {
           "text": "Sarah Harrison",
           "colour": "blue",
-          "bold": false
-        },
-        {
-          "text": "   (7 pt)",
-          "colour": "black",
           "bold": false
         }
       ]
@@ -99,7 +84,7 @@
         },
         {
           "text": "Jean Findlay ✓",
-          "colour": "black",
+          "colour": "red",
           "bold": true
         },
         {
@@ -109,12 +94,7 @@
         },
         {
           "text": "Fenella Haffenden",
-          "colour": "black",
-          "bold": false
-        },
-        {
-          "text": "   (7 pt)",
-          "colour": "black",
+          "colour": "blue",
           "bold": false
         }
       ]
@@ -131,13 +111,18 @@
     {
       "segments": [
         {
-          "text": "BYE: ",
+          "text": "BYE this round: ",
           "colour": "black",
           "bold": false
         },
         {
           "text": "Lisa Jackson",
-          "colour": "green",
+          "colour": "grey",
+          "bold": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
           "bold": false
         }
       ]
@@ -146,8 +131,8 @@
   "preview_text": "Tournament complete.",
   "standings_lines": [
     {
-      "text": "1. Lisa Jackson -3   (3-0)",
-      "colour": "green",
+      "text": "1. Lisa Jackson -4   (4-0)",
+      "colour": "grey",
       "bold": false
     },
     {
@@ -161,33 +146,33 @@
       "bold": false
     },
     {
-      "text": "4. Linda Molesworth -2   (2-2)",
+      "text": "4. Jean Findlay -2   (2-2)",
       "colour": "red",
       "bold": false
     },
     {
-      "text": "5. Wendy McGowan -2   (2-2)",
+      "text": "5. Linda Molesworth -2   (2-2)",
       "colour": "red",
       "bold": false
     },
     {
-      "text": "6. Jean Findlay -1   (1-2)",
+      "text": "6. Sue Harrison -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "7. Wendy McGowan -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "8. Fenella Haffenden -1   (1-3)",
       "colour": "blue",
       "bold": false
     },
     {
-      "text": "7. Sue Harrison -1   (1-2)",
+      "text": "9. Sarah Harrison -1   (1-3)",
       "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "8. Sarah Harrison -1   (1-3)",
-      "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "9. Fenella Haffenden -0   (0-3)",
-      "colour": "black",
       "bold": false
     }
   ],
@@ -244,7 +229,7 @@
             },
             {
               "text": "Sue Harrison",
-              "colour": "blue",
+              "colour": "red",
               "bold": false
             },
             {
@@ -292,7 +277,7 @@
             },
             {
               "text": "Jean Findlay ✓",
-              "colour": "black",
+              "colour": "blue",
               "bold": true
             },
             {
@@ -302,7 +287,7 @@
             },
             {
               "text": "Fenella Haffenden",
-              "colour": "black",
+              "colour": "blue",
               "bold": false
             },
             {
@@ -324,13 +309,18 @@
         {
           "segments": [
             {
-              "text": "BYE: ",
+              "text": "BYE this round: ",
               "colour": "black",
               "bold": false
             },
             {
               "text": "Lisa Jackson",
               "colour": "green",
+              "bold": false
+            },
+            {
+              "text": " (+1 win on round completion)",
+              "colour": "black",
               "bold": false
             }
           ]
@@ -436,7 +426,7 @@
             },
             {
               "text": "Sue Harrison ✓",
-              "colour": "black",
+              "colour": "blue",
               "bold": true
             },
             {
@@ -446,7 +436,7 @@
             },
             {
               "text": "Fenella Haffenden",
-              "colour": "black",
+              "colour": "blue",
               "bold": false
             },
             {
@@ -468,12 +458,17 @@
         {
           "segments": [
             {
-              "text": "BYE: ",
+              "text": "BYE this round: ",
               "colour": "black",
               "bold": false
             },
             {
               "text": "Jean Findlay",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": " (+1 win on round completion)",
               "colour": "black",
               "bold": false
             }
@@ -561,7 +556,7 @@
             },
             {
               "text": "Fenella Haffenden",
-              "colour": "black",
+              "colour": "blue",
               "bold": false
             },
             {
@@ -612,12 +607,17 @@
         {
           "segments": [
             {
-              "text": "BYE: ",
+              "text": "BYE this round: ",
               "colour": "black",
               "bold": false
             },
             {
               "text": "Sue Harrison",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": " (+1 win on round completion)",
               "colour": "black",
               "bold": false
             }
@@ -756,12 +756,17 @@
         {
           "segments": [
             {
-              "text": "BYE: ",
+              "text": "BYE this round: ",
               "colour": "black",
               "bold": false
             },
             {
               "text": "Fenella Haffenden",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": " (+1 win on round completion)",
               "colour": "black",
               "bold": false
             }
@@ -771,6 +776,6 @@
     }
   ],
   "generated_at": "2026-03-01T00:45:00",
-  "display_file": "funday_sunday_at_tavistock_golf_club_intermediates_2026_03_01_000000.json",
+  "display_file": "funday_sunday_at_tavistock_golf_club_intermediates.json",
   "archive_display_file": "funday_sunday_at_tavistock_golf_club_intermediates_2026_03_01_000000.json"
 }
