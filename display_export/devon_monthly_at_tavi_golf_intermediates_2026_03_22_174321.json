@@ -1,0 +1,1086 @@
+{
+  "tournament_name": "Devon Monthly at Tavi Golf Intermediates",
+  "round_no": 4,
+  "points_this_round": 7,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ruth Hibbert -4 ✓",
+          "colour": "grey",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Samantha Tierney [5] -3",
+          "colour": "green",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Martin Wright [5] -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lee Woods [5] -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "TJ Jefferies [5] -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Alison Noakes -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lisa Jackson -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Kevin Sanders -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Waterman [5] -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Gizem Kisielevski -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Neil Eatough -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Wendy McGowan [5] -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M7: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Emily Hibbert -1 ✓",
+          "colour": "blue",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Angel Luther -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n  M5: TBA vs TBA\n  M6: TBA vs TBA\n  M7: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Ruth Hibbert -4   (4-0)",
+      "colour": "grey",
+      "bold": false
+    },
+    {
+      "text": "2. Lisa Jackson -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "3. Martin Wright [5] -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "4. Samantha Tierney [5] -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "5. TJ Jefferies [5] -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "6. Alison Noakes -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "7. Andrew Waterman [5] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "8. Lee Woods [5] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "9. Neil Eatough -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "10. Emily Hibbert -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "11. Gizem Kisielevski -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "12. Kevin Sanders -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "13. Wendy McGowan [5] -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "14. Angel Luther -0   (0-4)",
+      "colour": "black",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Wendy McGowan, Samantha Tierney, Lee Woods, TJ Jefferies, Andrew Waterman, Martin Wright\nCalculated at end of tournament.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert ✓",
+              "colour": "green",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samantha Tierney",
+              "colour": "green",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alison Noakes",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Kevin Sanders",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gizem Kisielevski",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Neil Eatough ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Emily Hibbert ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samantha Tierney ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gizem Kisielevski",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alison Noakes ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Neil Eatough",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Kevin Sanders ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Emily Hibbert",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samantha Tierney ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Neil Eatough",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alison Noakes",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Kevin Sanders",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gizem Kisielevski ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Emily Hibbert",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Wendy McGowan ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Kevin Sanders",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samantha Tierney ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gizem Kisielevski",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Emily Hibbert",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Neil Eatough ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Wright",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alison Noakes ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lee Woods",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-03-22T17:43:21",
+  "display_file": "devon_monthly_at_tavi_golf_intermediates.json",
+  "archive_display_file": "devon_monthly_at_tavi_golf_intermediates_2026_03_22_174321.json"
+}
