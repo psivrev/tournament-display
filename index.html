@@ -146,19 +146,81 @@
       return filename.replace(/\.json$/i, "");
     }
 
-    function createLink(filename, sourceType) {
-      const a = document.createElement("a");
-      a.className = "item";
+function createLink(filename, sourceType) {
+  const wrapper = document.createElement("div");
 
-      if (sourceType === "live") {
-        a.href = `display_web.html?file=${encodeURIComponent(filename)}`;
-      } else {
-        a.href = `display_web.html?file=${encodeURIComponent(filename)}&source=github`;
-      }
+  const a = document.createElement("a");
+  a.className = "item";
 
-      a.textContent = prettyName(filename);
-      return a;
-    }
+  if (sourceType === "live") {
+    a.href = `display_web.html?file=${encodeURIComponent(filename)}`;
+  } else {
+    a.href = `display_web.html?file=${encodeURIComponent(filename)}&source=github`;
+  }
+
+  a.textContent = prettyName(filename);
+
+  wrapper.appendChild(a);
+
+  // Only for archive files → add summary
+  if (sourceType === "archive") {
+    const summary = document.createElement("div");
+    summary.className = "muted";
+    summary.style.marginLeft = "6px";
+
+    summary.textContent = "Loading results...";
+    wrapper.appendChild(summary);
+
+    // Fetch JSON and extract top results
+    fetch(`./display_export/${encodeURIComponent(filename)}?ts=${Date.now()}`)
+      .then(res => res.json())
+      .then(data => {
+        const lines = data.standings_lines || [];
+
+        if (lines.length === 0) {
+          summary.textContent = "";
+          return;
+        }
+
+        // Extract names from standings lines
+        const extractName = (text) => {
+          return text.split(" -")[0].replace(/^\d+\.\s*/, "").trim();
+        };
+
+        const champion = extractName(lines[0]?.text || "");
+        const runner = extractName(lines[1]?.text || "");
+
+        // Chasers = same wins as runner-up
+        const runnerWins = (lines[1]?.text.match(/-(\d+)/) || [])[1];
+
+        const chasers = [];
+
+        for (let i = 2; i < lines.length; i++) {
+          const match = lines[i].text.match(/-(\d+)/);
+          if (!match) continue;
+
+          if (match[1] === runnerWins) {
+            chasers.push(extractName(lines[i].text));
+          } else {
+            break;
+          }
+        }
+
+        let txt = "";
+
+        if (champion) txt += "🏆 " + champion;
+        if (runner) txt += "\n🥈 " + runner;
+        if (chasers.length > 0) txt += "\n🎯 " + chasers.join(", ");
+
+        summary.textContent = txt;
+      })
+      .catch(() => {
+        summary.textContent = "";
+      });
+  }
+
+  return wrapper;
+}
 
     function getRepoInfo() {
       const host = window.location.hostname;
