@@ -50,7 +50,15 @@
     .list {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 12px;
+    }
+
+    .archive-row {
+      display: block;
+    }
+
+    .archive-row.offset-row {
+      margin-left: 48px;
     }
 
     .item {
@@ -68,6 +76,20 @@
     .item:hover {
       background: #eef4ff;
       border-color: #b8c9ea;
+    }
+
+    .item.masters-item {
+      border-left: 6px solid #d4a017;
+      background: #fffaf0;
+    }
+
+    .item-meta {
+      margin-top: 4px;
+      margin-left: 6px;
+      white-space: pre-line;
+      color: #666;
+      font-size: 14px;
+      line-height: 1.4;
     }
 
     .muted {
@@ -146,82 +168,6 @@
       return filename.replace(/\.json$/i, "");
     }
 
-function createLink(filename, sourceType) {
-  const wrapper = document.createElement("div");
-
-  const a = document.createElement("a");
-  a.className = "item";
-
-  if (sourceType === "live") {
-    a.href = `display_web.html?file=${encodeURIComponent(filename)}`;
-  } else {
-    a.href = `display_web.html?file=${encodeURIComponent(filename)}&source=github`;
-  }
-
-  a.textContent = prettyName(filename);
-
-  wrapper.appendChild(a);
-
-  // Only for archive files → add summary
-  if (sourceType === "archive") {
-    const summary = document.createElement("div");
-    summary.className = "muted";
-    summary.style.marginLeft = "6px";
-
-    summary.textContent = "Loading results...";
-    wrapper.appendChild(summary);
-
-    // Fetch JSON and extract top results
-    fetch(`./display_export/${encodeURIComponent(filename)}?ts=${Date.now()}`)
-      .then(res => res.json())
-      .then(data => {
-        const lines = data.standings_lines || [];
-
-        if (lines.length === 0) {
-          summary.textContent = "";
-          return;
-        }
-
-        // Extract names from standings lines
-        const extractName = (text) => {
-          return text.split(" -")[0].replace(/^\d+\.\s*/, "").trim();
-        };
-
-        const champion = extractName(lines[0]?.text || "");
-        const runner = extractName(lines[1]?.text || "");
-
-        // Chasers = same wins as runner-up
-        const runnerWins = (lines[1]?.text.match(/-(\d+)/) || [])[1];
-
-        const chasers = [];
-
-        for (let i = 2; i < lines.length; i++) {
-          const match = lines[i].text.match(/-(\d+)/);
-          if (!match) continue;
-
-          if (match[1] === runnerWins) {
-            chasers.push(extractName(lines[i].text));
-          } else {
-            break;
-          }
-        }
-
-        let txt = "";
-
-        if (champion) txt += "🏆 " + champion;
-        if (runner) txt += "\n🥈 " + runner;
-        if (chasers.length > 0) txt += "\n🎯 " + chasers.join(", ");
-
-        summary.textContent = txt;
-      })
-      .catch(() => {
-        summary.textContent = "";
-      });
-  }
-
-  return wrapper;
-}
-
     function getRepoInfo() {
       const host = window.location.hostname;
       const parts = window.location.pathname.split("/").filter(Boolean);
@@ -287,10 +233,201 @@ function createLink(filename, sourceType) {
       return archivePatterns.some(re => re.test(name));
     }
 
+    function extractTimestampKey(filename) {
+      const lower = filename.toLowerCase();
+
+      let m = lower.match(/_(\d{4})_(\d{2})_(\d{2})_(\d{6})\.json$/);
+      if (m) {
+        return `${m[1]}${m[2]}${m[3]}${m[4]}`;
+      }
+
+      m = lower.match(/_(\d{4})_(\d{2})_(\d{2})_(\d{2})_(\d{2})_(\d{2})\.json$/);
+      if (m) {
+        return `${m[1]}${m[2]}${m[3]}${m[4]}${m[5]}${m[6]}`;
+      }
+
+      m = lower.match(/_(\d{4})_(\d{2})_(\d{2})\.json$/);
+      if (m) {
+        return `${m[1]}${m[2]}${m[3]}000000`;
+      }
+
+      return "";
+    }
+
     function uniqueSortedNewestFirst(files) {
-      return Array.from(new Set(files)).sort((a, b) =>
-        b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" })
-      );
+      return Array.from(new Set(files)).sort((a, b) => {
+        const ta = extractTimestampKey(a);
+        const tb = extractTimestampKey(b);
+
+        if (ta && tb && ta !== tb) {
+          return tb.localeCompare(ta);
+        }
+
+        if (ta && !tb) return -1;
+        if (!ta && tb) return 1;
+
+        return b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" });
+      });
+    }
+
+    function extractNameFromStandingsText(text) {
+      if (!text) return "";
+      const stripped = text.replace(/^\d+\.\s*/, "");
+      const m = stripped.match(/^(.*?)\s+-\d+/);
+      return m ? m[1].trim() : stripped.trim();
+    }
+
+    function extractWinsFromStandingsText(text) {
+      if (!text) return null;
+      const m = text.match(/\s-(\d+)\s+\(\d+-\d+\)/);
+      if (m) return parseInt(m[1], 10);
+
+      const m2 = text.match(/\s-(\d+)/);
+      if (m2) return parseInt(m2[1], 10);
+
+      return null;
+    }
+
+    function getChampionFromData(data) {
+      const lines = data.standings_lines || [];
+      if (!lines.length) return "";
+      return extractNameFromStandingsText(lines[0].text || "");
+    }
+
+    function getRunnerUpFromData(data, championName) {
+      const rounds = data.past_rounds || [];
+      if (!rounds.length || !championName) {
+        return "";
+      }
+
+      const newestRound = rounds[0];
+      const lines = newestRound.lines || [];
+
+      for (const line of lines) {
+        const segs = line.segments || [];
+        if (segs.length < 4) continue;
+
+        const seg1 = (segs[1] && segs[1].text ? segs[1].text : "").replace(/\s*✓$/, "").trim();
+        const seg3 = (segs[3] && segs[3].text ? segs[3].text : "").trim();
+
+        if (seg1 === championName) {
+          return seg3;
+        }
+
+        if (seg3 === championName) {
+          return seg1;
+        }
+      }
+
+      return "";
+    }
+
+    function getChasersFromData(data, championName, runnerUpName) {
+      const lines = data.standings_lines || [];
+      if (!lines.length) return [];
+
+      let runnerWins = null;
+
+      for (const line of lines) {
+        const name = extractNameFromStandingsText(line.text || "");
+        if (name === runnerUpName) {
+          runnerWins = extractWinsFromStandingsText(line.text || "");
+          break;
+        }
+      }
+
+      if (runnerWins === null) {
+        return [];
+      }
+
+      const out = [];
+
+      for (const line of lines) {
+        const name = extractNameFromStandingsText(line.text || "");
+        const wins = extractWinsFromStandingsText(line.text || "");
+
+        if (!name) continue;
+        if (name === championName) continue;
+        if (name === runnerUpName) continue;
+
+        if (wins === runnerWins) {
+          out.push(name);
+        }
+      }
+
+      return out;
+    }
+
+    function createLink(filename, sourceType) {
+      if (sourceType !== "archive") {
+        const a = document.createElement("a");
+        a.className = "item";
+        a.href = `display_web.html?file=${encodeURIComponent(filename)}`;
+        a.textContent = prettyName(filename);
+        return a;
+      }
+
+      const wrapper = document.createElement("div");
+      wrapper.className = "archive-row";
+
+      const lower = filename.toLowerCase();
+      const isMasters = lower.includes("masters");
+
+      if (!isMasters) {
+        wrapper.classList.add("offset-row");
+      }
+
+      const a = document.createElement("a");
+      a.className = "item";
+      if (isMasters) {
+        a.classList.add("masters-item");
+      }
+
+      a.href = `display_web.html?file=${encodeURIComponent(filename)}&source=github`;
+      a.textContent = prettyName(filename);
+
+      wrapper.appendChild(a);
+
+      const summary = document.createElement("div");
+      summary.className = "item-meta";
+      summary.textContent = "Loading results...";
+      wrapper.appendChild(summary);
+
+      fetch(`./display_export/${encodeURIComponent(filename)}?ts=${Date.now()}`, {
+        cache: "no-store"
+      })
+        .then(res => {
+          if (!res.ok) {
+            throw new Error("HTTP " + res.status);
+          }
+          return res.json();
+        })
+        .then(data => {
+          const champion = getChampionFromData(data);
+          const runnerUp = getRunnerUpFromData(data, champion);
+          const chasers = getChasersFromData(data, champion, runnerUp);
+
+          const lines = [];
+
+          if (champion) {
+            lines.push("🏆 " + champion);
+          }
+
+          if (runnerUp) {
+            lines.push("🥈 " + runnerUp);
+          }
+
+          if (chasers.length > 0) {
+            lines.push("🎯 " + chasers.join(", "));
+          }
+
+          summary.textContent = lines.join("\n");
+        })
+        .catch(() => {
+          summary.textContent = "";
+        });
+
+      return wrapper;
     }
 
     function renderFileList(target, files, sourceType, emptyText) {
@@ -340,10 +477,12 @@ function createLink(filename, sourceType) {
 
       const exportLiveFiles = exportFiles.filter(name => !isArchiveFile(name));
       const exportArchiveLikeFiles = exportFiles.filter(name => isArchiveFile(name));
+
       const allArchiveFiles = uniqueSortedNewestFirst([
         ...archiveFolderFiles,
         ...exportArchiveLikeFiles
       ]);
+
       const liveFiles = uniqueSortedNewestFirst(exportLiveFiles);
 
       renderFileList(
