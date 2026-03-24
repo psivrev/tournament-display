@@ -299,8 +299,8 @@
     }
 
     function getRunnerUpFromData(data, championName) {
-      if (data.runner_up_name) {
-        return String(data.runner_up_name).trim();
+      if (Object.prototype.hasOwnProperty.call(data, "runner_up_name")) {
+        return String(data.runner_up_name || "").trim();
       }
 
       const rounds = data.past_rounds || [];
@@ -329,7 +329,7 @@
 
       return "";
     }
-
+    
     function getChasersFromData(data, championName, runnerUpName) {
       if (Array.isArray(data.chasers_names)) {
         return data.chasers_names
