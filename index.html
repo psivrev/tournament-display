@@ -289,6 +289,10 @@
     }
 
     function getChampionFromData(data) {
+      if (data.champion_name) {
+        return String(data.champion_name).trim();
+      }
+
       const lines = data.standings_lines || [];
       if (!lines.length) return "";
       return extractNameFromStandingsText(lines[0].text || "");
