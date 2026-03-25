@@ -189,10 +189,39 @@
       };
     }
 
-    function apiUrl(owner, repo, branch, path) {
+
+    function apiFileUrl(owner, repo, branch, path) {
       return `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
     }
 
+    async function loadArchiveJsonFromGitHubApi(filename) {
+      const repoInfo = getRepoInfo();
+      const url = apiFileUrl(
+        repoInfo.owner,
+        repoInfo.repo,
+        repoInfo.branch,
+        "display_export/" + filename
+      );
+
+      const res = await fetch(url, { cache: "no-store" });
+
+      if (!res.ok) {
+        throw new Error("GitHub API HTTP " + res.status);
+      }
+
+      const data = await res.json();
+
+      if (!data || typeof data.content !== "string") {
+        throw new Error("GitHub API returned no file content");
+      }
+
+      const base64Content = data.content.replace(/\n/g, "");
+      const jsonText = atob(base64Content);
+
+      return JSON.parse(jsonText);
+    }
+
+    
     async function loadFolderJsonFiles(owner, repo, branch, folderPath) {
       const url = apiUrl(owner, repo, branch, folderPath);
       const res = await fetch(url, { cache: "no-store" });
