@@ -190,6 +190,11 @@
     }
 
 
+    function apiUrl(owner, repo, branch, path) {
+      return `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
+    }
+    
+
     function apiFileUrl(owner, repo, branch, path) {
       return `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
     }
