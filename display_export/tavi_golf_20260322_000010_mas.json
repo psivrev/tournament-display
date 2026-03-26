@@ -3,11 +3,14 @@
   "round_no": 4,
   "points_this_round": 9,
   "generated_at": "2026-03-22T00:45:00",
+
   "champion_name": "Dicky Biddle",
   "runner_up_name": "Plamen Sivrev",
   "chasers_names": ["Matthew Hibbert", "Caroline Biddle", "Warner Solomon"],
+
   "current_round_lines": [],
   "preview_text": "Tournament complete.",
+
   "standings_lines": [
     {"text": "1. Dicky Biddle -4   (4-0)", "colour": "grey", "bold": false},
     {"text": "2. Plamen Sivrev -3   (3-1)", "colour": "green", "bold": false},
@@ -26,6 +29,64 @@
     {"text": "15. Charles Hill -1   (1-3)", "colour": "blue", "bold": false},
     {"text": "16. Andy Daniels -0   (0-4)", "colour": "black", "bold": false}
   ],
+
   "side_pools_text": "",
-  "past_rounds": []
+
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Dicky Biddle ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Plamen Sivrev", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Matthew Hibbert ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "green"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Caroline Biddle ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "green"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Warner Solomon ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "green"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Lewis Kershaw ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "red"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Lewis Burke ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Gary Marrs", "colour": "red"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Richard Robert Davies ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "red"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Charles Hill ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "red"}]}
+      ]
+    },
+
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Plamen Sivrev ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Warner Solomon", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Dicky Biddle ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Danny Pilgrim ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Gary Marrs", "colour": "red"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Matthew Hibbert ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "red"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Caroline Biddle ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Damon Dennis ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Chris Townsend ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "blue"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Lewis Kershaw ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Plamen Sivrev ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Caroline Biddle", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Warner Solomon ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Dicky Biddle ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Rosemary Whitehouse ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Danny Pilgrim ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "black"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Gary Marrs ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "black"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Lewis Burke ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Kershaw", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Matthew Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Caroline Biddle ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Plamen Sivrev ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Warner Solomon ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Richard Robert Davies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Gary Marrs", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "David Martin ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Kershaw", "colour": "black"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Dicky Biddle ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "black"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Rosemary Whitehouse ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Damon Dennis ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Matthew Hibbert", "colour": "black"}]}
+      ]
+    }
+  ]
 }
