@@ -52,7 +52,7 @@
         {"segments": [{"text": "M3: "}, {"text": "Lee Woods ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Paula Holloway", "colour": "red"}]},
         {"segments": [{"text": "M4: "}, {"text": "Jean Findlay ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "red"}]},
         {"segments": [{"text": "M5: "}, {"text": "TJ Jefferies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Roberts", "colour": "blue"}]},
-        {"segments": [{"text": "M6: "}, {"text": "Fenella Haffenden ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Fenella Haffenden ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]},
         {"segments": [{"text": "M7: "}, {"text": "Ron Walls ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Patrick Greenstreet", "colour": "black"}]}
       ]
     },
