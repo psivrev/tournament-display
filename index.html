@@ -267,10 +267,21 @@
       return archivePatterns.some(re => re.test(name));
     }
 
+
     function extractTimestampKey(filename) {
       const lower = filename.toLowerCase();
 
-      let m = lower.match(/_(\d{4})_(\d{2})_(\d{2})_(\d{6})\.json$/);
+      let m = lower.match(/_(\d{8})_(\d{6})_[a-z0-9]+\.json$/);
+      if (m) {
+        return `${m[1]}${m[2]}`;
+      }
+
+      m = lower.match(/_(\d{8})_(\d{6})\.json$/);
+      if (m) {
+        return `${m[1]}${m[2]}`;
+      }
+
+      m = lower.match(/_(\d{4})_(\d{2})_(\d{2})_(\d{6})\.json$/);
       if (m) {
         return `${m[1]}${m[2]}${m[3]}${m[4]}`;
       }
@@ -287,6 +298,7 @@
 
       return "";
     }
+    
 
     function uniqueSortedNewestFirst(files) {
       return Array.from(new Set(files)).sort((a, b) => {
