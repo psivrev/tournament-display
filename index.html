@@ -431,7 +431,10 @@
       wrapper.className = "archive-row";
 
       const lower = filename.toLowerCase();
-      const isMasters = lower.includes("masters");
+      const isMasters =
+        lower.includes("masters") ||
+        lower.includes("_mas_") ||
+        lower.endsWith("_mas.json");
 
       if (!isMasters) {
         wrapper.classList.add("offset-row");
@@ -453,15 +456,7 @@
       summary.textContent = "Loading results...";
       wrapper.appendChild(summary);
 
-      fetch(`./display_export/${encodeURIComponent(filename)}?ts=${Date.now()}`, {
-        cache: "no-store"
-      })
-        .then(res => {
-          if (!res.ok) {
-            throw new Error("HTTP " + res.status);
-          }
-          return res.json();
-        })
+      loadArchiveJsonFromGitHubApi(filename)
         .then(data => {
           const champion = getChampionFromData(data);
           const runnerUp = getRunnerUpFromData(data, champion);
@@ -489,6 +484,8 @@
 
       return wrapper;
     }
+    
+    
 
     function renderFileList(target, files, sourceType, emptyText) {
       clearList(target);
