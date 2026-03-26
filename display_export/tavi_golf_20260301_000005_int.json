@@ -1,0 +1,73 @@
+{
+  "tournament_name": "3rd Sunday Funday at Tavistock Golf Club - Intermediates",
+  "round_no": 4,
+  "points_this_round": 7,
+  "generated_at": "2026-03-01T00:45:00",
+
+  "champion_name": "Lisa Jackson",
+  "runner_up_name": "",
+  "chasers_names": ["Emily Hibbert", "Patrick Greenstreet"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Lisa Jackson -4   (4-0)", "colour": "grey", "bold": false},
+    {"text": "2. Emily Hibbert -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "3. Patrick Greenstreet -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "4. Jean Findlay -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "5. Linda Molesworth -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "6. Sue Harrison -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "7. Wendy McGowan -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "8. Fenella Haffenden -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "9. Sarah Harrison -1   (1-3)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Emily Hibbert ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Linda Molesworth", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Patrick Greenstreet ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Jean Findlay ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Lisa Jackson ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "green"}]}
+      ]
+    },
+
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Lisa Jackson ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Patrick Greenstreet", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Linda Molesworth ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Emily Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Sue Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Jean Findlay ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Patrick Greenstreet ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Emily Hibbert", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Lisa Jackson ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Sarah Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Linda Molesworth ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Jean Findlay", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Sue Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Emily Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Patrick Greenstreet ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Linda Molesworth", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Jean Findlay", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Lisa Jackson ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Fenella Haffenden ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    }
+  ]
+}
