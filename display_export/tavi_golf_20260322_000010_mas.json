@@ -37,13 +37,13 @@
       "round_no": 4,
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Dicky Biddle ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Plamen Sivrev", "colour": "green"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Matthew Hibbert ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "green"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Caroline Biddle ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "green"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Warner Solomon ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "green"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Lewis Kershaw ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "red"}]},
-        {"segments": [{"text": "M6: "}, {"text": "Lewis Burke ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Gary Marrs", "colour": "red"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Richard Robert Davies ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "red"}]},
-        {"segments": [{"text": "M8: "}, {"text": "Charles Hill ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "red"}]}
+        {"segments": [{"text": "M2: "}, {"text": "Matthew Hibbert ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Caroline Biddle ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "red"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Warner Solomon ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "red"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Lewis Kershaw ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Lewis Burke ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Gary Marrs", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Richard Robert Davies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Charles Hill ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "black"}]}
       ]
     },
 
@@ -52,12 +52,12 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Plamen Sivrev ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Warner Solomon", "colour": "red"}]},
         {"segments": [{"text": "M2: "}, {"text": "Dicky Biddle ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "red"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Danny Pilgrim ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Gary Marrs", "colour": "red"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Matthew Hibbert ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Danny Pilgrim ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Gary Marrs", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Matthew Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "blue"}]},
         {"segments": [{"text": "M5: "}, {"text": "Caroline Biddle ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "blue"}]},
         {"segments": [{"text": "M6: "}, {"text": "Damon Dennis ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Chris Townsend ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "blue"}]},
-        {"segments": [{"text": "M8: "}, {"text": "Lewis Kershaw ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "blue"}]}
+        {"segments": [{"text": "M7: "}, {"text": "Chris Townsend ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Andy Daniels", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Lewis Kershaw ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "black"}]}
       ]
     },
 
