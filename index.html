@@ -1,560 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Backgammon Tournament Display</title>
-
   <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+      --masters-bg: #fff7d6;
+      --live-bg: #eefbf1;
+      --error-bg: #fff1f2;
+      --error-border: #fecdd3;
+      --link: #1d4ed8;
+      --link-hover: #1e40af;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 30px;
-      background: #f5f5f5;
-      color: #222;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
     }
 
     .wrap {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
+      padding: 20px 16px 40px;
     }
 
     h1 {
-      margin-top: 0;
-      margin-bottom: 10px;
+      margin: 0 0 16px;
+      font-size: 28px;
     }
 
-    .intro {
-      margin-bottom: 30px;
-      color: #555;
+    h2 {
+      margin: 28px 0 12px;
+      font-size: 22px;
     }
 
-    .section {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 24px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    .section-note {
+      color: var(--muted);
+      margin: 0 0 12px;
     }
 
-    .section h2 {
-      margin-top: 0;
-      margin-bottom: 8px;
-    }
-
-    .section p {
-      margin-top: 0;
-      color: #666;
-    }
-
-    .list {
-      display: flex;
-      flex-direction: column;
-      gap: 12px;
-    }
-
-    .archive-row {
-      display: block;
-    }
-
-    .archive-row.offset-row {
-      margin-left: 48px;
-    }
-
-    .item {
-      display: block;
-      padding: 12px 14px;
-      background: #f8f9fb;
-      border: 1px solid #e3e7ee;
+    .status-box {
+      margin: 10px 0 18px;
+      padding: 10px 12px;
+      border: 1px solid var(--border);
       border-radius: 8px;
-      text-decoration: none;
-      color: #1d3557;
-      font-weight: 600;
-      transition: background 0.15s ease, border-color 0.15s ease;
-    }
-
-    .item:hover {
-      background: #eef4ff;
-      border-color: #b8c9ea;
-    }
-
-    .item.masters-item {
-      border-left: 6px solid #d4a017;
-      background: #fffaf0;
-    }
-
-    .item-meta {
-      margin-top: 4px;
-      margin-left: 6px;
-      white-space: pre-line;
-      color: #666;
+      background: #fff;
+      color: var(--muted);
       font-size: 14px;
-      line-height: 1.4;
     }
 
-    .muted {
-      color: #888;
+    .status-box.error {
+      background: var(--error-bg);
+      border-color: var(--error-border);
+      color: #9f1239;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      padding: 14px 14px 12px;
+    }
+
+    .card.live {
+      background: var(--live-bg);
+    }
+
+    .card.masters {
+      background: var(--masters-bg);
+    }
+
+    .card.archive-non-masters {
+      margin-left: 16px;
+    }
+
+    .title-link {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 17px;
+    }
+
+    .title-link:hover {
+      color: var(--link-hover);
+      text-decoration: underline;
+    }
+
+    .file-name {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      word-break: break-all;
+    }
+
+    .meta {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .summary {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .summary-line {
+      margin-top: 4px;
+    }
+
+    .empty {
+      color: var(--muted);
       font-style: italic;
+      padding: 8px 0;
     }
 
-    .error {
-      color: #b00020;
-      font-weight: 600;
-    }
-
-    .badge-live {
-      display: inline-block;
-      margin-left: 8px;
-      padding: 2px 8px;
+    .small {
       font-size: 12px;
-      font-weight: 700;
-      color: white;
-      background: #d62828;
-      border-radius: 999px;
-      vertical-align: middle;
+      color: var(--muted);
     }
 
-    .badge-archive {
-      display: inline-block;
-      margin-left: 8px;
-      padding: 2px 8px;
-      font-size: 12px;
-      font-weight: 700;
-      color: white;
-      background: #457b9d;
-      border-radius: 999px;
-      vertical-align: middle;
+    .footer-note {
+      margin-top: 28px;
+      font-size: 13px;
+      color: var(--muted);
     }
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>Backgammon Tournament Display</h1>
-    <p class="intro">
-      Select a tournament below. Live tournaments open from the live system.
-      Archived tournaments open from the published GitHub files.
-    </p>
 
-    <div class="section">
-      <h2>Live Tournaments <span class="badge-live">LIVE</span></h2>
-      <p>These open from Firebase and update automatically.</p>
-      <div id="live-list" class="list">
-        <div class="muted">Loading live tournaments...</div>
-      </div>
-    </div>
+    <h2>Live Tournaments</h2>
+    <p class="section-note">Current live tournaments pushed from the app.</p>
+    <div id="live-status" class="status-box">Loading live tournaments...</div>
+    <div id="live-list" class="cards"></div>
 
-    <div class="section">
-      <h2>Archive Tournaments <span class="badge-archive">ARCHIVE</span></h2>
-      <p>These open from GitHub published JSON snapshots.</p>
-      <div id="archive-list" class="list">
-        <div class="muted">Loading archive tournaments...</div>
-      </div>
+    <h2>Archive Tournaments</h2>
+    <p class="section-note">Completed and historical tournaments.</p>
+    <div id="archive-status" class="status-box">Loading archive tournaments...</div>
+    <div id="archive-list" class="cards"></div>
+
+    <div class="footer-note">
+      This page is tolerant of deleted or broken files and will skip them instead of stopping the whole page.
     </div>
   </div>
 
   <script>
-    const liveList = document.getElementById("live-list");
-    const archiveList = document.getElementById("archive-list");
+    const OWNER = "psivrev";
+    const REPO = "tournament-display";
+    const BRANCH = "main";
+    const DISPLAY_DIR = "display_export";
 
-    function clearAndSetError(target, text) {
-      target.innerHTML = `<div class="error">${text}</div>`;
+    const GITHUB_CONTENTS_API =
+      `https://api.github.com/repos/${OWNER}/${REPO}/contents/${DISPLAY_DIR}?ref=${BRANCH}`;
+
+    const RAW_BASE =
+      `https://raw.githubusercontent.com/${OWNER}/${REPO}/${BRANCH}/${DISPLAY_DIR}/`;
+
+    const liveStatusEl = document.getElementById("live-status");
+    const archiveStatusEl = document.getElementById("archive-status");
+    const liveListEl = document.getElementById("live-list");
+    const archiveListEl = document.getElementById("archive-list");
+
+    function setStatus(el, message, isError = false) {
+      el.textContent = message;
+      el.classList.toggle("error", isError);
     }
 
-    function clearList(target) {
-      target.innerHTML = "";
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
     }
 
-    function prettyName(filename) {
-      return filename.replace(/\.json$/i, "");
+    function isArchiveFileName(fileName) {
+      return /^.+_\d{8}_\d{6}_(mas|int|beg)\.json$/i.test(fileName);
     }
 
-    function getRepoInfo() {
-      const host = window.location.hostname;
-      const parts = window.location.pathname.split("/").filter(Boolean);
-
-      if (host.endsWith(".github.io")) {
-        const owner = host.split(".")[0];
-        const repo = parts.length > 0 ? parts[0] : owner + ".github.io";
-        return {
-          owner,
-          repo,
-          branch: "main"
-        };
-      }
-
-      return {
-        owner: "psivrev",
-        repo: "tournament-display",
-        branch: "main"
-      };
+    function isJsonFile(fileName) {
+      return /\.json$/i.test(fileName);
     }
 
-
-    function apiUrl(owner, repo, branch, path) {
-      return `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
-    }
-    
-
-    function apiFileUrl(owner, repo, branch, path) {
-      return `https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${branch}`;
+    function isLiveDisplayFile(fileName) {
+      if (!isJsonFile(fileName)) return false;
+      if (fileName === "current_display.json") return false;
+      if (isArchiveFileName(fileName)) return false;
+      return true;
     }
 
-    async function loadArchiveJsonFromGitHubApi(filename) {
-      const repoInfo = getRepoInfo();
-      const url = apiFileUrl(
-        repoInfo.owner,
-        repoInfo.repo,
-        repoInfo.branch,
-        "display_export/" + filename
-      );
+    function parseArchiveTimestamp(fileName) {
+      const match = fileName.match(/_(\d{8})_(\d{6})_(mas|int|beg)\.json$/i);
+      if (!match) return null;
 
-      const res = await fetch(url, { cache: "no-store" });
+      const datePart = match[1];
+      const timePart = match[2];
 
-      if (!res.ok) {
-        throw new Error("GitHub API HTTP " + res.status);
-      }
+      const yyyy = Number(datePart.slice(0, 4));
+      const mm = Number(datePart.slice(4, 6)) - 1;
+      const dd = Number(datePart.slice(6, 8));
+      const hh = Number(timePart.slice(0, 2));
+      const mi = Number(timePart.slice(2, 4));
+      const ss = Number(timePart.slice(4, 6));
 
-      const data = await res.json();
-
-      if (!data || typeof data.content !== "string") {
-        throw new Error("GitHub API returned no file content");
-      }
-
-      const base64Content = data.content.replace(/\n/g, "");
-      const jsonText = atob(base64Content);
-
-      return JSON.parse(jsonText);
+      return new Date(Date.UTC(yyyy, mm, dd, hh, mi, ss));
     }
 
-    
-    async function loadFolderJsonFiles(owner, repo, branch, folderPath) {
-      const url = apiUrl(owner, repo, branch, folderPath);
-      const res = await fetch(url, { cache: "no-store" });
-
-      if (!res.ok) {
-        const txt = await res.text();
-        throw new Error(`GitHub API ${res.status} for ${folderPath}\n${txt}`);
-      }
-
-      const data = await res.json();
-
-      if (!Array.isArray(data)) {
-        throw new Error(`Unexpected response for ${folderPath}`);
-      }
-
-      return data
-        .filter(item => item.type === "file" && item.name.toLowerCase().endsWith(".json"))
-        .map(item => item.name);
+    function formatDateTime(date) {
+      if (!(date instanceof Date) || Number.isNaN(date.getTime())) return "";
+      return date.toLocaleString("en-GB", {
+        year: "numeric",
+        month: "short",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        timeZone: "UTC"
+      }) + " UTC";
     }
 
-    function isArchiveFile(filename) {
-      const name = filename.toLowerCase();
-
-      if (!name.endsWith(".json")) {
-        return false;
-      }
-
-      const archivePatterns = [
-        /(?:^|_)(19|20)\d{2}(?:_|-)/,
-        /(?:^|_)(19|20)\d{2}\.json$/,
-        /\d{8,}/,
-        /archive/,
-        /published/,
-        /snapshot/,
-        /final/
-      ];
-
-      return archivePatterns.some(re => re.test(name));
+    function isMastersFile(fileName, tournamentName) {
+      const lowerFile = String(fileName || "").toLowerCase();
+      const lowerName = String(tournamentName || "").toLowerCase();
+      return lowerFile.endsWith("_mas.json") || lowerName.includes("masters");
     }
 
-
-    function extractTimestampKey(filename) {
-      const lower = filename.toLowerCase();
-
-      let m = lower.match(/_(\d{8})_(\d{6})_[a-z0-9]+\.json$/);
-      if (m) {
-        return `${m[1]}${m[2]}`;
-      }
-
-      m = lower.match(/_(\d{8})_(\d{6})\.json$/);
-      if (m) {
-        return `${m[1]}${m[2]}`;
-      }
-
-      m = lower.match(/_(\d{4})_(\d{2})_(\d{2})_(\d{6})\.json$/);
-      if (m) {
-        return `${m[1]}${m[2]}${m[3]}${m[4]}`;
-      }
-
-      m = lower.match(/_(\d{4})_(\d{2})_(\d{2})_(\d{2})_(\d{2})_(\d{2})\.json$/);
-      if (m) {
-        return `${m[1]}${m[2]}${m[3]}${m[4]}${m[5]}${m[6]}`;
-      }
-
-      m = lower.match(/_(\d{4})_(\d{2})_(\d{2})\.json$/);
-      if (m) {
-        return `${m[1]}${m[2]}${m[3]}000000`;
-      }
-
-      return "";
+    function archiveIndentClass(fileName, tournamentName) {
+      return isMastersFile(fileName, tournamentName) ? "" : "archive-non-masters";
     }
-    
 
-    function uniqueSortedNewestFirst(files) {
-      return Array.from(new Set(files)).sort((a, b) => {
-        const ta = extractTimestampKey(a);
-        const tb = extractTimestampKey(b);
+    function categoryRankFromFile(fileName) {
+      const lower = fileName.toLowerCase();
+      if (lower.endsWith("_mas.json")) return 3;
+      if (lower.endsWith("_int.json")) return 2;
+      if (lower.endsWith("_beg.json")) return 1;
+      return 0;
+    }
 
-        if (ta && tb && ta !== tb) {
-          return tb.localeCompare(ta);
+    async function fetchJsonSafe(url) {
+      try {
+        const response = await fetch(url, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
         }
-
-        if (ta && !tb) return -1;
-        if (!ta && tb) return 1;
-
-        return b.localeCompare(a, undefined, { numeric: true, sensitivity: "base" });
-      });
-    }
-
-    function extractNameFromStandingsText(text) {
-      if (!text) return "";
-      const stripped = text.replace(/^\d+\.\s*/, "");
-      const m = stripped.match(/^(.*?)\s+-\d+/);
-      return m ? m[1].trim() : stripped.trim();
-    }
-
-    function extractWinsFromStandingsText(text) {
-      if (!text) return null;
-      const m = text.match(/\s-(\d+)\s+\(\d+-\d+\)/);
-      if (m) return parseInt(m[1], 10);
-
-      const m2 = text.match(/\s-(\d+)/);
-      if (m2) return parseInt(m2[1], 10);
-
-      return null;
-    }
-
-    function getChampionFromData(data) {
-      if (data.champion_name) {
-        return String(data.champion_name).trim();
+        return await response.json();
+      } catch (err) {
+        console.warn("Skipping unreadable JSON:", url, err);
+        return null;
       }
-
-      const lines = data.standings_lines || [];
-      if (!lines.length) return "";
-      return extractNameFromStandingsText(lines[0].text || "");
     }
 
-    function getRunnerUpFromData(data, championName) {
-      if (Object.prototype.hasOwnProperty.call(data, "runner_up_name")) {
-        return String(data.runner_up_name || "").trim();
-      }
-
-      const rounds = data.past_rounds || [];
-      if (!rounds.length || !championName) {
-        return "";
-      }
-
-      const newestRound = rounds[0];
-      const lines = newestRound.lines || [];
-
-      for (const line of lines) {
-        const segs = line.segments || [];
-        if (segs.length < 4) continue;
-
-        const seg1 = (segs[1] && segs[1].text ? segs[1].text : "").replace(/\s*✓$/, "").trim();
-        const seg3 = (segs[3] && segs[3].text ? segs[3].text : "").trim();
-
-        if (seg1 === championName) {
-          return seg3;
+    async function listDisplayFilesSafe() {
+      try {
+        const response = await fetch(GITHUB_CONTENTS_API, { cache: "no-store" });
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
         }
+        const data = await response.json();
+        if (!Array.isArray(data)) {
+          throw new Error("GitHub contents response was not an array");
+        }
+        return data.filter(item => item && item.type === "file" && typeof item.name === "string");
+      } catch (err) {
+        console.error("Could not list display files:", err);
+        return null;
+      }
+    }
 
-        if (seg3 === championName) {
-          return seg1;
+    function buildSummaryHtml(data) {
+      const champion = data?.champion_name ?? "";
+      const runnerUp = data?.runner_up_name ?? "";
+      const chasers = Array.isArray(data?.chasers_names) ? data.chasers_names.filter(Boolean) : [];
+
+      let html = "";
+
+      if (champion) {
+        html += `<div class="summary-line"><strong>Champion:</strong> ${escapeHtml(champion)}</div>`;
+      }
+
+      if (data && Object.prototype.hasOwnProperty.call(data, "runner_up_name")) {
+        if (runnerUp) {
+          html += `<div class="summary-line"><strong>Runner-up:</strong> ${escapeHtml(runnerUp)}</div>`;
         }
       }
 
-      return "";
+      if (chasers.length > 0) {
+        html += `<div class="summary-line"><strong>Chasers:</strong> ${escapeHtml(chasers.join(", "))}</div>`;
+      }
+
+      if (!html) {
+        html = `<div class="summary-line small">No summary available.</div>`;
+      }
+
+      return html;
     }
-    
-    function getChasersFromData(data, championName, runnerUpName) {
-      if (Array.isArray(data.chasers_names)) {
-        return data.chasers_names
-          .map(x => String(x).trim())
-          .filter(x => x);
-      }
 
-      const lines = data.standings_lines || [];
-      if (!lines.length) return [];
+    function buildLiveCard(fileName, data) {
+      const title = data?.tournament_name || fileName.replace(/\.json$/i, "");
+      const roundNo = data?.round_no ?? data?.round ?? "";
+      const points = data?.points_this_round ?? "";
+      const link = `display_web.html?file=${encodeURIComponent(fileName)}`;
+      const mastersClass = isMastersFile(fileName, title) ? "masters" : "";
 
-      let runnerWins = null;
-
-      for (const line of lines) {
-        const name = extractNameFromStandingsText(line.text || "");
-        if (name === runnerUpName) {
-          runnerWins = extractWinsFromStandingsText(line.text || "");
-          break;
-        }
-      }
-
-      if (runnerWins === null) {
-        return [];
-      }
-
-      const out = [];
-
-      for (const line of lines) {
-        const name = extractNameFromStandingsText(line.text || "");
-        const wins = extractWinsFromStandingsText(line.text || "");
-
-        if (!name) continue;
-        if (name === championName) continue;
-        if (name === runnerUpName) continue;
-
-        if (wins === runnerWins) {
-          out.push(name);
-        }
-      }
-
-      return out;
+      return `
+        <div class="card live ${mastersClass}">
+          <a class="title-link" href="${link}">${escapeHtml(title)}</a>
+          <div class="file-name">${escapeHtml(fileName)}</div>
+          <div class="meta">
+            ${roundNo !== "" ? `Round ${escapeHtml(roundNo)}` : "Round unknown"}
+            ${points !== "" ? ` · ${escapeHtml(points)} points` : ""}
+          </div>
+          <div class="summary">
+            ${buildSummaryHtml(data)}
+          </div>
+        </div>
+      `;
     }
-    
-    function createLink(filename, sourceType) {
-      if (sourceType !== "archive") {
-        const a = document.createElement("a");
-        a.className = "item";
-        a.href = `display_web.html?file=${encodeURIComponent(filename)}`;
-        a.textContent = prettyName(filename);
-        return a;
-      }
 
-      const wrapper = document.createElement("div");
-      wrapper.className = "archive-row";
+    function buildArchiveCard(fileName, data) {
+      const title = data?.tournament_name || fileName.replace(/\.json$/i, "");
+      const generatedAt = data?.generated_at ? new Date(data.generated_at) : parseArchiveTimestamp(fileName);
+      const link = `display_web.html?file=${encodeURIComponent(fileName)}&source=github`;
+      const mastersClass = isMastersFile(fileName, title) ? "masters" : "";
+      const indentClass = archiveIndentClass(fileName, title);
 
-      const lower = filename.toLowerCase();
-      const isMasters =
-        lower.includes("masters") ||
-        lower.includes("_mas_") ||
-        lower.endsWith("_mas.json");
-
-      if (!isMasters) {
-        wrapper.classList.add("offset-row");
-      }
-
-      const a = document.createElement("a");
-      a.className = "item";
-      if (isMasters) {
-        a.classList.add("masters-item");
-      }
-
-      a.href = `display_web.html?file=${encodeURIComponent(filename)}&source=github`;
-      a.textContent = prettyName(filename);
-
-      wrapper.appendChild(a);
-
-      const summary = document.createElement("div");
-      summary.className = "item-meta";
-      summary.textContent = "Loading results...";
-      wrapper.appendChild(summary);
-
-      loadArchiveJsonFromGitHubApi(filename)
-        .then(data => {
-          const champion = getChampionFromData(data);
-          const runnerUp = getRunnerUpFromData(data, champion);
-          const chasers = getChasersFromData(data, champion, runnerUp);
-
-          const lines = [];
-
-          if (champion) {
-            lines.push("🏆 " + champion);
-          }
-
-          if (runnerUp) {
-            lines.push("🥈 " + runnerUp);
-          }
-
-          if (chasers.length > 0) {
-            lines.push("🎯 " + chasers.join(", "));
-          }
-
-          summary.textContent = lines.join("\n");
-        })
-        .catch(() => {
-          summary.textContent = "";
-        });
-
-      return wrapper;
+      return `
+        <div class="card ${mastersClass} ${indentClass}">
+          <a class="title-link" href="${link}">${escapeHtml(title)}</a>
+          <div class="file-name">${escapeHtml(fileName)}</div>
+          <div class="meta">${escapeHtml(formatDateTime(generatedAt))}</div>
+          <div class="summary">
+            ${buildSummaryHtml(data)}
+          </div>
+        </div>
+      `;
     }
-    
-    
 
-    function renderFileList(target, files, sourceType, emptyText) {
-      clearList(target);
+    async function loadLiveTournaments(fileItems) {
+      const liveFiles = fileItems
+        .map(item => item.name)
+        .filter(isLiveDisplayFile)
+        .sort((a, b) => a.localeCompare(b));
 
-      if (files.length === 0) {
-        target.innerHTML = `<div class="muted">${emptyText}</div>`;
+      if (liveFiles.length === 0) {
+        liveListEl.innerHTML = `<div class="empty">No live tournaments found.</div>`;
+        setStatus(liveStatusEl, "No live tournaments found.");
         return;
       }
 
-      for (const file of files) {
-        target.appendChild(createLink(file, sourceType));
+      const loaded = [];
+
+      for (const fileName of liveFiles) {
+        const data = await fetchJsonSafe(RAW_BASE + encodeURIComponent(fileName));
+        if (!data) continue;
+        loaded.push({ fileName, data });
       }
+
+      if (loaded.length === 0) {
+        liveListEl.innerHTML = `<div class="empty">No readable live tournament files found.</div>`;
+        setStatus(liveStatusEl, "Live tournament files were found, but none could be read.", true);
+        return;
+      }
+
+      liveListEl.innerHTML = loaded.map(item => buildLiveCard(item.fileName, item.data)).join("");
+      setStatus(liveStatusEl, `Loaded ${loaded.length} live tournament${loaded.length === 1 ? "" : "s"}.`);
+    }
+
+    async function loadArchiveTournaments(fileItems) {
+      const archiveFiles = fileItems
+        .map(item => item.name)
+        .filter(isArchiveFileName)
+        .sort((a, b) => {
+          const dateA = parseArchiveTimestamp(a);
+          const dateB = parseArchiveTimestamp(b);
+
+          const timeA = dateA ? dateA.getTime() : 0;
+          const timeB = dateB ? dateB.getTime() : 0;
+          if (timeA !== timeB) return timeB - timeA;
+
+          return categoryRankFromFile(b) - categoryRankFromFile(a);
+        });
+
+      if (archiveFiles.length === 0) {
+        archiveListEl.innerHTML = `<div class="empty">No archive tournaments found.</div>`;
+        setStatus(archiveStatusEl, "No archive tournaments found.");
+        return;
+      }
+
+      const loaded = [];
+
+      for (const fileName of archiveFiles) {
+        const data = await fetchJsonSafe(RAW_BASE + encodeURIComponent(fileName));
+        if (!data) continue;
+        loaded.push({ fileName, data });
+      }
+
+      if (loaded.length === 0) {
+        archiveListEl.innerHTML = `<div class="empty">No readable archive tournament files found.</div>`;
+        setStatus(archiveStatusEl, "Archive files were listed, but none could be read.", true);
+        return;
+      }
+
+      archiveListEl.innerHTML = loaded.map(item => buildArchiveCard(item.fileName, item.data)).join("");
+      setStatus(archiveStatusEl, `Loaded ${loaded.length} archive tournament${loaded.length === 1 ? "" : "s"}.`);
     }
 
     async function init() {
-      const repoInfo = getRepoInfo();
+      setStatus(liveStatusEl, "Loading live tournaments...");
+      setStatus(archiveStatusEl, "Loading archive tournaments...");
 
-      let exportFiles = [];
-      let archiveFolderFiles = [];
+      const fileItems = await listDisplayFilesSafe();
 
-      try {
-        exportFiles = await loadFolderJsonFiles(
-          repoInfo.owner,
-          repoInfo.repo,
-          repoInfo.branch,
-          "display_export"
-        );
-      } catch (err) {
-        console.error(err);
-        clearAndSetError(liveList, "Could not load live tournaments.");
-        clearAndSetError(archiveList, "Could not load archive tournaments.");
+      if (!fileItems) {
+        liveListEl.innerHTML = `<div class="empty">Could not load live tournaments.</div>`;
+        archiveListEl.innerHTML = `<div class="empty">Could not load archive tournaments.</div>`;
+        setStatus(liveStatusEl, "Could not list display files from GitHub.", true);
+        setStatus(archiveStatusEl, "Could not list display files from GitHub.", true);
         return;
       }
 
-      try {
-        archiveFolderFiles = await loadFolderJsonFiles(
-          repoInfo.owner,
-          repoInfo.repo,
-          repoInfo.branch,
-          "display_archive"
-        );
-      } catch (err) {
-        console.error(err);
-        archiveFolderFiles = [];
-      }
-
-      const exportLiveFiles = exportFiles.filter(name => !isArchiveFile(name));
-      const exportArchiveLikeFiles = exportFiles.filter(name => isArchiveFile(name));
-
-      const allArchiveFiles = uniqueSortedNewestFirst([
-        ...archiveFolderFiles,
-        ...exportArchiveLikeFiles
-      ]);
-
-      const liveFiles = uniqueSortedNewestFirst(exportLiveFiles);
-
-      renderFileList(
-        liveList,
-        liveFiles,
-        "live",
-        "No live tournaments found."
-      );
-
-      renderFileList(
-        archiveList,
-        allArchiveFiles,
-        "archive",
-        "No archive tournaments found."
-      );
+      await loadLiveTournaments(fileItems);
+      await loadArchiveTournaments(fileItems);
     }
 
     init();
