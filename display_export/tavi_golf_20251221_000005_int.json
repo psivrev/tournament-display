@@ -1,0 +1,58 @@
+{
+  "tournament_name": "11th Devon Monthly at Tavi Golf - Intermediates",
+  "round_no": 3,
+  "points_this_round": 9,
+  "generated_at": "2025-12-21T00:30:00",
+
+  "champion_name": "Andy Daniels",
+  "runner_up_name": "",
+  "chasers_names": ["Chris Townsend", "Rob Clarke", "Wendy McGowan"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Andy Daniels -3   (3-0)", "colour": "grey", "bold": false},
+    {"text": "2. Chris Townsend -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "3. Rob Clarke -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "4. Wendy McGowan -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "5. Ron Walls -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "6. Bryan Millings -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "7. Lee Woods -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "8. Angel Luther -0   (0-3)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Andy Daniels ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Rob Clarke ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Bryan Millings", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Lee Woods ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Andy Daniels ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Chris Townsend ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Rob Clarke ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Bryan Millings ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Ron Walls ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Rob Clarke", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Andy Daniels ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Chris Townsend ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Wendy McGowan ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Bryan Millings", "colour": "black"}]}
+      ]
+    }
+  ]
+}
