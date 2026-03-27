@@ -31,20 +31,22 @@
   "side_pools_text": "",
 
   "past_rounds": [
+
+
+
     {
       "round_no": 4,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Guy Haring ✓", "colour": "grey", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Waterman", "colour": "grey"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Jean Findlay ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "green"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Guy Saward ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "green"}]},
+        {"segments": [{"text": "M1: "}, {"text": "Guy Haring ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Waterman", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Jean Findlay ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Guy Saward ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "red"}]},
         {"segments": [{"text": "M4: "}, {"text": "Paula Holloway ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "red"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Fenella Haffenden ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "red"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Fenella Haffenden ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "blue"}]},
         {"segments": [{"text": "M6: "}, {"text": "Martin Wright ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Roberts", "colour": "blue"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Patrick Greenstreet ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "blue"}]}
+        {"segments": [{"text": "M7: "}, {"text": "Patrick Greenstreet ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]}
       ]
-    },
-
-    {
+    }
+    
       "round_no": 3,
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Andrew Waterman ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Guy Saward", "colour": "green"}]},
