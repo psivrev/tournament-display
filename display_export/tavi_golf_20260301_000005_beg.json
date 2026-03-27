@@ -31,8 +31,8 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Bridget Taylor ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mustafa Ocak", "colour": "red"}]},
         {"segments": [{"text": "M2: "}, {"text": "Claire Daniels ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mark Taylor", "colour": "red"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Maya Plass ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "red"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Susie Walker ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Derrianna McArthur", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Maya Plass ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Susie Walker ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Derrianna McArthur", "colour": "blue"}]},
         {"segments": [{"text": "M5: "}, {"text": "Lucy Balmer ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "green"}]}
       ]
     },
@@ -40,10 +40,10 @@
     {
       "round_no": 3,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Lucy Balmer ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Claire Daniels", "colour": "green"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Bridget Taylor ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mark Taylor", "colour": "red"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Mustafa Ocak ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Maya Plass", "colour": "red"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Mick Harrison ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Susie Walker", "colour": "blue"}]},
+        {"segments": [{"text": "M1: "}, {"text": "Lucy Balmer ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Claire Daniels", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Bridget Taylor ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Mark Taylor", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Mustafa Ocak ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Maya Plass", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Mick Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Susie Walker", "colour": "blue"}]},
         {"segments": [{"text": "M5: "}, {"text": "Derrianna McArthur ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
     },
@@ -53,7 +53,7 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Lucy Balmer ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Maya Plass", "colour": "blue"}]},
         {"segments": [{"text": "M2: "}, {"text": "Claire Daniels ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Mustafa Ocak", "colour": "blue"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Mark Taylor ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Mark Taylor ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "black"}]},
         {"segments": [{"text": "M4: "}, {"text": "Bridget Taylor ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Derrianna McArthur", "colour": "black"}]},
         {"segments": [{"text": "M5: "}, {"text": "Susie Walker ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
