@@ -31,8 +31,8 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Emily Hibbert ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Linda Molesworth", "colour": "red"}]},
         {"segments": [{"text": "M2: "}, {"text": "Patrick Greenstreet ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "red"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "blue"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Jean Findlay ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "red"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Jean Findlay ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "red"}]},
         {"segments": [{"text": "M5: "}, {"text": "Lisa Jackson ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "green"}]}
       ]
     },
@@ -40,7 +40,7 @@
     {
       "round_no": 3,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Lisa Jackson ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Patrick Greenstreet", "colour": "red"}]},
+        {"segments": [{"text": "M1: "}, {"text": "Lisa Jackson ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Patrick Greenstreet", "colour": "green"}]},
         {"segments": [{"text": "M2: "}, {"text": "Linda Molesworth ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "blue"}]},
         {"segments": [{"text": "M3: "}, {"text": "Emily Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
         {"segments": [{"text": "M4: "}, {"text": "Sue Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]},
