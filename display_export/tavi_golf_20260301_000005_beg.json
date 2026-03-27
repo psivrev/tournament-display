@@ -29,11 +29,11 @@
     {
       "round_no": 4,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Bridget Taylor ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Mustafa Ocak", "colour": "green"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Claire Daniels ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Mark Taylor", "colour": "green"}]},
+        {"segments": [{"text": "M1: "}, {"text": "Bridget Taylor ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mustafa Ocak", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Claire Daniels ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mark Taylor", "colour": "red"}]},
         {"segments": [{"text": "M3: "}, {"text": "Maya Plass ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "red"}]},
         {"segments": [{"text": "M4: "}, {"text": "Susie Walker ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Derrianna McArthur", "colour": "red"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Lucy Balmer ✓", "colour": "grey", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "grey"}]}
+        {"segments": [{"text": "M5: "}, {"text": "Lucy Balmer ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "green"}]}
       ]
     },
 
@@ -44,7 +44,7 @@
         {"segments": [{"text": "M2: "}, {"text": "Bridget Taylor ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mark Taylor", "colour": "red"}]},
         {"segments": [{"text": "M3: "}, {"text": "Mustafa Ocak ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Maya Plass", "colour": "red"}]},
         {"segments": [{"text": "M4: "}, {"text": "Mick Harrison ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Susie Walker", "colour": "blue"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Derrianna McArthur ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "blue"}]}
+        {"segments": [{"text": "M5: "}, {"text": "Derrianna McArthur ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
     },
 
