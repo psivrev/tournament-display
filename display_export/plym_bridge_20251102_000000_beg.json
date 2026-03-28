@@ -1,0 +1,78 @@
+{
+  "tournament_name": "2nd Sunday Funday at Plymouth Bridge Club - Beginners",
+  "round_no": 5,
+  "points_this_round": 5,
+  "generated_at": "2025-11-02T16:00:00",
+
+  "champion_name": "Michele Barone",
+  "runner_up_name": "",
+  "chasers_names": ["Sarah Harrison", "Simon Brook"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Michele Barone -5   (5-0)", "colour": "grey", "bold": false},
+    {"text": "2. Sarah Harrison -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "3. Simon Brook -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "4. Jean Finlay -2   (2-3)", "colour": "red", "bold": false},
+    {"text": "5. Ron Walls -2   (2-3)", "colour": "red", "bold": false},
+    {"text": "6. Steve Ditchburn -2   (2-3)", "colour": "red", "bold": false},
+    {"text": "7. Steve Bowen -2   (2-3)", "colour": "red", "bold": false},
+    {"text": "8. Fenella Haffenden -1   (1-4)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 5,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Michele Barone ✓", "colour": "grey", "bold": true}, {"text": "  vs  "}, {"text": "Steve Ditchburn", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Simon Brook ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "green"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Ron Walls ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Jean Finlay ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Steve Bowen", "colour": "red"}]}
+      ]
+    },
+
+    {
+      "round_no": 4,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Michele Barone ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Simon Brook", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Sarah Harrison ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Steve Ditchburn ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Steve Bowen", "colour": "red"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Jean Finlay ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "red"}]}
+      ]
+    },
+
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Michele Barone ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Steve Bowen", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Simon Brook ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Sarah Harrison ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Steve Ditchburn ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Jean Finlay", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Michele Barone ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Simon Brook ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Steve Ditchburn", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Steve Bowen ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sarah Harrison", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Fenella Haffenden ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Jean Finlay", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Michele Barone ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Ron Walls ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Steve Ditchburn", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Steve Bowen ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Simon Brook", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Sarah Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Jean Finlay", "colour": "black"}]}
+      ]
+    }
+  ]
+}
