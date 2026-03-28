@@ -317,34 +317,33 @@
       }
     }
 
-    function buildSummaryHtml(data) {
-      const champion = data?.champion_name ?? "";
-      const runnerUp = data?.runner_up_name ?? "";
-      const chasers = Array.isArray(data?.chasers_names) ? data.chasers_names.filter(Boolean) : [];
+<script>
+function buildSummaryHtml(data) {
+  const champion = data?.champion_name ?? "";
+  const runnerUp = data?.runner_up_name ?? "";
+  const chasers = Array.isArray(data?.chasers_names) ? data.chasers_names.filter(Boolean) : [];
 
-      let html = "";
+  let html = "";
 
-      if (champion) {
-        html += `<div class="summary-line"><strong>Champion:</strong> ${escapeHtml(champion)}</div>`;
-      }
+  if (champion) {
+    html += `<div class="summary-line">🏆 <strong>Champion:</strong> ${escapeHtml(champion)}</div>`;
+  }
 
-      if (data && Object.prototype.hasOwnProperty.call(data, "runner_up_name")) {
-        if (runnerUp) {
-          html += `<div class="summary-line"><strong>Runner-up:</strong> ${escapeHtml(runnerUp)}</div>`;
-        }
-      }
+  if (Object.prototype.hasOwnProperty.call(data || {}, "runner_up_name") && runnerUp) {
+    html += `<div class="summary-line">🥈 <strong>Runner-up:</strong> ${escapeHtml(runnerUp)}</div>`;
+  }
 
-      if (chasers.length > 0) {
-        html += `<div class="summary-line"><strong>Chasers:</strong> ${escapeHtml(chasers.join(", "))}</div>`;
-      }
+  if (chasers.length > 0) {
+    html += `<div class="summary-line">🎯 <strong>Chasers:</strong> ${escapeHtml(chasers.join(", "))}</div>`;
+  }
 
-      if (!html) {
-        html = `<div class="summary-line small">No summary available.</div>`;
-      }
+  if (!html) {
+    html = `<div class="summary-line small">No summary available.</div>`;
+  }
 
-      return html;
-    }
-
+  return html;
+}
+</script>
     function buildLiveCard(fileName, data) {
       const title = data?.tournament_name || fileName.replace(/\.json$/i, "");
       const roundNo = data?.round_no ?? data?.round ?? "";
