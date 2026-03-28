@@ -1,0 +1,58 @@
+{
+  "tournament_name": "10th Devon Monthly at Tavistock Golf Club - Intermediates",
+  "round_no": 3,
+  "points_this_round": 9,
+  "generated_at": "2025-11-23T01:30:00",
+
+  "champion_name": "Steve Yabsley",
+  "runner_up_name": "",
+  "chasers_names": ["Caroline Biddle", "TJ Jefferies", "Paula Holloway", "Andrew Roberts"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Steve Yabsley -3   (3-0)", "colour": "grey", "bold": false},
+    {"text": "2. Caroline Biddle -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "3. TJ Jefferies -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "4. Paula Holloway -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "5. Andrew Roberts -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "6. Chris Townsend -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "7. Lee Woods -0   (0-3)", "colour": "blue", "bold": false},
+    {"text": "8. Wendy McGowan -0   (0-3)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Steve Yabsley ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Caroline Biddle", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Paula Holloway ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Andrew Roberts ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "TJ Jefferies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Caroline Biddle ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Steve Yabsley ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Paula Holloway", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Chris Townsend ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Andrew Roberts ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Steve Yabsley ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Caroline Biddle ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "TJ Jefferies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Roberts", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Paula Holloway ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "black"}]}
+      ]
+    }
+  ]
+}
