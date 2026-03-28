@@ -54,8 +54,8 @@
         {"segments": [{"text": "M2: "}, {"text": "Plamen Sivrev ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Kershaw", "colour": "red"}]},
         {"segments": [{"text": "M3: "}, {"text": "Richard Robert Davies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Biddle", "colour": "blue"}]},
         {"segments": [{"text": "M4: "}, {"text": "Mark Dawes ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Rob Clarke", "colour": "blue"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Matthew Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "black"}]},
-        {"segments": [{"text": "M6: "}, {"text": "Samantha Tierney ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Matthew Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Samantha Tierney ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "blue"}]},
         {"segments": [{"text": "M7: "}, {"text": "Ruth Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "black"}]},
         {"segments": [{"text": "M8: "}, {"text": "Olive Acaster ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Chris Townsend", "colour": "black"}]}
       ]
