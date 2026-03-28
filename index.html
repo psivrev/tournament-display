@@ -4,148 +4,177 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Backgammon Tournament Display</title>
-  <style>
-    :root {
-      --bg: #f5f7fb;
-      --card: #ffffff;
-      --text: #1f2937;
-      --muted: #6b7280;
-      --border: #d1d5db;
-      --shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-      --masters-bg: #fff7d6;
-      --live-bg: #eefbf1;
-      --error-bg: #fff1f2;
-      --error-border: #fecdd3;
-      --link: #1d4ed8;
-      --link-hover: #1e40af;
+<style>
+  :root{
+    --bg:#f5f7fb;
+    --card:#ffffff;
+    --text:#1f2937;
+    --muted:#6b7280;
+    --border:#d1d5db;
+    --shadow:0 4px 14px rgba(0,0,0,.08);
+    --masters-bg:#fff2b8;
+    --masters-border:#d4a017;
+    --masters-shadow:0 6px 18px rgba(212,160,23,.22);
+    --live-bg:#eefbf1;
+    --link:#1d4ed8;
+    --link-hover:#1e40af;
+  }
+
+  *{box-sizing:border-box}
+
+  body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.45;
+  }
+
+  .wrap{
+    max-width:1100px;
+    margin:0 auto;
+    padding:20px 16px 40px;
+  }
+
+  h1{
+    margin:0 0 16px;
+    font-size:28px;
+  }
+
+  h2{
+    margin:28px 0 12px;
+    font-size:22px;
+  }
+
+  .section-note{
+    color:var(--muted);
+    margin:0 0 12px;
+  }
+
+  .status-box{
+    margin:10px 0 18px;
+    padding:10px 12px;
+    border:1px solid var(--border);
+    border-radius:8px;
+    background:#fff;
+    color:var(--muted);
+    font-size:14px;
+  }
+
+  .cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(310px,1fr));
+    gap:14px;
+  }
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:12px;
+    box-shadow:var(--shadow);
+    padding:14px 14px 12px;
+  }
+
+  .card.live{
+    background:var(--live-bg);
+  }
+
+  .card.masters{
+    background:var(--masters-bg);
+    border:2px solid var(--masters-border);
+    box-shadow:var(--masters-shadow);
+    position:relative;
+  }
+
+  .card.masters::before{
+    content:"MASTERS";
+    position:absolute;
+    top:10px;
+    right:12px;
+    font-size:10px;
+    font-weight:700;
+    letter-spacing:.08em;
+    color:#8a6a00;
+    background:rgba(255,255,255,.65);
+    border:1px solid rgba(138,106,0,.18);
+    border-radius:999px;
+    padding:2px 8px;
+  }
+
+  .card.archive-non-masters{
+    margin-left:16px;
+  }
+
+  .title-link{
+    color:var(--link);
+    text-decoration:none;
+    font-weight:700;
+    font-size:17px;
+    display:inline-block;
+    padding-right:82px;
+  }
+
+  .title-link:hover{
+    color:var(--link-hover);
+    text-decoration:underline;
+  }
+
+  .file-name{
+    margin-top:4px;
+    color:var(--muted);
+    font-size:12px;
+    word-break:break-all;
+  }
+
+  .meta{
+    margin-top:10px;
+    color:var(--muted);
+    font-size:13px;
+  }
+
+  .summary{
+    margin-top:10px;
+    font-size:14px;
+  }
+
+  .summary-line{
+    margin-top:4px;
+  }
+
+  .empty{
+    color:var(--muted);
+    font-style:italic;
+    padding:8px 0;
+  }
+
+  .small{
+    font-size:12px;
+    color:var(--muted);
+  }
+
+  .footer-note{
+    margin-top:28px;
+    font-size:13px;
+    color:var(--muted);
+  }
+
+  @media (max-width: 700px){
+    .card.archive-non-masters{
+      margin-left:10px;
     }
 
-    * {
-      box-sizing: border-box;
+    .title-link{
+      padding-right:74px;
     }
 
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.45;
+    .card.masters::before{
+      top:8px;
+      right:10px;
+      font-size:9px;
+      padding:2px 7px;
     }
-
-    .wrap {
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 20px 16px 40px;
-    }
-
-    h1 {
-      margin: 0 0 16px;
-      font-size: 28px;
-    }
-
-    h2 {
-      margin: 28px 0 12px;
-      font-size: 22px;
-    }
-
-    .section-note {
-      color: var(--muted);
-      margin: 0 0 12px;
-    }
-
-    .status-box {
-      margin: 10px 0 18px;
-      padding: 10px 12px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: #fff;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .status-box.error {
-      background: var(--error-bg);
-      border-color: var(--error-border);
-      color: #9f1239;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-      gap: 14px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      box-shadow: var(--shadow);
-      padding: 14px 14px 12px;
-    }
-
-    .card.live {
-      background: var(--live-bg);
-    }
-
-    .card.masters {
-      background: var(--masters-bg);
-    }
-
-    .card.archive-non-masters {
-      margin-left: 16px;
-    }
-
-    .title-link {
-      color: var(--link);
-      text-decoration: none;
-      font-weight: 700;
-      font-size: 17px;
-    }
-
-    .title-link:hover {
-      color: var(--link-hover);
-      text-decoration: underline;
-    }
-
-    .file-name {
-      margin-top: 4px;
-      color: var(--muted);
-      font-size: 12px;
-      word-break: break-all;
-    }
-
-    .meta {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .summary {
-      margin-top: 10px;
-      font-size: 14px;
-    }
-
-    .summary-line {
-      margin-top: 4px;
-    }
-
-    .empty {
-      color: var(--muted);
-      font-style: italic;
-      padding: 8px 0;
-    }
-
-    .small {
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .footer-note {
-      margin-top: 28px;
-      font-size: 13px;
-      color: var(--muted);
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
   <div class="wrap">
