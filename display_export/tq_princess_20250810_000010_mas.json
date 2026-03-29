@@ -1,0 +1,58 @@
+{
+  "tournament_name": "1st Laurence's Invitational at Torquay Princes Theatre - Masters",
+  "round_no": 3,
+  "points_this_round": 9,
+  "generated_at": "2025-08-10T14:00:00",
+
+  "champion_name": "Gerald Whitehouse",
+  "runner_up_name": "Charles Hill",
+  "chasers_names": ["Warner Solomon", "Matthew Hibbert"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Gerald Whitehouse -3   (3-0)", "colour": "grey", "bold": false},
+    {"text": "2. Charles Hill -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "3. Warner Solomon -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "4. Matthew Hibbert -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "5. David Martin -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "6. Rosemary Whitehouse -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "7. Ruth Hibbert -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "8. Laurence Cabache -0   (0-3)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Gerald Whitehouse ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Warner Solomon ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Ruth Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Matthew Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Gerald Whitehouse ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Matthew Hibbert", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Warner Solomon ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Charles Hill ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Rosemary Whitehouse ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Charles Hill ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "David Martin ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Matthew Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Warner Solomon", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Gerald Whitehouse ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "black"}]}
+      ]
+    }
+  ]
+}
