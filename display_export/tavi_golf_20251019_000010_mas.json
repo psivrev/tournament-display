@@ -2,100 +2,91 @@
   "tournament_name": "9th Devon Monthly at Tavi Golf - Masters",
   "round_no": 4,
   "points_this_round": 9,
-  "generated_at": "2025-10-19 15:30:00",
+  "generated_at": "2025-10-19T15:30:00",
+
   "champion_name": "Plamen Sivrev",
   "runner_up_name": "Matthew Hibbert",
-  "chasers_names": [
-    "Tom Thorpe",
-    "Dicky Biddle",
-    "Charles Hill"
-  ],
+  "chasers_names": ["Tom Thorpe", "Dicky Biddle", "Charles Hill"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
   "standings_lines": [
-    "1. Plamen Sivrev 4-0",
-    "2. Matthew Hibbert 3-1",
-    "3. Tom Thorpe 3-1",
-    "4. Dicky Biddle 3-1",
-    "5. Charles Hill 3-1",
-    "6. Richard Robert Davies 2-2",
-    "7. Olive Acaster 2-2",
-    "8. Mark Dawes 2-2",
-    "9. Laurence Cabache 2-2",
-    "10. Lewis Kershaw 2-2",
-    "11. Gerald Whitehouse 2-2",
-    "12. Lewis Burke 1-3",
-    "13. Damon Dennis 1-3",
-    "14. Angel Luther 1-3",
-    "15. Samantha Tierney 1-3",
-    "16. Ruth Hibbert 0-4"
+    {"text": "1. Plamen Sivrev -4   (4-0)", "colour": "grey", "bold": false},
+    {"text": "2. Matthew Hibbert -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "3. Tom Thorpe -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "4. Dicky Biddle -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "5. Charles Hill -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "6. Richard Robert Davies -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "7. Olive Acaster -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "8. Mark Dawes -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "9. Laurence Cabache -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "10. Lewis Kershaw -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "11. Gerald Whitehouse -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "12. Lewis Burke -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "13. Damon Dennis -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "14. Angel Luther -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "15. Samantha Tierney -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "16. Ruth Hibbert -0   (0-4)", "colour": "black", "bold": false}
   ],
+
+  "side_pools_text": "",
+
   "past_rounds": [
     {
-      "round": 1,
-      "points": 9,
+      "round_no": 4,
       "lines": [
-        "Dicky Biddle (black) 9-0 Ruth Hibbert (black)",
-        "Damon Dennis (black) 0-9 Tom Thorpe (black)",
-        "Charles Hill (black) 0-9 Lewis Burke (black)",
-        "Matthew Hibbert (black) 9-0 Angel Luther (black)",
-        "Laurence Cabache (black) 9-0 Gerald Whitehouse (black)",
-        "Plamen Sivrev (black) 9-0 Lewis Kershaw (black)",
-        "Richard Robert Davies (black) 9-0 Mark Dawes (black)",
-        "Samantha Tierney (black) 0-9 Olive Acaster (black)"
+        {"segments": [{"text": "M1: "}, {"text": "Plamen Sivrev ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Matthew Hibbert", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Tom Thorpe ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Dicky Biddle ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Olive Acaster", "colour": "red"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Charles Hill ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Mark Dawes", "colour": "red"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Laurence Cabache ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Lewis Kershaw ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Gerald Whitehouse ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "blue"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Samantha Tierney ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "black"}]}
       ]
     },
+
     {
-      "round": 2,
-      "points": 9,
+      "round_no": 3,
       "lines": [
-        "Dicky Biddle (blue) 0-9 Tom Thorpe (blue)",
-        "Lewis Burke (blue) 0-9 Matthew Hibbert (blue)",
-        "Laurence Cabache (blue) 0-9 Plamen Sivrev (blue)",
-        "Richard Robert Davies (blue) 9-0 Olive Acaster (blue)",
-        "Ruth Hibbert (black) 0-9 Damon Dennis (black)",
-        "Charles Hill (black) 9-0 Angel Luther (black)",
-        "Gerald Whitehouse (black) 0-9 Lewis Kershaw (black)",
-        "Mark Dawes (black) 9-0 Samantha Tierney (black)"
+        {"segments": [{"text": "M1: "}, {"text": "Matthew Hibbert ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Tom Thorpe", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Plamen Sivrev ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Dicky Biddle ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Olive Acaster ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Charles Hill ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Mark Dawes ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Kershaw", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Angel Luther ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Gerald Whitehouse ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Samantha Tierney", "colour": "black"}]}
       ]
     },
+
     {
-      "round": 3,
-      "points": 9,
+      "round_no": 2,
       "lines": [
-        "Tom Thorpe (red) 0-9 Matthew Hibbert (red)",
-        "Plamen Sivrev (red) 9-0 Richard Robert Davies (red)",
-        "Dicky Biddle (blue) 9-0 Lewis Burke (blue)",
-        "Laurence Cabache (blue) 0-9 Olive Acaster (blue)",
-        "Damon Dennis (blue) 0-9 Charles Hill (blue)",
-        "Lewis Kershaw (blue) 0-9 Mark Dawes (blue)",
-        "Ruth Hibbert (black) 0-9 Angel Luther (black)",
-        "Gerald Whitehouse (black) 9-0 Samantha Tierney (black)"
+        {"segments": [{"text": "M1: "}, {"text": "Tom Thorpe ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Dicky Biddle", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Matthew Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Plamen Sivrev ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Richard Robert Davies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Olive Acaster", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Damon Dennis ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "black"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Charles Hill ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Lewis Kershaw ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Gerald Whitehouse", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Mark Dawes ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Samantha Tierney", "colour": "black"}]}
       ]
     },
+
     {
-      "round": 4,
-      "points": 9,
+      "round_no": 1,
       "lines": [
-        "Matthew Hibbert (green) 0-9 Plamen Sivrev (green)",
-        "Tom Thorpe (red) 9-0 Richard Robert Davies (red)",
-        "Dicky Biddle (red) 9-0 Olive Acaster (red)",
-        "Charles Hill (red) 9-0 Mark Dawes (red)",
-        "Lewis Burke (blue) 0-9 Laurence Cabache (blue)",
-        "Damon Dennis (blue) 0-9 Lewis Kershaw (blue)",
-        "Angel Luther (blue) 0-9 Gerald Whitehouse (blue)",
-        "Samantha Tierney (black) 9-0 Ruth Hibbert (black)"
+        {"segments": [{"text": "M1: "}, {"text": "Dicky Biddle ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Tom Thorpe ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Lewis Burke ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Matthew Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Laurence Cabache ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Gerald Whitehouse", "colour": "black"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Plamen Sivrev ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Kershaw", "colour": "black"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Richard Robert Davies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Mark Dawes", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Olive Acaster ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Samantha Tierney", "colour": "black"}]}
       ]
     }
-  ],
-  "preview_text": "Tournament complete.",
-  "current_round_lines": [
-    "Matthew Hibbert (green) 0-9 Plamen Sivrev (green)",
-    "Tom Thorpe (red) 9-0 Richard Robert Davies (red)",
-    "Dicky Biddle (red) 9-0 Olive Acaster (red)",
-    "Charles Hill (red) 9-0 Mark Dawes (red)",
-    "Lewis Burke (blue) 0-9 Laurence Cabache (blue)",
-    "Damon Dennis (blue) 0-9 Lewis Kershaw (blue)",
-    "Angel Luther (blue) 0-9 Gerald Whitehouse (blue)",
-    "Samantha Tierney (black) 9-0 Ruth Hibbert (black)"
-  ],
-  "side_pools_text": ""
+  ]
 }
