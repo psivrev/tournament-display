@@ -17,7 +17,7 @@
     {"text": "3. Jules Smith -3   (3-1)", "colour": "green", "bold": false},
     {"text": "4. Tom Thorpe -3   (3-1)", "colour": "green", "bold": false},
     {"text": "5. Damon Dennis -3   (3-1)", "colour": "green", "bold": false},
-    {"text": "6. Rob Clarke -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "6. Rob Clarke -3   (2-2)", "colour": "red", "bold": false},
     {"text": "7. Laurence Cabache -2   (2-2)", "colour": "red", "bold": false},
     {"text": "8. Olive Acaster -2   (2-2)", "colour": "red", "bold": false},
     {"text": "9. David Martin -2   (2-2)", "colour": "red", "bold": false},
@@ -42,7 +42,7 @@
         {"segments": [{"text": "M4: "}, {"text": "Damon Dennis ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "red"}]},
         {"segments": [{"text": "M5: "}, {"text": "Yavor Asparuhov ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Charles Gabriel", "colour": "blue"}]},
         {"segments": [{"text": "M6: "}, {"text": "Samantha Tierney ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "blue"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Rob Clarke ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Rob Clarke ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]},
         {"segments": [{"text": "M8: "}, {"text": "Richard Robert Davies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
     },
