@@ -1,153 +1,98 @@
 {
   "tournament_name": "9th Devon Monthly at Tavi Golf - Intermediates",
-  "format": "round_robin",
   "round_no": 7,
   "points_this_round": 3,
   "generated_at": "2025-10-19T16:00:00",
 
   "champion_name": "Neil Eatough",
   "runner_up_name": "Martin Wright",
+  "chasers_names": [],
 
-  "table": {
-    "player_count": 8,
-    "score_per_win": 3,
-    "players": [
-      {
-        "seed": 1,
-        "name": "Fenella Haffenden",
-        "wins": 2,
-        "tie_breaks": "",
-        "place": "",
-        "vs": {
-          "1": "",
-          "2": "0",
-          "3": "0",
-          "4": "0",
-          "5": "3",
-          "6": "3",
-          "7": "0",
-          "8": "0"
-        }
-      },
-      {
-        "seed": 2,
-        "name": "Corinne Smith",
-        "wins": 4,
-        "tie_breaks": "",
-        "place": "",
-        "vs": {
-          "1": "3",
-          "2": "",
-          "3": "0",
-          "4": "0",
-          "5": "3",
-          "6": "3",
-          "7": "3",
-          "8": "0"
-        }
-      },
-      {
-        "seed": 3,
-        "name": "Neil Eatough",
-        "wins": 5,
-        "tie_breaks": "",
-        "place": "1",
-        "vs": {
-          "1": "3",
-          "2": "3",
-          "3": "",
-          "4": "0",
-          "5": "0",
-          "6": "3",
-          "7": "3",
-          "8": "3"
-        }
-      },
-      {
-        "seed": 4,
-        "name": "Martin Wright",
-        "wins": 5,
-        "tie_breaks": "",
-        "place": "2",
-        "vs": {
-          "1": "3",
-          "2": "3",
-          "3": "3",
-          "4": "",
-          "5": "0",
-          "6": "3",
-          "7": "3",
-          "8": "0"
-        }
-      },
-      {
-        "seed": 5,
-        "name": "Danny Pilgrim",
-        "wins": 4,
-        "tie_breaks": "",
-        "place": "",
-        "vs": {
-          "1": "0",
-          "2": "0",
-          "3": "3",
-          "4": "3",
-          "5": "",
-          "6": "0",
-          "7": "3",
-          "8": "3"
-        }
-      },
-      {
-        "seed": 6,
-        "name": "Lee Woods",
-        "wins": 2,
-        "tie_breaks": "",
-        "place": "",
-        "vs": {
-          "1": "0",
-          "2": "0",
-          "3": "0",
-          "4": "0",
-          "5": "3",
-          "6": "",
-          "7": "0",
-          "8": "3"
-        }
-      },
-      {
-        "seed": 7,
-        "name": "Wendy McGowan",
-        "wins": 2,
-        "tie_breaks": "",
-        "place": "",
-        "vs": {
-          "1": "3",
-          "2": "0",
-          "3": "0",
-          "4": "0",
-          "5": "0",
-          "6": "3",
-          "7": "",
-          "8": "0"
-        }
-      },
-      {
-        "seed": 8,
-        "name": "Steve Yabsley",
-        "wins": 4,
-        "tie_breaks": "",
-        "place": "",
-        "vs": {
-          "1": "3",
-          "2": "3",
-          "3": "0",
-          "4": "3",
-          "5": "0",
-          "6": "0",
-          "7": "3",
-          "8": ""
-        }
-      }
-    ]
-  }
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Neil Eatough -5   (5-2)", "colour": "grey", "bold": false},
+    {"text": "2. Martin Wright -5   (5-2)", "colour": "grey", "bold": false},
+    {"text": "3. Corinne Smith -4   (4-3)", "colour": "green", "bold": false},
+    {"text": "4. Danny Pilgrim -4   (4-3)", "colour": "green", "bold": false},
+    {"text": "5. Steve Yabsley -4   (4-3)", "colour": "green", "bold": false},
+    {"text": "6. Fenella Haffenden -2   (2-5)", "colour": "blue", "bold": false},
+    {"text": "7. Lee Woods -2   (2-5)", "colour": "blue", "bold": false},
+    {"text": "8. Wendy McGowan -2   (2-5)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 7,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Fenella Haffenden ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Neil Eatough ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Steve Yabsley ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "grey"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Danny Pilgrim ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "green"}]}
+      ]
+    },
+
+    {
+      "round_no": 6,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Martin Wright ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Danny Pilgrim ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Neil Eatough ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Steve Yabsley ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 5,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Danny Pilgrim ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Neil Eatough", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Corinne Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Martin Wright ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Lee Woods ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Steve Yabsley", "colour": "green"}]}
+      ]
+    },
+
+    {
+      "round_no": 4,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Corinne Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Steve Yabsley", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Martin Wright ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Neil Eatough", "colour": "green"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Lee Woods ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Neil Eatough ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Steve Yabsley ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Danny Pilgrim ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Fenella Haffenden ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Martin Wright ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Neil Eatough ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Steve Yabsley", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Corinne Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Wendy McGowan ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lee Woods", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Neil Eatough ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Steve Yabsley ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Martin Wright ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "black"}]}
+      ]
+    }
+  ]
 }
