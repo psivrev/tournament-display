@@ -1,0 +1,65 @@
+{
+  "tournament_name": "1st Sunday Funday at Plymouth Bridge Club - Beginners",
+  "round_no": 5,
+  "points_this_round": 5,
+  "generated_at": "2025-08-17T15:30:00",
+
+  "champion_name": "Steve Ditchburn",
+  "runner_up_name": "Fenella Haffenden",
+  "chasers_names": ["Ross Heriot"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Steve Ditchburn -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "2. Fenella Haffenden -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "3. Ross Heriot -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "4. Trish Sampson -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "5. Cynthia Fairall -1   (1-3)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 5,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Steve Ditchburn ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Cynthia Fairall", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Fenella Haffenden ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Ross Heriot", "colour": "red"}]}
+      ]
+    },
+
+    {
+      "round_no": 4,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Ross Heriot ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Steve Ditchburn", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Trish Sampson ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Cynthia Fairall", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Ross Heriot ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Trish Sampson", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Steve Ditchburn ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Fenella Haffenden", "colour": "green"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Fenella Haffenden ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Trish Sampson", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Cynthia Fairall ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ross Heriot", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Fenella Haffenden ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Cynthia Fairall", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Steve Ditchburn ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Trish Sampson", "colour": "black"}]}
+      ]
+    }
+  ]
+}
