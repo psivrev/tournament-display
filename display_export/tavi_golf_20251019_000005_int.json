@@ -1,0 +1,153 @@
+{
+  "tournament_name": "9th Devon Monthly at Tavi Golf - Intermediates",
+  "format": "round_robin",
+  "round_no": 7,
+  "points_this_round": 3,
+  "generated_at": "2025-10-19T16:00:00",
+
+  "champion_name": "Neil Eatough",
+  "runner_up_name": "Martin Wright",
+
+  "table": {
+    "player_count": 8,
+    "score_per_win": 3,
+    "players": [
+      {
+        "seed": 1,
+        "name": "Fenella Haffenden",
+        "wins": 2,
+        "tie_breaks": "",
+        "place": "",
+        "vs": {
+          "1": "",
+          "2": "0",
+          "3": "0",
+          "4": "0",
+          "5": "3",
+          "6": "3",
+          "7": "0",
+          "8": "0"
+        }
+      },
+      {
+        "seed": 2,
+        "name": "Corinne Smith",
+        "wins": 4,
+        "tie_breaks": "",
+        "place": "",
+        "vs": {
+          "1": "3",
+          "2": "",
+          "3": "0",
+          "4": "0",
+          "5": "3",
+          "6": "3",
+          "7": "3",
+          "8": "0"
+        }
+      },
+      {
+        "seed": 3,
+        "name": "Neil Eatough",
+        "wins": 5,
+        "tie_breaks": "",
+        "place": "1",
+        "vs": {
+          "1": "3",
+          "2": "3",
+          "3": "",
+          "4": "0",
+          "5": "0",
+          "6": "3",
+          "7": "3",
+          "8": "3"
+        }
+      },
+      {
+        "seed": 4,
+        "name": "Martin Wright",
+        "wins": 5,
+        "tie_breaks": "",
+        "place": "2",
+        "vs": {
+          "1": "3",
+          "2": "3",
+          "3": "3",
+          "4": "",
+          "5": "0",
+          "6": "3",
+          "7": "3",
+          "8": "0"
+        }
+      },
+      {
+        "seed": 5,
+        "name": "Danny Pilgrim",
+        "wins": 4,
+        "tie_breaks": "",
+        "place": "",
+        "vs": {
+          "1": "0",
+          "2": "0",
+          "3": "3",
+          "4": "3",
+          "5": "",
+          "6": "0",
+          "7": "3",
+          "8": "3"
+        }
+      },
+      {
+        "seed": 6,
+        "name": "Lee Woods",
+        "wins": 2,
+        "tie_breaks": "",
+        "place": "",
+        "vs": {
+          "1": "0",
+          "2": "0",
+          "3": "0",
+          "4": "0",
+          "5": "3",
+          "6": "",
+          "7": "0",
+          "8": "3"
+        }
+      },
+      {
+        "seed": 7,
+        "name": "Wendy McGowan",
+        "wins": 2,
+        "tie_breaks": "",
+        "place": "",
+        "vs": {
+          "1": "3",
+          "2": "0",
+          "3": "0",
+          "4": "0",
+          "5": "0",
+          "6": "3",
+          "7": "",
+          "8": "0"
+        }
+      },
+      {
+        "seed": 8,
+        "name": "Steve Yabsley",
+        "wins": 4,
+        "tie_breaks": "",
+        "place": "",
+        "vs": {
+          "1": "3",
+          "2": "3",
+          "3": "0",
+          "4": "3",
+          "5": "0",
+          "6": "0",
+          "7": "3",
+          "8": ""
+        }
+      }
+    ]
+  }
+}
