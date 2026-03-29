@@ -1,0 +1,58 @@
+{
+  "tournament_name": "2nd Laurence's Invitational at Torquay Princess Theatre - Masters",
+  "round_no": 3,
+  "points_this_round": 9,
+  "generated_at": "2025-10-26T14:00:00",
+
+  "champion_name": "Olive Acaster",
+  "runner_up_name": "Damon Dennis",
+  "chasers_names": ["Plamen Sivrev", "Gerald Whitehouse"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Olive Acaster -3   (3-0)", "colour": "grey", "bold": false},
+    {"text": "2. Damon Dennis -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "3. Plamen Sivrev -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "4. Gerald Whitehouse -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "5. David Martin -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "6. Richard Robert Davies -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "7. Laurence Cabache -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "8. George Triantafyllidis -0   (0-3)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Olive Acaster ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Plamen Sivrev ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Gerald Whitehouse ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Laurence Cabache ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "George Triantafyllidis", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Olive Acaster ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Plamen Sivrev", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Damon Dennis ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Gerald Whitehouse ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "David Martin ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "George Triantafyllidis", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Olive Acaster ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Plamen Sivrev ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Gerald Whitehouse", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Damon Dennis ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Richard Robert Davies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "George Triantafyllidis", "colour": "black"}]}
+      ]
+    }
+  ]
+}
