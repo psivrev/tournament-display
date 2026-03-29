@@ -1,0 +1,91 @@
+{
+  "tournament_name": "1st Sunday Funday at Plymouth Bridge Club - Intermediates",
+  "round_no": 4,
+  "points_this_round": 9,
+  "generated_at": "2025-08-17T15:30:00",
+
+  "champion_name": "Olive Acaster",
+  "runner_up_name": "Sue Harrison",
+  "chasers_names": ["Bryan Millings", "David Martin", "Lewis Burke"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Olive Acaster -4   (4-0)", "colour": "grey", "bold": false},
+    {"text": "2. Sue Harrison -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "3. Bryan Millings -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "4. David Martin -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "5. Lewis Burke -3   (3-1)", "colour": "green", "bold": false},
+    {"text": "6. Samantha Tierney -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "7. Michael Chapman -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "8. Mike Bedford -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "9. Corinne Smith -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "10. Martin Wright -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "11. Andrew Roberts -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "12. Charles Gabriel -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "13. Richard Robert Davies -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "14. Guy Saward -1   (1-3)", "colour": "blue", "bold": false},
+    {"text": "15. Richard Atkinson -0   (0-3)", "colour": "black", "bold": false},
+    {"text": "16. Victoria Scott Brown -0   (0-3)", "colour": "black", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Olive Acaster ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Bryan Millings ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Charles Gabriel", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "David Martin ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Roberts", "colour": "red"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Lewis Burke ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Michael Chapman", "colour": "red"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Mike Bedford ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "red"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Corinne Smith ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Guy Saward", "colour": "red"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Samantha Tierney ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Olive Acaster ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Bryan Millings", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Sue Harrison ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Charles Gabriel", "colour": "green"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Andrew Roberts ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "green"}]},
+        {"segments": [{"text": "M4: "}, {"text": "David Martin ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Mike Bedford", "colour": "green"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Michael Chapman ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Guy Saward", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Lewis Burke ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Martin Wright ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Richard Atkinson", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Samantha Tierney ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Victoria Scott Brown", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Bryan Millings ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Roberts", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Olive Acaster ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Sue Harrison ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Mike Bedford", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Charles Gabriel ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Michael Chapman ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Atkinson", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Guy Saward ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Corinne Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Victoria Scott Brown", "colour": "blue"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Lewis Burke ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Samantha Tierney", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Bryan Millings ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Richard Atkinson", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Andrew Roberts ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Michael Chapman", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Richard Robert Davies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Guy Saward", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Olive Acaster ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Sue Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Victoria Scott Brown", "colour": "black"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Mike Bedford ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "black"}]},
+        {"segments": [{"text": "M7: "}, {"text": "David Martin ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Charles Gabriel ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Samantha Tierney", "colour": "black"}]}
+      ]
+    }
+  ]
+}

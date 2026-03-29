@@ -1,0 +1,58 @@
+{
+  "tournament_name": "1st Sunday Funday at Plym Bridge - Intermediates Supplementary",
+  "round_no": 3,
+  "points_this_round": 9,
+  "generated_at": "2025-08-17T14:00:00",
+
+  "champion_name": "Wendy McGowan",
+  "runner_up_name": "Jenny Ayrton",
+  "chasers_names": ["Linda Molesworth", "Sophie Monatte"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Wendy McGowan -3   (3-0)", "colour": "grey", "bold": false},
+    {"text": "2. Jenny Ayrton -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "3. Linda Molesworth -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "4. Sophie Monatte -2   (2-1)", "colour": "green", "bold": false},
+    {"text": "5. Ron Walls -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "6. Angel Luther -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "7. Mick Harrison -1   (1-2)", "colour": "red", "bold": false},
+    {"text": "8. Edward Anderson-Bickley -0   (0-3)", "colour": "blue", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Wendy McGowan ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Jenny Ayrton", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Mick Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Edward Anderson-Bickley", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Linda Molesworth ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Sophie Monatte ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "blue"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Wendy McGowan ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ron Walls", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Jenny Ayrton ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sophie Monatte", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Linda Molesworth ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Angel Luther ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Edward Anderson-Bickley", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Jenny Ayrton ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Ron Walls ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Angel Luther", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Sophie Monatte ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Linda Molesworth", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Wendy McGowan ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Edward Anderson-Bickley", "colour": "black"}]}
+      ]
+    }
+  ]
+}
