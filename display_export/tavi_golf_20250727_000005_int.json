@@ -43,7 +43,7 @@
         {"segments": [{"text": "M1: "}, {"text": "TJ Jefferies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]},
         {"segments": [{"text": "M2: "}, {"text": "Jules Smith ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Yavor Asparuhov", "colour": "green"}]},
         {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Richard Atkinson", "colour": "green"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Mick Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "green"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Mick Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "red"}]},
         {"segments": [{"text": "M5: "}, {"text": "Wendy McGowan ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
     },
@@ -64,7 +64,7 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Wendy McGowan ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "black"}]},
         {"segments": [{"text": "M2: "}, {"text": "Jules Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "blue"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "blue"}]},
         {"segments": [{"text": "M4: "}, {"text": "Richard Atkinson ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Yavor Asparuhov", "colour": "blue"}]},
         {"segments": [{"text": "M5: "}, {"text": "Martin Wright ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
