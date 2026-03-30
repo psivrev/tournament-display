@@ -51,7 +51,7 @@
     {
       "round_no": 3,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Richard Atkinson ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Jules Smith", "colour": "green"}]},
+        {"segments": [{"text": "M1: "}, {"text": "Richard Atkinson ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Jules Smith", "colour": "red"}]},
         {"segments": [{"text": "M2: "}, {"text": "Sue Harrison ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "blue"}]},
         {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
         {"segments": [{"text": "M4: "}, {"text": "Yavor Asparuhov ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]},
