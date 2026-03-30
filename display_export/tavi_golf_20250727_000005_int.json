@@ -31,7 +31,7 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Yavor Asparuhov ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "green"}]},
         {"segments": [{"text": "M2: "}, {"text": "Martin Wright ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "red"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Jules Smith", "colour": "green"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Jules Smith", "colour": "green"}]},
         {"segments": [{"text": "M4: "}, {"text": "TJ Jefferies ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Richard Atkinson", "colour": "green"}]},
         {"segments": [{"text": "M5: "}, {"text": "Sue Harrison ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
