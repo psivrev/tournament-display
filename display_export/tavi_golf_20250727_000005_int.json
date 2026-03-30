@@ -1,0 +1,84 @@
+{
+  "tournament_name": "6th Devon Monthly at Tavi Golf - Intermediates",
+  "round_no": 5,
+  "points_this_round": 5,
+  "generated_at": "2025-07-27T15:45:00",
+
+  "champion_name": "Jules Smith",
+  "runner_up_name": "Corinne Smith",
+  "chasers_names": ["Yavor Asparuhov", "Richard Atkinson", "TJ Jefferies"],
+
+  "current_round_lines": [],
+  "preview_text": "Tournament complete.",
+
+  "standings_lines": [
+    {"text": "1. Jules Smith -3   (3-2)", "colour": "grey", "bold": false},
+    {"text": "2. Corinne Smith -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "3. Yavor Asparuhov -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "4. Richard Atkinson -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "5. TJ Jefferies -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "6. Sue Harrison -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "7. Wendy McGowan -3   (3-2)", "colour": "green", "bold": false},
+    {"text": "8. Martin Wright -2   (2-3)", "colour": "red", "bold": false},
+    {"text": "9. Mick Harrison -2   (2-3)", "colour": "red", "bold": false}
+  ],
+
+  "side_pools_text": "",
+
+  "past_rounds": [
+    {
+      "round_no": 5,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Yavor Asparuhov ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Martin Wright ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Wendy McGowan ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Jules Smith", "colour": "green"}]},
+        {"segments": [{"text": "M4: "}, {"text": "TJ Jefferies ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Richard Atkinson", "colour": "green"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Sue Harrison ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 4,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "TJ Jefferies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Jules Smith ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Yavor Asparuhov", "colour": "green"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Richard Atkinson", "colour": "green"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Mick Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "green"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Wendy McGowan ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 3,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Richard Atkinson ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Jules Smith", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Sue Harrison ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Yavor Asparuhov ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Mick Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 2,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Wendy McGowan ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Jules Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Sue Harrison", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Corinne Smith ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "TJ Jefferies", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Richard Atkinson ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Yavor Asparuhov", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Martin Wright ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    },
+
+    {
+      "round_no": 1,
+      "lines": [
+        {"segments": [{"text": "M1: "}, {"text": "Jules Smith ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Sue Harrison ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Yavor Asparuhov ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Wendy McGowan", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Richard Atkinson ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Mick Harrison", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "TJ Jefferies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
+      ]
+    }
+  ]
+}
