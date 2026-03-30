@@ -17,19 +17,16 @@
     {"text": "3. Adam Sinclair -3   (3-1)", "colour": "green", "bold": false},
     {"text": "4. Rosemary Whitehouse -3   (3-1)", "colour": "green", "bold": false},
     {"text": "5. Charles Hill -3   (3-1)", "colour": "green", "bold": false},
-
     {"text": "6. Ian White -2   (2-2)", "colour": "red", "bold": false},
     {"text": "7. George Triantafyllidis -2   (2-2)", "colour": "red", "bold": false},
     {"text": "8. Laurence Cabache -2   (2-2)", "colour": "red", "bold": false},
     {"text": "9. Ruth Hibbert -2   (2-2)", "colour": "red", "bold": false},
     {"text": "10. Matthew Hibbert -2   (2-2)", "colour": "red", "bold": false},
     {"text": "11. Plamen Sivrev -2   (2-2)", "colour": "red", "bold": false},
-
     {"text": "12. Lewis Burke -1   (1-3)", "colour": "blue", "bold": false},
     {"text": "13. Gerald Whitehouse -1   (1-3)", "colour": "blue", "bold": false},
     {"text": "14. David Martin -1   (1-3)", "colour": "blue", "bold": false},
     {"text": "15. Guy Saward -1   (1-3)", "colour": "blue", "bold": false},
-
     {"text": "16. Olive Acaster -0   (0-3)", "colour": "black", "bold": false}
   ],
 
@@ -39,56 +36,56 @@
     {
       "round_no": 4,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Damon Dennis ✓"}, {"text": "  vs  "}, {"text": "Lewis Kershaw"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Rosemary Whitehouse ✓"}, {"text": "  vs  "}, {"text": "George Triantafyllidis"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Charles Hill ✓"}, {"text": "  vs  "}, {"text": "Matthew Hibbert"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Adam Sinclair ✓"}, {"text": "  vs  "}, {"text": "Plamen Sivrev"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Ruth Hibbert ✓"}, {"text": "  vs  "}, {"text": "David Martin"}]},
-        {"segments": [{"text": "M6: "}, {"text": "Laurence Cabache ✓"}, {"text": "  vs  "}, {"text": "Lewis Burke"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Ian White ✓"}, {"text": "  vs  "}, {"text": "Gerald Whitehouse"}]},
-        {"segments": [{"text": "M8: "}, {"text": "Guy Saward ✓"}, {"text": "  vs  "}, {"text": "BYE"}]}
+        {"segments": [{"text": "M1: "}, {"text": "Damon Dennis ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Kershaw", "colour": "green"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Rosemary Whitehouse ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "George Triantafyllidis", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Charles Hill ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Matthew Hibbert", "colour": "red"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Adam Sinclair ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Plamen Sivrev", "colour": "red"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Ruth Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Laurence Cabache ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Ian White ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Gerald Whitehouse", "colour": "blue"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Guy Saward ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "BYE", "colour": "black"}]}
       ]
     },
 
     {
       "round_no": 3,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Damon Dennis ✓"}, {"text": "  vs  "}, {"text": "Ruth Hibbert"}]},
-        {"segments": [{"text": "M2: "}, {"text": "George Triantafyllidis ✓"}, {"text": "  vs  "}, {"text": "Charles Hill"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Rosemary Whitehouse ✓"}, {"text": "  vs  "}, {"text": "Matthew Hibbert"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Lewis Kershaw ✓"}, {"text": "  vs  "}, {"text": "David Martin"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Adam Sinclair ✓"}, {"text": "  vs  "}, {"text": "Ian White"}]},
-        {"segments": [{"text": "M6: "}, {"text": "Lewis Burke ✓"}, {"text": "  vs  "}, {"text": "Guy Saward"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Laurence Cabache ✓"}, {"text": "  vs  "}, {"text": "Gerald Whitehouse"}]},
-        {"segments": [{"text": "M8: "}, {"text": "Plamen Sivrev ✓"}, {"text": "  vs  "}, {"text": "Olive Acaster"}]}
+        {"segments": [{"text": "M1: "}, {"text": "Damon Dennis ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "George Triantafyllidis", "colour": "red"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Lewis Kershaw ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Charles Hill ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Matthew Hibbert ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Adam Sinclair ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "blue"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Plamen Sivrev ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "blue"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Ian White ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Guy Saward", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Gerald Whitehouse ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Olive Acaster", "colour": "black"}]}
       ]
     },
 
     {
       "round_no": 2,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Damon Dennis ✓"}, {"text": "  vs  "}, {"text": "George Triantafyllidis"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Lewis Kershaw ✓"}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Charles Hill ✓"}, {"text": "  vs  "}, {"text": "Ruth Hibbert"}]},
-        {"segments": [{"text": "M4: "}, {"text": "Matthew Hibbert ✓"}, {"text": "  vs  "}, {"text": "David Martin"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Adam Sinclair ✓"}, {"text": "  vs  "}, {"text": "Lewis Burke"}]},
-        {"segments": [{"text": "M6: "}, {"text": "Plamen Sivrev ✓"}, {"text": "  vs  "}, {"text": "Laurence Cabache"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Ian White ✓"}, {"text": "  vs  "}, {"text": "Guy Saward"}]},
-        {"segments": [{"text": "M8: "}, {"text": "Gerald Whitehouse ✓"}, {"text": "  vs  "}, {"text": "Olive Acaster"}]}
+        {"segments": [{"text": "M1: "}, {"text": "Damon Dennis ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ruth Hibbert", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "George Triantafyllidis ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Charles Hill", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Rosemary Whitehouse ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Matthew Hibbert", "colour": "blue"}]},
+        {"segments": [{"text": "M4: "}, {"text": "Lewis Kershaw ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "David Martin", "colour": "blue"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Adam Sinclair ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ian White", "colour": "black"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Lewis Burke ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Guy Saward", "colour": "black"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Laurence Cabache ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Gerald Whitehouse", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "Plamen Sivrev ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Olive Acaster", "colour": "black"}]}
       ]
     },
 
     {
       "round_no": 1,
       "lines": [
-        {"segments": [{"text": "M1: "}, {"text": "Ruth Hibbert ✓"}, {"text": "  vs  "}, {"text": "Ian White"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Damon Dennis ✓"}, {"text": "  vs  "}, {"text": "Adam Sinclair"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Charles Hill ✓"}, {"text": "  vs  "}, {"text": "Lewis Burke"}]},
-        {"segments": [{"text": "M4: "}, {"text": "George Triantafyllidis ✓"}, {"text": "  vs  "}, {"text": "Guy Saward"}]},
-        {"segments": [{"text": "M5: "}, {"text": "Rosemary Whitehouse ✓"}, {"text": "  vs  "}, {"text": "Gerald Whitehouse"}]},
-        {"segments": [{"text": "M6: "}, {"text": "Matthew Hibbert ✓"}, {"text": "  vs  "}, {"text": "Laurence Cabache"}]},
-        {"segments": [{"text": "M7: "}, {"text": "Lewis Kershaw ✓"}, {"text": "  vs  "}, {"text": "Plamen Sivrev"}]},
-        {"segments": [{"text": "M8: "}, {"text": "David Martin ✓"}, {"text": "  vs  "}, {"text": "Olive Acaster"}]}
+        {"segments": [{"text": "M1: "}, {"text": "Ruth Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Ian White", "colour": "black"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Damon Dennis ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Adam Sinclair", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Charles Hill ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "black"}]},
+        {"segments": [{"text": "M4: "}, {"text": "George Triantafyllidis ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Guy Saward", "colour": "black"}]},
+        {"segments": [{"text": "M5: "}, {"text": "Rosemary Whitehouse ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Gerald Whitehouse", "colour": "black"}]},
+        {"segments": [{"text": "M6: "}, {"text": "Matthew Hibbert ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Laurence Cabache", "colour": "black"}]},
+        {"segments": [{"text": "M7: "}, {"text": "Lewis Kershaw ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Plamen Sivrev", "colour": "black"}]},
+        {"segments": [{"text": "M8: "}, {"text": "David Martin ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Olive Acaster", "colour": "black"}]}
       ]
     }
   ]
