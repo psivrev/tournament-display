@@ -18,7 +18,7 @@
     {"text": "4. Ian Anderson -3   (3-1)", "colour": "green", "bold": false},
     {"text": "5. Rosemary Whitehouse -3   (3-1)", "colour": "green", "bold": false},
     {"text": "6. Olive Acaster -2   (2-2)", "colour": "red", "bold": false},
-    {"text": "7. Richard Davies -2   (2-2)", "colour": "red", "bold": false},
+    {"text": "7. Richard Robert Davies -2   (2-2)", "colour": "red", "bold": false},
     {"text": "8. Danny Pilgrim -2   (2-2)", "colour": "red", "bold": false},
     {"text": "9. Andrew Darby -2   (2-2)", "colour": "red", "bold": false},
     {"text": "10. Corinne Smith -2   (2-2)", "colour": "red", "bold": false},
@@ -38,7 +38,7 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Warner Solomon ✓", "colour": "green", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Kershaw", "colour": "green"}]},
         {"segments": [{"text": "M2: "}, {"text": "Damon Dennis ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Olive Acaster", "colour": "red"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Ian Anderson ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Richard Davies", "colour": "red"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Ian Anderson ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "red"}]},
         {"segments": [{"text": "M4: "}, {"text": "Rosemary Whitehouse ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "red"}]},
         {"segments": [{"text": "M5: "}, {"text": "Danny Pilgrim ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Rob Clarke", "colour": "blue"}]},
         {"segments": [{"text": "M6: "}, {"text": "Andrew Darby ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Iain Mcwass", "colour": "blue"}]},
@@ -52,7 +52,7 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Lewis Kershaw ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Damon Dennis", "colour": "red"}]},
         {"segments": [{"text": "M2: "}, {"text": "Warner Solomon ✓", "colour": "red", "bold": true}, {"text": "  vs  "}, {"text": "Olive Acaster", "colour": "red"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Richard Davies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Rob Clarke", "colour": "blue"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Richard Robert Davies ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Rob Clarke", "colour": "blue"}]},
         {"segments": [{"text": "M4: "}, {"text": "Ian Anderson ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "blue"}]},
         {"segments": [{"text": "M5: "}, {"text": "Rosemary Whitehouse ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Darby", "colour": "blue"}]},
         {"segments": [{"text": "M6: "}, {"text": "Corinne Smith ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Iain Mcwass", "colour": "blue"}]},
@@ -65,7 +65,7 @@
       "round_no": 2,
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Lewis Kershaw ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Rob Clarke", "colour": "blue"}]},
-        {"segments": [{"text": "M2: "}, {"text": "Damon Dennis ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Davies", "colour": "blue"}]},
+        {"segments": [{"text": "M2: "}, {"text": "Damon Dennis ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Richard Robert Davies", "colour": "blue"}]},
         {"segments": [{"text": "M3: "}, {"text": "Olive Acaster ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Ian Anderson", "colour": "blue"}]},
         {"segments": [{"text": "M4: "}, {"text": "Warner Solomon ✓", "colour": "blue", "bold": true}, {"text": "  vs  "}, {"text": "Danny Pilgrim", "colour": "blue"}]},
         {"segments": [{"text": "M5: "}, {"text": "Andrew Darby ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "black"}]},
@@ -80,7 +80,7 @@
       "lines": [
         {"segments": [{"text": "M1: "}, {"text": "Lewis Kershaw ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Andrew Darby", "colour": "black"}]},
         {"segments": [{"text": "M2: "}, {"text": "Rob Clarke ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Lewis Burke", "colour": "black"}]},
-        {"segments": [{"text": "M3: "}, {"text": "Richard Davies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "black"}]},
+        {"segments": [{"text": "M3: "}, {"text": "Richard Robert Davies ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Martin Wright", "colour": "black"}]},
         {"segments": [{"text": "M4: "}, {"text": "Damon Dennis ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Rosemary Whitehouse", "colour": "black"}]},
         {"segments": [{"text": "M5: "}, {"text": "Olive Acaster ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Samantha Tierney", "colour": "black"}]},
         {"segments": [{"text": "M6: "}, {"text": "Ian Anderson ✓", "colour": "black", "bold": true}, {"text": "  vs  "}, {"text": "Corinne Smith", "colour": "black"}]},
