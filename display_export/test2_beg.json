@@ -1,0 +1,289 @@
+{
+  "tournament_name": "test2_beg",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Anthony Miller -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ian Wilkinson -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "David Thompson -0 ✓",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "William Henry Cooper -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jonathan Miles -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Richard Evans -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Martin Davies -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Brian Phillips -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Benjamin Scott Walker -0 ✓",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Oliver James Wright -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Alan Roberts -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Joseph Andrew Hall -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M7: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Charles Matthew Carter -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Edward Charles King -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Samuel Patrick Green",
+          "colour": "blue",
+          "bold": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Samuel Patrick Green -1   (1-0)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "2. Alan Roberts -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "3. Anthony Miller -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "4. Benjamin Scott Walker -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "5. Brian Phillips -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "6. Charles Matthew Carter -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "7. David Thompson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "8. Edward Charles King -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "9. Ian Wilkinson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "10. Jonathan Miles -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "11. Joseph Andrew Hall -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "12. Martin Davies -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "13. Oliver James Wright -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "14. Richard Evans -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "15. William Henry Cooper -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "No side pools.",
+  "past_rounds": [],
+  "champion_name": "Samuel Patrick Green",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "generated_at": "2026-03-31T22:06:08",
+  "display_file": "test2_beg.json",
+  "archive_display_file": "test2_beg_2026_03_31_220608.json"
+}
