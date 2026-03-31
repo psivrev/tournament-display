@@ -194,6 +194,45 @@
       color:var(--muted);
     }
 
+        .all-time-best-strip{
+      width:100%;
+      overflow:hidden;
+      white-space:nowrap;
+      background:#111827;
+      color:#ffffff;
+      border-bottom:2px solid #374151;
+      box-shadow:0 2px 8px rgba(0,0,0,.18);
+    }
+
+    .all-time-best-inner{
+      max-width:1100px;
+      margin:0 auto;
+      overflow:hidden;
+      padding:10px 0;
+    }
+
+    .all-time-best-content{
+      display:inline-block;
+      padding-left:100%;
+      white-space:nowrap;
+      animation:allTimeBestScroll 38s linear infinite;
+      font-size:15px;
+      font-weight:700;
+    }
+
+    .all-time-best-content:hover{
+      animation-play-state:paused;
+    }
+
+    .all-time-best-label{
+      color:#fbbf24;
+    }
+
+    @keyframes allTimeBestScroll{
+      0%   { transform:translateX(0); }
+      100% { transform:translateX(-100%); }
+    }
+    
     @media (max-width:700px){
       .card.archive-non-masters{
         margin-left:10px;
@@ -213,6 +252,13 @@
   </style>
 </head>
 <body>
+  <div class="all-time-best-strip">
+    <div class="all-time-best-inner">
+      <div id="all-time-best-content" class="all-time-best-content">
+        Loading All-Time Best...
+      </div>
+    </div>
+  </div>
   <div class="wrap">
     <h1>Backgammon Tournament Display</h1>
 
@@ -270,6 +316,17 @@
     */
     const LIVE_FILES = [];
 
+    /*
+      Name aliases for All-Time Best.
+      Left side = name found in files
+      Right side = merged display name
+
+      Add more later like this:
+      "Old Name": "Merged Name",
+    */
+    const NAME_ALIASES = {
+      "Dicky Biddle": "Richard Biddle"
+    };
     const liveStatusEl = document.getElementById("live-status");
     const archiveStatusEl = document.getElementById("archive-status");
     const liveListEl = document.getElementById("live-list");
@@ -345,6 +402,77 @@
       return isMastersFile(fileName, tournamentName) ? "" : "archive-non-masters";
     }
 
+        function canonicalPlayerName(name) {
+      const raw = String(name || "").trim();
+      if (!raw) return "";
+      return NAME_ALIASES[raw] || raw;
+    }
+
+    function isMastersArchiveItem(fileName, data) {
+      return isArchiveFileName(fileName) && isMastersFile(fileName, data?.tournament_name || "");
+    }
+
+    function buildAllTimeBestFromArchives(items) {
+      const stats = new Map();
+
+      function ensurePlayer(name) {
+        const canonical = canonicalPlayerName(name);
+        if (!canonical) return null;
+
+        if (!stats.has(canonical)) {
+          stats.set(canonical, {
+            name: canonical,
+            wins: 0,
+            finals: 0
+          });
+        }
+        return stats.get(canonical);
+      }
+
+      for (const item of items) {
+        const data = item?.data || {};
+        const champion = ensurePlayer(data.champion_name);
+        const runnerUp = ensurePlayer(data.runner_up_name);
+
+        if (champion) {
+          champion.wins += 1;
+          champion.finals += 1;
+        }
+
+        if (runnerUp) {
+          runnerUp.finals += 1;
+        }
+      }
+
+      return Array.from(stats.values())
+        .sort((a, b) => {
+          if (b.wins !== a.wins) return b.wins - a.wins;
+          if (b.finals !== a.finals) return b.finals - a.finals;
+          return a.name.localeCompare(b.name);
+        });
+    }
+
+    function renderAllTimeBest(items) {
+      const el = document.getElementById("all-time-best-content");
+      if (!el) return;
+
+      const mastersOnly = items.filter(item => isMastersArchiveItem(item.fileName, item.data));
+      const ranking = buildAllTimeBestFromArchives(mastersOnly);
+
+      if (!ranking.length) {
+        el.textContent = "All-Time Best (Masters) — no data available yet.";
+        return;
+      }
+
+      const parts = ranking.map(player =>
+        `${player.name} — Wins: ${player.wins} | Finals: ${player.finals}`
+      );
+
+      el.innerHTML =
+        `<span class="all-time-best-label">🏆 All-Time Best (Masters)</span> — ` +
+        parts.map(part => escapeHtml(part)).join(" &nbsp;&nbsp;•&nbsp;&nbsp; ");
+    }
+    
     async function fetchJsonSafe(url) {
       try {
         const response = await fetch(url, { cache: "no-store" });
@@ -516,6 +644,7 @@
 
       archiveStatusEl.textContent = `Loaded ${loaded.length} archive tournament${loaded.length === 1 ? "" : "s"}.`;
       archiveListEl.innerHTML = loaded.map(item => buildArchiveCard(item.fileName, item.data)).join("");
+      renderAllTimeBest(loaded);
     }
 
     async function init() {
