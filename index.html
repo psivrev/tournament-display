@@ -460,7 +460,7 @@
       const ranking = buildAllTimeBestFromArchives(mastersOnly);
 
       if (!ranking.length) {
-        el.textContent = "All-Time Best (Masters) — no data available yet.";
+        el.textContent = "All-Time Best — no data available yet.";
         return;
       }
 
@@ -469,7 +469,7 @@
       );
 
       el.innerHTML =
-        `<span class="all-time-best-label">🏆 All-Time Best (Masters)</span> — ` +
+        `<span class="all-time-best-label">🏆 All-Time Best </span> — ` +
         parts.map(part => escapeHtml(part)).join(" &nbsp;&nbsp;•&nbsp;&nbsp; ");
     }
     
