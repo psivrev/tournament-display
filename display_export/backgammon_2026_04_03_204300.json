@@ -1,0 +1,874 @@
+{
+  "tournament_name": "Backgammon",
+  "round_no": 4,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "James O’Connor [5] -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Michael Collins -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Christopher Alan Reed -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Losho [5] -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Thomas William Baker -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mosho -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Tosho [5] -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Galosho [5] -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mark Stevenson [5] -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Peter Johnson -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n  M5: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Daniel Robert Hughes [5] -3   (3-0)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "2. Christopher Alan Reed -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "3. James O’Connor [5] -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "4. Thomas William Baker -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "5. Andrew Michael Collins -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "6. Losho [5] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "7. Mark Stevenson [5] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "8. Tosho [5] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "9. Galosho [5] -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "10. Mosho -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "11. Peter Johnson -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Tosho, Losho, Galosho, Daniel Robert Hughes, Mark Stevenson, James O’Connor\nCalculated at end of tournament.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "James O’Connor ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Michael Collins",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Christopher Alan Reed ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho",
+              "colour": "green",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Thomas William Baker ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Galosho",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Stevenson ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Johnson",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Stevenson ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "   (BYE win)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Daniel Robert Hughes ✓",
+              "colour": "grey",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Christopher Alan Reed",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Michael Collins ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Thomas William Baker",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "James O’Connor ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Galosho",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Johnson",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Johnson ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "   (BYE win)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Christopher Alan Reed ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Daniel Robert Hughes ✓",
+              "colour": "green",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Galosho",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Thomas William Baker ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Michael Collins ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "James O’Connor ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Stevenson",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "   (BYE win)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Michael Collins",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Christopher Alan Reed ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Daniel Robert Hughes ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Stevenson",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Galosho ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "James O’Connor",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Thomas William Baker ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Johnson",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Daniel Robert Hughes ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "   (BYE win)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "champion_name": "Daniel Robert Hughes",
+  "runner_up_name": "",
+  "chasers_names": [
+    "Thomas William Baker",
+    "James O’Connor",
+    "Christopher Alan Reed"
+  ],
+  "generated_at": "2026-04-03T20:43:00",
+  "display_file": "backgammon.json",
+  "archive_display_file": "backgammon_2026_04_03_204300.json"
+}
