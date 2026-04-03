@@ -1,0 +1,1005 @@
+{
+  "tournament_name": "Test 101",
+  "round_no": 4,
+  "points_this_round": 13,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Anthony Miller [50] -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Charles Matthew Carter [50] -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "William Henry Cooper [50] -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Edward Charles King [50] -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Oliver James Wright [50] -3 ✓",
+          "colour": "green",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Alan Roberts [50] -2",
+          "colour": "red",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ian Wilkinson -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Martin Davies -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Joseph Andrew Hall -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Samuel Patrick Green -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "David Thompson -2 ✓",
+          "colour": "red",
+          "bold": true
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Brian Phillips -1",
+          "colour": "blue",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n  M5: TBA vs TBA\n  M6: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Jonathan Miles -3   (3-0)",
+      "colour": "grey",
+      "bold": false
+    },
+    {
+      "text": "2. Anthony Miller [50] -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "3. Oliver James Wright [50] -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "4. William Henry Cooper [50] -3   (3-1)",
+      "colour": "green",
+      "bold": false
+    },
+    {
+      "text": "5. Alan Roberts [50] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "6. Charles Matthew Carter [50] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "7. David Thompson -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "8. Edward Charles King [50] -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "9. Ian Wilkinson -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "10. Joseph Andrew Hall -2   (2-2)",
+      "colour": "red",
+      "bold": false
+    },
+    {
+      "text": "11. Brian Phillips -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "12. Martin Davies -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "13. Samuel Patrick Green -1   (1-3)",
+      "colour": "blue",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£50 pool\nPlayers: Oliver James Wright, Anthony Miller, Edward Charles King, William Henry Cooper, Alan Roberts, Charles Matthew Carter\nCalculated at end of tournament.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Anthony Miller ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Charles Matthew Carter",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "William Henry Cooper ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Edward Charles King",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Oliver James Wright ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alan Roberts",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ian Wilkinson ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Davies",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Joseph Andrew Hall ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samuel Patrick Green",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Thompson ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Brian Phillips",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jonathan Miles ✓",
+              "colour": "red",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Oliver James Wright",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Charles Matthew Carter ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alan Roberts",
+              "colour": "red",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Anthony Miller ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Joseph Andrew Hall",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "William Henry Cooper ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ian Wilkinson",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Edward Charles King ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samuel Patrick Green",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Davies ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Thompson",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Brian Phillips ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Oliver James Wright ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ian Wilkinson",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jonathan Miles ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "William Henry Cooper",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alan Roberts ✓",
+              "colour": "blue",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samuel Patrick Green",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Charles Matthew Carter ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Edward Charles King",
+              "colour": "blue",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Joseph Andrew Hall ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Davies",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Anthony Miller ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Brian Phillips",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Thompson ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ian Wilkinson ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Charles Matthew Carter",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Oliver James Wright ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Joseph Andrew Hall",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jonathan Miles ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Martin Davies",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "William Henry Cooper ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Anthony Miller",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Samuel Patrick Green ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Brian Phillips",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Alan Roberts ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Thompson",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Edward Charles King ✓",
+              "colour": "black",
+              "bold": true
+            },
+            {
+              "text": "   (13 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "champion_name": "Jonathan Miles",
+  "runner_up_name": "",
+  "chasers_names": [
+    "Oliver James Wright",
+    "Anthony Miller",
+    "William Henry Cooper"
+  ],
+  "generated_at": "2026-04-03T21:37:24",
+  "display_file": "test_101.json",
+  "archive_display_file": "test_101_2026_04_03_213724.json"
+}
