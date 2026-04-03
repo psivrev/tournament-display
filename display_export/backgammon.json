@@ -1,0 +1,221 @@
+{
+  "tournament_name": "Backgammon",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Michael Collins -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Tosho [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mosho -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Christopher Alan Reed -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Daniel Robert Hughes [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mark Stevenson [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "James O’Connor [5] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Galosho [5] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Peter Johnson -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Thomas William Baker -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Losho",
+          "colour": "blue",
+          "bold": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Losho [5] -1   (1-0)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "2. Andrew Michael Collins -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "3. Christopher Alan Reed -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "4. Daniel Robert Hughes [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "5. Galosho [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "6. James O’Connor [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "7. Mark Stevenson [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "8. Mosho -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "9. Peter Johnson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "10. Thomas William Baker -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "11. Tosho [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Tosho, Losho, Galosho, Daniel Robert Hughes, Mark Stevenson, James O’Connor\nCalculated at end of tournament.",
+  "past_rounds": [],
+  "champion_name": "",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "generated_at": "2026-04-03T20:37:47",
+  "display_file": "backgammon.json",
+  "archive_display_file": "backgammon_2026_04_03_203747.json"
+}
