@@ -1,0 +1,255 @@
+{
+  "tournament_name": "Test 101",
+  "round_no": 1,
+  "points_this_round": 13,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Charles Matthew Carter [50] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ian Wilkinson -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Oliver James Wright [50] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Joseph Andrew Hall -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Martin Davies -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jonathan Miles -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "William Henry Cooper [50] -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Anthony Miller [50] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Samuel Patrick Green -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Brian Phillips -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "David Thompson -0",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Alan Roberts [50] -0",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Edward Charles King",
+          "colour": "blue",
+          "bold": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Edward Charles King [50] -1   (1-0)",
+      "colour": "blue",
+      "bold": false
+    },
+    {
+      "text": "2. Alan Roberts [50] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "3. Anthony Miller [50] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "4. Brian Phillips -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "5. Charles Matthew Carter [50] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "6. David Thompson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "7. Ian Wilkinson -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "8. Jonathan Miles -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "9. Joseph Andrew Hall -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "10. Martin Davies -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "11. Oliver James Wright [50] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "12. Samuel Patrick Green -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "13. William Henry Cooper [50] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    }
+  ],
+  "side_pools_text": "£50 pool\nPlayers: Oliver James Wright, Anthony Miller, Edward Charles King, William Henry Cooper, Alan Roberts, Charles Matthew Carter\nCalculated at end of tournament.",
+  "past_rounds": [],
+  "champion_name": "",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "generated_at": "2026-04-03T21:32:22",
+  "display_file": "test_101.json",
+  "archive_display_file": "test_101_2026_04_03_213222.json"
+}
