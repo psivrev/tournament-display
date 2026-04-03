@@ -379,20 +379,42 @@
     }
 
     function parseArchiveTimestamp(fileName) {
-      const match = fileName.match(/_(\d{8})_(\d{6})_(mas|int|beg)\.json$/i);
-      if (!match) return null;
+      // Historical rebuilt archive format:
+      //   name_YYYYMMDD_HHMMSS_mas.json
+      //   name_YYYYMMDD_HHMMSS_int.json
+      //   name_YYYYMMDD_HHMMSS_beg.json
+      let match = fileName.match(/_(\d{8})_(\d{6})_(mas|int|beg)\.json$/i);
+      if (match) {
+        const datePart = match[1];
+        const timePart = match[2];
 
-      const datePart = match[1];
-      const timePart = match[2];
+        const yyyy = Number(datePart.slice(0, 4));
+        const mm = Number(datePart.slice(4, 6)) - 1;
+        const dd = Number(datePart.slice(6, 8));
+        const hh = Number(timePart.slice(0, 2));
+        const mi = Number(timePart.slice(2, 4));
+        const ss = Number(timePart.slice(4, 6));
 
-      const yyyy = Number(datePart.slice(0, 4));
-      const mm = Number(datePart.slice(4, 6)) - 1;
-      const dd = Number(datePart.slice(6, 8));
-      const hh = Number(timePart.slice(0, 2));
-      const mi = Number(timePart.slice(2, 4));
-      const ss = Number(timePart.slice(4, 6));
+        return new Date(Date.UTC(yyyy, mm, dd, hh, mi, ss));
+      }
 
-      return new Date(Date.UTC(yyyy, mm, dd, hh, mi, ss));
+      // App-generated archive format:
+      //   slug_YYYY_MM_DD_HHMMSS.json
+      match = fileName.match(/_(\d{4})_(\d{2})_(\d{2})_(\d{6})\.json$/i);
+      if (match) {
+        const yyyy = Number(match[1]);
+        const mm = Number(match[2]) - 1;
+        const dd = Number(match[3]);
+
+        const timePart = match[4];
+        const hh = Number(timePart.slice(0, 2));
+        const mi = Number(timePart.slice(2, 4));
+        const ss = Number(timePart.slice(4, 6));
+
+        return new Date(Date.UTC(yyyy, mm, dd, hh, mi, ss));
+      }
+
+      return null;
     }
 
     function formatDateTime(date) {
@@ -408,9 +430,21 @@
     }
 
     function isArchiveFileName(fileName) {
-      return /^.+_\d{8}_\d{6}_(mas|int|beg)\.json$/i.test(fileName);
-    }
+      // Historical rebuilt archive files:
+      //   name_YYYYMMDD_HHMMSS_mas.json / int / beg
+      if (/^.+_\d{8}_\d{6}_(mas|int|beg)\.json$/i.test(fileName)) {
+        return true;
+      }
 
+      // App-generated archive files:
+      //   slug_YYYY_MM_DD_HHMMSS.json
+      if (/^.+_\d{4}_\d{2}_\d{2}_\d{6}\.json$/i.test(fileName)) {
+        return true;
+      }
+
+      return false;
+    }
+    
     function isJsonFile(fileName) {
       return /\.json$/i.test(fileName);
     }
