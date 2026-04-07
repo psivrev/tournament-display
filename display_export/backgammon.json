@@ -1,6 +1,6 @@
 {
   "tournament_name": "Backgammon",
-  "round_no": 2,
+  "round_no": 1,
   "points_this_round": 9,
   "current_round_lines": [
     {
@@ -11,18 +11,18 @@
           "bold": false
         },
         {
-          "text": "Nikol -1 ✓",
-          "colour": "blue",
-          "bold": true
-        },
-        {
-          "text": "  BYE  ",
+          "text": "Stoycho -0",
           "colour": "black",
           "bold": false
         },
         {
-          "text": "Galosho -1",
-          "colour": "blue",
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lara -0",
+          "colour": "black",
           "bold": false
         }
       ]
@@ -35,9 +35,9 @@
           "bold": false
         },
         {
-          "text": "Gosho -1 ✓",
-          "colour": "blue",
-          "bold": true
+          "text": "Galosho -0",
+          "colour": "black",
+          "bold": false
         },
         {
           "text": "  vs  ",
@@ -45,8 +45,8 @@
           "bold": false
         },
         {
-          "text": "Mosho -1",
-          "colour": "blue",
+          "text": "Zdravko Gojh -0",
+          "colour": "black",
           "bold": false
         }
       ]
@@ -59,9 +59,9 @@
           "bold": false
         },
         {
-          "text": "Losho [5] -1 ✓",
-          "colour": "blue",
-          "bold": true
+          "text": "Losho [5] -0",
+          "colour": "black",
+          "bold": false
         },
         {
           "text": "  vs  ",
@@ -69,8 +69,8 @@
           "bold": false
         },
         {
-          "text": "Lara -1",
-          "colour": "blue",
+          "text": "Mosho -0",
+          "colour": "black",
           "bold": false
         }
       ]
@@ -83,7 +83,7 @@
           "bold": false
         },
         {
-          "text": "Zdravko Gojh [5] -0",
+          "text": "Gosho -0",
           "colour": "black",
           "bold": false
         },
@@ -107,7 +107,7 @@
           "bold": false
         },
         {
-          "text": "Ivan -0",
+          "text": "Nikol [5] -0",
           "colour": "black",
           "bold": false
         },
@@ -117,7 +117,7 @@
           "bold": false
         },
         {
-          "text": "Pesho Klop [5] -0",
+          "text": "Misho [5] -0",
           "colour": "black",
           "bold": false
         }
@@ -131,7 +131,7 @@
           "bold": false
         },
         {
-          "text": "Stoycho [5] -0",
+          "text": "Pesho Klop -0",
           "colour": "black",
           "bold": false
         },
@@ -141,82 +141,82 @@
           "bold": false
         },
         {
-          "text": "Misho -0",
+          "text": "Ivan -0",
           "colour": "black",
           "bold": false
         }
       ]
     }
   ],
-  "preview_text": "Confirmed next-round pairs:\n  • Gosho (1) – Nikol (4)\n  • Lara (6) – Mosho (10)\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
   "standings_lines": [
     {
-      "text": "1. Galosho -1   (1-0)",
-      "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "2. Gosho -1   (1-0)",
-      "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "3. Lara -1   (1-0)",
-      "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "4. Losho [5] -1   (1-0)",
-      "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "5. Mosho -1   (1-0)",
-      "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "6. Nikol -1   (1-0)",
-      "colour": "blue",
-      "bold": false
-    },
-    {
-      "text": "7. Misho -0   (0-0)",
+      "text": "1. Galosho -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "8. Pesho Klop [5] -0   (0-0)",
+      "text": "2. Gosho -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "9. Stoycho [5] -0   (0-0)",
+      "text": "3. Ivan -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "10. Ivan -0   (0-1)",
+      "text": "4. Lara -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "11. Tosho -0   (0-1)",
+      "text": "5. Losho [5] -0   (0-0)",
       "colour": "black",
       "bold": false
     },
     {
-      "text": "12. Zdravko Gojh [5] -0   (0-1)",
+      "text": "6. Misho [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "7. Mosho -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "8. Nikol [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "9. Pesho Klop -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "10. Stoycho -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "11. Tosho -0   (0-0)",
+      "colour": "black",
+      "bold": false
+    },
+    {
+      "text": "12. Zdravko Gojh -0   (0-0)",
       "colour": "black",
       "bold": false
     }
   ],
-  "side_pools_text": "£5 pool\nPlayers: Pesho Klop, Stoycho, Zdravko Gojh, Losho\nCalculated at end of tournament.",
+  "side_pools_text": "£5 pool\nPlayers: Nikol, Misho, Losho\nCalculated at end of tournament.",
   "past_rounds": [],
   "champion_name": "",
   "runner_up_name": "",
   "chasers_names": [],
-  "generated_at": "2026-04-05T22:07:05",
+  "generated_at": "2026-04-07T22:39:55",
   "display_file": "backgammon.json",
-  "archive_display_file": "backgammon_2026_04_05_220705.json"
+  "archive_display_file": "backgammon_2026_04_07_223955.json"
 }
