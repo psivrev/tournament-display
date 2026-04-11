@@ -191,6 +191,7 @@
           span.textContent = seg.text || "";
           span.classList.add(seg.colour || "black");
           if (seg.bold) span.classList.add("bold");
+          if (seg.strike) span.classList.add("strike");
           row.appendChild(span);
         }
       } else {
@@ -198,6 +199,7 @@
         span.textContent = lineObj.text || "";
         span.classList.add(lineObj.colour || "black");
         if (lineObj.bold) span.classList.add("bold");
+        if (lineObj.strike) span.classList.add("strike");
         row.appendChild(span);
       }
 
