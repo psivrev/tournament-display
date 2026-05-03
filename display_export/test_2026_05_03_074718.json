@@ -1,0 +1,951 @@
+{
+  "tournament_name": "Test",
+  "round_no": 4,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "Champion: ",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "Stoycho -3",
+          "colour": "gold",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  (already secured)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mosho -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Zdravko Gojh -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Pesho Klop [5] -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Nikol [5] -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Misho [5] -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ivan -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Gosho [5] -2 ✓",
+          "colour": "red",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Losho -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Tosho -2 ✓",
+          "colour": "red",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lara -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n  M5: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Stoycho -3   (3-0)",
+      "colour": "gold",
+      "bold": true,
+      "strike": false
+    },
+    {
+      "text": "2. Misho [5] -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Mosho -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Pesho Klop [5] -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Gosho [5] -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Ivan -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. Nikol [5] -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "8. Tosho -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "9. Zdravko Gojh -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "10. Losho -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "11. Lara -0   (0-4)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Gosho, Pesho Klop, Nikol, Misho\nCalculated at end of tournament.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Zdravko Gojh",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Pesho Klop ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Nikol",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Misho ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ivan",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gosho ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lara",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Stoycho ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Pesho Klop",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Zdravko Gojh ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ivan",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gosho",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Nikol ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Misho ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lara",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Pesho Klop ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gosho",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Stoycho ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ivan ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Nikol",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Zdravko Gojh ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lara",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Misho ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Pesho Klop ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Zdravko Gojh",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gosho ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lara",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Losho ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  BYE  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Tosho",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Stoycho ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mosho",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Nikol ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Misho",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ivan ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "champion_name": "Stoycho",
+  "runner_up_name": "",
+  "chasers_names": [
+    "Pesho Klop",
+    "Misho",
+    "Mosho"
+  ],
+  "withdrawn_player_ids": [],
+  "withdrawn_player_names": [],
+  "withdrawn_from_round": {},
+  "generated_at": "2026-05-03T07:47:18",
+  "display_file": "test.json",
+  "archive_display_file": "test_2026_05_03_074718.json"
+}
