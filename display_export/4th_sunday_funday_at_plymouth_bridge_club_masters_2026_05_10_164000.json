@@ -1,0 +1,1167 @@
+{
+  "tournament_name": "4th Sunday Funday at Plymouth Bridge Club - Masters",
+  "round_no": 4,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Matthew Hibbert -4 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ruth Hibbert -3",
+          "colour": "green",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Chris Townsend [10] -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Olive Acaster [10] -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Plamen Sivrev [10] -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Gerald Whitehouse [10] -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mike Bedford -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Danny Pilgrim -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jules Smith -2 ✓",
+          "colour": "red",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mark Dawes [10] -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lewis Kershaw [10] -2 ✓",
+          "colour": "red",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Richard Robert Davies [10] -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "David Martin",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n  M5: TBA vs TBA\n  M6: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Matthew Hibbert -4   (4-0)",
+      "colour": "gold",
+      "bold": true,
+      "strike": false
+    },
+    {
+      "text": "2. Chris Townsend [10] -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Mike Bedford -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Plamen Sivrev [10] -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Ruth Hibbert -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Gerald Whitehouse [10] -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. Jules Smith -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "8. Lewis Kershaw [10] -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "9. Olive Acaster [10] -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "10. Danny Pilgrim -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "11. David Martin [10] -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "12. Mark Dawes [10] -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "13. Richard Robert Davies [10] -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "14. Gary Marrs [withdrawn] -0   (0-2)",
+      "colour": "withdrawn",
+      "bold": false,
+      "strike": true
+    }
+  ],
+  "side_pools_text": "£10 pool\nPlayers: Plamen Sivrev, Gerald Whitehouse, Mark Dawes, Richard Robert Davies, Chris Townsend, Lewis Kershaw, Olive Acaster, David Martin\nCalculated at end of tournament.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Matthew Hibbert ✓",
+              "colour": "green",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert",
+              "colour": "green",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Chris Townsend ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Olive Acaster",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Plamen Sivrev ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gerald Whitehouse",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Danny Pilgrim",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jules Smith ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Dawes",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lewis Kershaw ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Richard Robert Davies",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Martin ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Plamen Sivrev",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Matthew Hibbert ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Chris Townsend ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jules Smith",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Olive Acaster ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Danny Pilgrim",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gerald Whitehouse ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lewis Kershaw",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Dawes ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Martin",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Richard Robert Davies ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Plamen Sivrev ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Danny Pilgrim",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lewis Kershaw",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Matthew Hibbert ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gerald Whitehouse",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Dawes",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Chris Townsend ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  BYE  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gary Marrs [withdrawn]",
+              "colour": "withdrawn",
+              "bold": false,
+              "strike": true
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jules Smith ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Martin",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Olive Acaster ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Richard Robert Davies",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Danny Pilgrim ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mark Dawes",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Plamen Sivrev ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Chris Townsend",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lewis Kershaw ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  BYE  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gary Marrs [withdrawn]",
+              "colour": "withdrawn",
+              "bold": false,
+              "strike": true
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ruth Hibbert ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jules Smith",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Gerald Whitehouse ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "David Martin",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Matthew Hibbert ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Richard Robert Davies",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M7: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Olive Acaster",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (9 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "champion_name": "Matthew Hibbert",
+  "runner_up_name": "Ruth Hibbert",
+  "chasers_names": [
+    "Plamen Sivrev",
+    "Chris Townsend",
+    "Mike Bedford"
+  ],
+  "withdrawn_player_ids": [
+    12
+  ],
+  "withdrawn_player_names": [
+    "Gary Marrs"
+  ],
+  "withdrawn_from_round": {
+    "12": 1
+  },
+  "generated_at": "2026-05-10T16:40:00",
+  "display_file": "4th_sunday_funday_at_plymouth_bridge_club_masters.json",
+  "archive_display_file": "4th_sunday_funday_at_plymouth_bridge_club_masters_2026_05_10_164000.json"
+}
