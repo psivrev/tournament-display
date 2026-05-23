@@ -1,0 +1,625 @@
+{
+  "tournament_name": "Riviera Masters Saturday",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 9 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 19 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 24 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 10 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 23 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 31 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 5 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 26 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 0 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 30 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 14 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 7 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M7: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 12 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 15 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M8: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 8 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 3 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M9: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 13 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 6 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M10: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 20 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 4 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M11: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 16 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 28 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M12: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 11 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 21 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M13: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 29 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 22 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M14: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 25 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 1 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M15: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 2 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 18 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M16: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 17 -0 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Player 27 -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • Player 0 (0) – Player 14 (14)\n  • Player 1 (1) – Player 22 (22)\n  • Player 2 (2) – Player 17 (17)\n  • Player 3 (3) – Player 15 (15)\n  • Player 4 (4) – Player 6 (6)\n  • Player 5 (5) – Player 23 (23)\n  • Player 7 (7) – Player 30 (30)\n  • Player 8 (8) – Player 12 (12)\n  • Player 9 (9) – Player 24 (24)\n  • Player 10 (10) – Player 19 (19)\n  • Player 11 (11) – Player 16 (16)\n  • Player 13 (13) – Player 20 (20)\n  • Player 18 (18) – Player 27 (27)\n  • Player 21 (21) – Player 28 (28)\n  • Player 25 (25) – Player 29 (29)\n  • Player 26 (26) – Player 31 (31)\n\n(1 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Player 0 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "2. Player 1 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Player 10 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Player 11 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Player 12 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Player 13 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. Player 14 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "8. Player 15 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "9. Player 16 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "10. Player 17 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "11. Player 18 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "12. Player 19 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "13. Player 2 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "14. Player 20 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "15. Player 21 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "16. Player 22 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "17. Player 23 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "18. Player 24 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "19. Player 25 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "20. Player 26 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "21. Player 27 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "22. Player 28 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "23. Player 29 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "24. Player 3 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "25. Player 30 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "26. Player 31 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "27. Player 4 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "28. Player 5 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "29. Player 6 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "30. Player 7 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "31. Player 8 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "32. Player 9 -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    }
+  ],
+  "side_pools_text": "",
+  "past_rounds": [],
+  "champion_name": "",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "qualification_text": "Promoted:\n  None\n\nShootout candidates:\n  None\n\nEliminated:\n  None\n\nWithdrawn:\n  None",
+  "contract": "festival_saturday_display_v1"
+}
