@@ -1,0 +1,170 @@
+{
+  "tournament_name": "The Totally Serious Invitational",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ian McDonald -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Luke Anthony Wright -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Robert Michael Shaw [5] -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Steven Marshall [5] -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Neil Robertson -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Peter Lawson [5] -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jonathan Paul Reed",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Jonathan Paul Reed [5] -1   (1-0)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "2. Ian McDonald -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Luke Anthony Wright -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Neil Robertson -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Peter Lawson [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Robert Michael Shaw [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. Steven Marshall [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Jonathan Paul Reed, Steven Marshall, Peter Lawson, Robert Michael Shaw\nCalculated at end of tournament.",
+  "past_rounds": [],
+  "champion_name": "",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "withdrawn_player_ids": [],
+  "withdrawn_player_names": [],
+  "withdrawn_from_round": {},
+  "generated_at": "2026-06-21T22:13:28",
+  "display_file": "the_totally_serious_invitational.json",
+  "archive_display_file": "the_totally_serious_invitational_2026_06_21_221328.json"
+}
