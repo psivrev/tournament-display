@@ -1,0 +1,132 @@
+{
+  "tournament_name": "Service testing",
+  "round_no": 1,
+  "points_this_round": 3,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Tosho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Losho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Zdravko Gojh -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mosho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Galosho",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Galosho -1   (1-0)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "2. Losho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Mosho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Tosho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Zdravko Gojh -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    }
+  ],
+  "side_pools_text": "No side pools.",
+  "past_rounds": [],
+  "champion_name": "",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "withdrawn_player_ids": [],
+  "withdrawn_player_names": [],
+  "withdrawn_from_round": {},
+  "generated_at": "2026-07-24T05:53:29",
+  "display_file": "service_testing.json",
+  "archive_display_file": "service_testing_2026_07_24_055329.json"
+}
