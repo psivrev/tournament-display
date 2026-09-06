@@ -11,7 +11,7 @@
           "bold": false
         },
         {
-          "text": "Damon Dennis [10] -4 ✓",
+          "text": "Damon Dennis -4 ✓",
           "colour": "black",
           "bold": true,
           "strike": false
@@ -37,7 +37,7 @@
           "bold": false
         },
         {
-          "text": "Charles Hill [10] -3 ✓",
+          "text": "Charles Hill -3 ✓",
           "colour": "green",
           "bold": true,
           "strike": false
@@ -63,7 +63,7 @@
           "bold": false
         },
         {
-          "text": "Andy Daniels [10] -3 ✓",
+          "text": "Andy Daniels -3 ✓",
           "colour": "green",
           "bold": true,
           "strike": false
@@ -74,7 +74,7 @@
           "bold": false
         },
         {
-          "text": "Tim Paulden [10] -2",
+          "text": "Tim Paulden -2",
           "colour": "red",
           "bold": false,
           "strike": false
@@ -89,7 +89,7 @@
           "bold": false
         },
         {
-          "text": "Gerald Whitehouse [10] -3 ✓",
+          "text": "Gerald Whitehouse -3 ✓",
           "colour": "green",
           "bold": true,
           "strike": false
@@ -178,7 +178,7 @@
           "bold": false
         },
         {
-          "text": "Mark Dawes [withdrawn] [10] -1",
+          "text": "Mark Dawes [withdrawn] -1",
           "colour": "withdrawn",
           "bold": false,
           "strike": true
@@ -220,25 +220,25 @@
   "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n  M5: TBA vs TBA\n  M6: TBA vs TBA\n  M7: TBA vs TBA\n  M8: TBA vs TBA\n\n(0 possible scenarios remaining)",
   "standings_lines": [
     {
-      "text": "1. Damon Dennis [10] -4   (4-0)",
+      "text": "1. Damon Dennis -4   (4-0)",
       "colour": "gold",
       "bold": true,
       "strike": false
     },
     {
-      "text": "2. Andy Daniels [10] -3   (3-1)",
+      "text": "2. Andy Daniels -3   (3-1)",
       "colour": "green",
       "bold": false,
       "strike": false
     },
     {
-      "text": "3. Charles Hill [10] -3   (3-1)",
+      "text": "3. Charles Hill -3   (3-1)",
       "colour": "green",
       "bold": false,
       "strike": false
     },
     {
-      "text": "4. Gerald Whitehouse [10] -3   (3-1)",
+      "text": "4. Gerald Whitehouse -3   (3-1)",
       "colour": "green",
       "bold": false,
       "strike": false
@@ -280,7 +280,7 @@
       "strike": false
     },
     {
-      "text": "11. Tim Paulden [10] -2   (2-2)",
+      "text": "11. Tim Paulden -2   (2-2)",
       "colour": "red",
       "bold": false,
       "strike": false
@@ -298,7 +298,7 @@
       "strike": false
     },
     {
-      "text": "14. Mark Dawes [withdrawn] [10] -1   (1-3)",
+      "text": "14. Mark Dawes [withdrawn] -1   (1-3)",
       "colour": "withdrawn",
       "bold": false,
       "strike": true
@@ -316,7 +316,6 @@
       "strike": false
     }
   ],
-  "side_pools_text": "£10 pool\nPlayers: Gerald Whitehouse, Damon Dennis, Charles Hill, Andy Daniels, Mark Dawes, Tim Paulden\nCalculated at end of tournament.",
   "past_rounds": [
     {
       "round_no": 4,
