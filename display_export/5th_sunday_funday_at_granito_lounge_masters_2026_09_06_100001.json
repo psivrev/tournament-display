@@ -51,7 +51,7 @@
           "bold": false
         },
         {
-          "text": "Gerald Whitehouse [10] -2",
+          "text": "Gerald Whitehouse -2",
           "colour": "red",
           "bold": false,
           "strike": false
@@ -66,7 +66,7 @@
           "bold": false
         },
         {
-          "text": "Plamen Sivrev [10] -3 ✓",
+          "text": "Plamen Sivrev -3 ✓",
           "colour": "green",
           "bold": true,
           "strike": false
@@ -77,7 +77,7 @@
           "bold": false
         },
         {
-          "text": "Richard Robert Davies [10] -2",
+          "text": "Richard Robert Davies -2",
           "colour": "red",
           "bold": false,
           "strike": false
@@ -103,7 +103,7 @@
           "bold": false
         },
         {
-          "text": "Lewis Kershaw [10] -2",
+          "text": "Lewis Kershaw -2",
           "colour": "red",
           "bold": false,
           "strike": false
@@ -118,7 +118,7 @@
           "bold": false
         },
         {
-          "text": "Chris Townsend [10] -2 ✓",
+          "text": "Chris Townsend -2 ✓",
           "colour": "red",
           "bold": true,
           "strike": false
@@ -201,7 +201,7 @@
       "strike": false
     },
     {
-      "text": "2. Plamen Sivrev [10] -3   (3-1)",
+      "text": "2. Plamen Sivrev -3   (3-1)",
       "colour": "green",
       "bold": false,
       "strike": false
@@ -213,25 +213,25 @@
       "strike": false
     },
     {
-      "text": "4. Chris Townsend [10] -2   (2-2)",
+      "text": "4. Chris Townsend -2   (2-2)",
       "colour": "red",
       "bold": false,
       "strike": false
     },
     {
-      "text": "5. Gerald Whitehouse [10] -2   (2-2)",
+      "text": "5. Gerald Whitehouse -2   (2-2)",
       "colour": "red",
       "bold": false,
       "strike": false
     },
     {
-      "text": "6. Lewis Kershaw [10] -2   (2-2)",
+      "text": "6. Lewis Kershaw -2   (2-2)",
       "colour": "red",
       "bold": false,
       "strike": false
     },
     {
-      "text": "7. Richard Robert Davies [10] -2   (2-2)",
+      "text": "7. Richard Robert Davies -2   (2-2)",
       "colour": "red",
       "bold": false,
       "strike": false
@@ -267,7 +267,6 @@
       "strike": false
     }
   ],
-  "side_pools_text": "£10 pool\nPlayers: Gerald Whitehouse, Plamen Sivrev, Lewis Kershaw, Richard Robert Davies, Chris Townsend\nCalculated at end of tournament.",
   "past_rounds": [
     {
       "round_no": 4,
