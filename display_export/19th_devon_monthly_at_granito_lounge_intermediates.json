@@ -1,0 +1,363 @@
+{
+  "tournament_name": "19th Devon Monthly at Granito Lounge - Intermediates",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Pesho Klop [5] -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Kat Ert -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Nikol -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Losho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Gosho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Peter Johnson -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Zdravko Gojh -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mosho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Boz Ko -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Misho [5] -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Michael Collins -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Pla lkl -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M7: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ivan [5] -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Stoycho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M8: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mit Nit Kop -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Tosho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M9: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lara [5] -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Galosho -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Andrew Michael Collins -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "2. Boz Ko -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Galosho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Gosho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Ivan [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Kat Ert -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. Lara [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "8. Losho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "9. Misho [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "10. Mit Nit Kop -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "11. Mosho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "12. Nikol -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "13. Pesho Klop [5] -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "14. Peter Johnson -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "15. Pla lkl -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "16. Stoycho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "17. Tosho -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "18. Zdravko Gojh -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Ivan, Pesho Klop, Misho, Lara\nCalculated at end of tournament.",
+  "past_rounds": [],
+  "champion_name": "",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "withdrawn_player_ids": [],
+  "withdrawn_player_names": [],
+  "withdrawn_from_round": {},
+  "generated_at": "2026-09-27T06:41:09",
+  "display_file": "19th_devon_monthly_at_granito_lounge_intermediates.json",
+  "archive_display_file": "19th_devon_monthly_at_granito_lounge_intermediates_2026_09_27_064109.json"
+}
