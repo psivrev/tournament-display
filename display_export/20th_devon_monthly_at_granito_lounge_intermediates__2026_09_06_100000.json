@@ -1,0 +1,822 @@
+{
+  "tournament_name": "20th Devon Monthly at Granito Lounge - Intermediates",
+  "round_no": 4,
+  "points_this_round": 7,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "Champion: ",
+          "colour": "black",
+          "bold": true
+        },
+        {
+          "text": "Amanda Ewels -3",
+          "colour": "gold",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  (already secured)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Dionne Milne -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Philip Ewels -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Mike Bedford -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Guy Saward -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Lisa Jackson -2 ✓",
+          "colour": "red",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Bozhidar Sivrev -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Roberts -1 ✓",
+          "colour": "blue",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Ali Noakes -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Amanda Ewels -3   (3-0)",
+      "colour": "gold",
+      "bold": true,
+      "strike": false
+    },
+    {
+      "text": "2. Dionne Milne -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Mike Bedford -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Guy Saward -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Lisa Jackson -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Philip Ewels -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. Ali Noakes -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "8. Andrew Roberts -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "9. Bozhidar Sivrev -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "10. Derrianna McArthur [withdrawn] -0   (0-2)",
+      "colour": "withdrawn",
+      "bold": false,
+      "strike": true
+    }
+  ],
+  "side_pools_text": "No side pools.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Bozhidar Sivrev",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ali Noakes",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Amanda Ewels ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Bozhidar Sivrev",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ali Noakes ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Amanda Ewels ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  BYE  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Derrianna McArthur [withdrawn]",
+              "colour": "withdrawn",
+              "bold": false,
+              "strike": true
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Bozhidar Sivrev ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ali Noakes",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Amanda Ewels ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Lisa Jackson",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Mike Bedford ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Roberts",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Ali Noakes ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  BYE  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Derrianna McArthur [withdrawn]",
+              "colour": "withdrawn",
+              "bold": false,
+              "strike": true
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Guy Saward ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Bozhidar Sivrev",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "champion_name": "Amanda Ewels",
+  "runner_up_name": "",
+  "chasers_names": [
+    "Mike Bedford",
+    "Dionne Milne"
+  ],
+  "withdrawn_player_ids": [
+    4
+  ],
+  "withdrawn_player_names": [
+    "Derrianna McArthur"
+  ],
+  "withdrawn_from_round": {
+    "4": 1
+  },
+  "generated_at": "2026-10-25T15:46:14",
+  "display_file": "20th_devon_monthly_at_granito_lounge_intermediates.json",
+  "archive_display_file": "20th_devon_monthly_at_granito_lounge_intermediates_2026_10_25_154614.json"
+}
