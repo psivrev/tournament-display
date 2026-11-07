@@ -1,0 +1,246 @@
+{
+  "tournament_name": "6th Sunday Funday at Granito Lounge - Intermediates",
+  "round_no": 1,
+  "points_this_round": 9,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jonathan Brooks -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Daniel Peter Young -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Trevor Coleman -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Stephen Bell -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Michael Andrew Price -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Simon Fletcher -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "George Edward Morris -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Luke Jonathan Adams -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Henry Thomas Wood -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Aaron Michael Knight -0",
+          "colour": "black",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Paul Raymond White",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Confirmed next-round pairs:\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA\n  • TBA vs TBA",
+  "standings_lines": [
+    {
+      "text": "1. Paul Raymond White -1   (1-0)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "2. Aaron Michael Knight -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Daniel Peter Young -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. George Edward Morris -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Henry Thomas Wood -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Jonathan Brooks -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. Luke Jonathan Adams -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "8. Michael Andrew Price -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "9. Simon Fletcher -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "10. Stephen Bell -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "11. Trevor Coleman -0   (0-0)",
+      "colour": "black",
+      "bold": false,
+      "strike": false
+    }
+  ],
+  "side_pools_text": "No side pools.",
+  "past_rounds": [],
+  "champion_name": "",
+  "runner_up_name": "",
+  "chasers_names": [],
+  "withdrawn_player_ids": [],
+  "withdrawn_player_names": [],
+  "withdrawn_from_round": {},
+  "generated_at": "2026-11-07T20:35:46",
+  "display_file": "6th_sunday_funday_at_granito_lounge_intermediates.json",
+  "archive_display_file": "6th_sunday_funday_at_granito_lounge_intermediates_2026_11_07_203546.json"
+}
