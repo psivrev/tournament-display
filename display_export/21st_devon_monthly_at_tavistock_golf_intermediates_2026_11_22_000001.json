@@ -1,0 +1,1133 @@
+{
+  "tournament_name": "21st Devon Monthly at Tavistock Golf - Intermediates",
+  "round_no": 4,
+  "points_this_round": 7,
+  "current_round_lines": [
+    {
+      "segments": [
+        {
+          "text": "M1: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Peter Norman [5] -4 ✓",
+          "colour": "black",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Linda Molesworth -3",
+          "colour": "green",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M2: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Philip Ewels -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Jean Findlay -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M3: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Patrick Greenstreet [5] -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Willow Jackson -2",
+          "colour": "red",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M4: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Dionne Milne -3 ✓",
+          "colour": "green",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Amanda Ewels -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M5: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Yavor Asparuhov -2 ✓",
+          "colour": "red",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Andrew Waterman [5] -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "M6: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "TJ Jefferies -2 ✓",
+          "colour": "red",
+          "bold": true,
+          "strike": false
+        },
+        {
+          "text": "  vs  ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Angel Luther -1",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    },
+    {
+      "segments": [
+        {
+          "text": "BYE this round: ",
+          "colour": "black",
+          "bold": false
+        },
+        {
+          "text": "Carole Williams",
+          "colour": "blue",
+          "bold": false,
+          "strike": false
+        },
+        {
+          "text": " (+1 win on round completion)",
+          "colour": "black",
+          "bold": false
+        }
+      ]
+    }
+  ],
+  "preview_text": "Next round preview:\n  M1: TBA vs TBA\n  M2: TBA vs TBA\n  M3: TBA vs TBA\n  M4: TBA vs TBA\n  M5: TBA vs TBA\n  M6: TBA vs TBA\n\n(0 possible scenarios remaining)",
+  "standings_lines": [
+    {
+      "text": "1. Peter Norman [5] -4   (4-0)",
+      "colour": "gold",
+      "bold": true,
+      "strike": false
+    },
+    {
+      "text": "2. Dionne Milne -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "3. Linda Molesworth -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "4. Patrick Greenstreet [5] -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "5. Philip Ewels -3   (3-1)",
+      "colour": "green",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "6. Jean Findlay -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "7. TJ Jefferies -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "8. Willow Jackson -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "9. Yavor Asparuhov -2   (2-2)",
+      "colour": "red",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "10. Amanda Ewels -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "11. Andrew Waterman [5] -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "12. Angel Luther -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    },
+    {
+      "text": "13. Carole Williams -1   (1-3)",
+      "colour": "blue",
+      "bold": false,
+      "strike": false
+    }
+  ],
+  "side_pools_text": "£5 pool\nPlayers: Peter Norman, Andrew Waterman, Patrick Greenstreet\nCalculated at end of tournament.",
+  "past_rounds": [
+    {
+      "round_no": 4,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Norman ✓",
+              "colour": "green",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Linda Molesworth",
+              "colour": "green",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Willow Jackson",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Amanda Ewels",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Yavor Asparuhov ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Carole Williams ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 3,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Norman ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Linda Molesworth ✓",
+              "colour": "red",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne",
+              "colour": "red",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Yavor Asparuhov",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Willow Jackson ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Amanda Ewels ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Carole Williams",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 2,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Yavor Asparuhov",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Norman ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Willow Jackson",
+              "colour": "blue",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Linda Molesworth ✓",
+              "colour": "blue",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Carole Williams",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Amanda Ewels",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round_no": 1,
+      "lines": [
+        {
+          "segments": [
+            {
+              "text": "M1: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Yavor Asparuhov ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Carole Williams",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M2: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Patrick Greenstreet ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Andrew Waterman",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M3: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Philip Ewels ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Amanda Ewels",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M4: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Peter Norman ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "TJ Jefferies",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M5: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Willow Jackson ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Jean Findlay",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "M6: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Dionne Milne ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "  vs  ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Angel Luther",
+              "colour": "black",
+              "bold": false,
+              "strike": false
+            },
+            {
+              "text": "   (7 pt)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "segments": [
+            {
+              "text": "BYE: ",
+              "colour": "black",
+              "bold": false
+            },
+            {
+              "text": "Linda Molesworth ✓",
+              "colour": "black",
+              "bold": true,
+              "strike": false
+            },
+            {
+              "text": "   (BYE)",
+              "colour": "black",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "champion_name": "Peter Norman",
+  "runner_up_name": "Linda Molesworth",
+  "chasers_names": [
+    "Dionne Milne",
+    "Philip Ewels",
+    "Patrick Greenstreet"
+  ],
+  "withdrawn_player_ids": [],
+  "withdrawn_player_names": [],
+  "withdrawn_from_round": {},
+  "generated_at": "2026-11-22T16:13:53",
+  "display_file": "21st_devon_monthly_at_tavistock_golf_intermediates.json",
+  "archive_display_file": "21st_devon_monthly_at_tavistock_golf_intermediates_2026_11_22_161353.json"
+}
